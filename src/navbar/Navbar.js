@@ -21,7 +21,7 @@ const Navbar = () => {
                 <img src='/Assets/logo.png' className='w-[100px] h-[44px] ml-10 mt-4' alt=""  />
                 {
                     open ?
-                        <div className='bg-black flex flex-col p-8 w-[100%] h-[100vh]  top-[-1rem] absolute '>
+                        <div className='bg-black flex flex-col p-8 w-[100%]  top-[-1rem] absolute '>
                             <div className='flex justify-between '>
                                 <img src='/Assets/logo.png' className='w-[100px] h-[44px]' alt="" ></img>
                                 <button onClick={() => setOpen(!open)}> <CloseIcon  fontSize='large'/> </button>
