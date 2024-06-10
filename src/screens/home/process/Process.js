@@ -18,7 +18,7 @@ const Process = () => {
             With best-in-class tools, materials, and expertise, we ensure timely execution and unmatched quality in every build." />
           </div>
 
-          <div className='mt-20'>
+          <div className='mt-20 mb-20'>
             <ProcessCards title="Post-Construction" src="Assets/Home/post_onstruction.png" count={"03"} heading={"Ensuring Perfection"} desc="After the build, our commitment continues. We inspect, refine, and guarantee our work, ensuring your space stands the test of time and resonates with perfection." />
           </div>
         </div>
