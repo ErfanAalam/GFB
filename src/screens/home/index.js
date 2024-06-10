@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../../navbar/Navbar';
-import Index from './homeBanner/Index';
-import Building from './Building-today/Building';
-import Services from './services/Services';
-import Process from './process/Process';
+import Building from './Building-today';
+import Services from './services';
+import Process from './process';
 import UpperFooter from '../../utils/UpperFooter';
 import MiddleFooter from '../../utils/MiddleFooter';
 import Footer from '../../utils/Footer';
+import Homebanner from './homeBanner/Index';
 
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
     <div >
       <Navbar />
       {/* HOme banner */}
-      <Index />  
+      <Homebanner />
 
       {/* building today */}
       <Building />

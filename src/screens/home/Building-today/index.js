@@ -30,7 +30,7 @@ const Building = () => {
           <p>
             At GFB Construction, We recognize that today's structures lay the foundation for tomorrow's communities. <br /> <br /> We actively construct each new project with up to date technology and building methods in mind. <br /> <br /> Our projects don't just meet current demands, they anticipate the needs of future generations. Making GFB, the right choice.
           </p>
-          <button className={`text-[${colors.mainTextColor}] rounded-md text-[24px]  md:ml-52 relative top-20 md:top-0 left-6 md:left-0 font-[700] w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More</button>
+          <button className={`text-[${colors.mainTextColor}] rounded-md text-[24px]  md:ml-52 relative top-20 md:top-0 left-6 md:left-0 font-[700] w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More  </button>
           
         </div>
 
