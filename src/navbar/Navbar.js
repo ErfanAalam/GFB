@@ -8,7 +8,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
 
     return (
-        <div c>
+        <div className='relative z-50'>
             <div className=' md:absolute md:top-4 hidden md:w-[100%] md:bg-black md:bg-opacity-60 md:flex md:justify-evenly md:items-center md:text-white md:py-6 md:gap-[120px] md:font-bold md:text-[22px] '>
                 <a href="/"> SERVICES</a>
                 <a href="/"> PROCESS</a>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <hr className='w-[95%] ' />
                             </div>
                             <div>
-                                <button className={`w-[380px] mt-[230px] p-6 border-2 text-[24px] bg-[#EF6E16] rounded-lg`}>Free Consultation</button>
+                                <button className={`w-[90%] mt-[230px] p-6 border-2 text-[24px] bg-[#EF6E16] rounded-lg`}>Free Consultation</button>
                             </div>
                         </div>
                         :
