@@ -14,9 +14,9 @@ const Building = () => {
           <button className={`text-[${colors.textWhite}] hidden md:block absolute z-20 top-[100px]  border-r-0 right-[-60px] text-[24px]  font-[700]  p-2 bg-black bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>MORE ABOUT US</button>
         </div>
 
-        <div className='overflow-hidden flex w-[64px] justify-between absolute right-[90px] md:right-[918px] ' >
+        <div className='overflow-hidden flex w-[64px] justify-between absolute right-[90px] md:right-[919px] ' >
           <span className='w-[4px] h-[2920px] bg-orange-400'>
-            <hr className='rotate-90 h-fit' />
+            <hr className='rotate-90 h-fit' />np
           </span>
           <span className='w-[4px] h-[2920px] bg-black'>
             <hr className='rotate-90 h-fit' />
