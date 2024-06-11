@@ -16,7 +16,7 @@ const Building = () => {
 
         <div className='overflow-hidden flex w-[64px] justify-between absolute right-[90px] md:right-[919px] ' >
           <span className='w-[4px] h-[2920px] bg-orange-400'>
-            <hr className='rotate-90 h-fit' />np
+            <hr className='rotate-90 h-fit' />
           </span>
           <span className='w-[4px] h-[2920px] bg-black'>
             <hr className='rotate-90 h-fit' />

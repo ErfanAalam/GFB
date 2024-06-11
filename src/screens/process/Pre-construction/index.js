@@ -19,7 +19,7 @@ const PreConstruction = () => {
       <div className='p-2 md:p-20 w-[80%] mt-4'>
 
         <div className='text-[24px] md:text-4xl font-[700] '>
-          <h1 className='text-center'>PRE-CONSTRUCTION</h1>
+          <h1 className='md:text-left text-center'>PRE-CONSTRUCTION</h1>
         </div>
 
         <div className='flex m-2 md:ml-20 md:flex-row flex-col-reverse justify-between items-center relative md:pt-0 pt-16'>
