@@ -11,7 +11,7 @@ import Homebanner from './homeBanner/Index';
 
 function Home() {
   return (
-    <div >
+    <div className='font-orelaga'>
       <Navbar />
       {/* HOme banner */}
       <Homebanner />

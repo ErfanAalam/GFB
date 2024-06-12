@@ -22,18 +22,18 @@ const Commercial = () => {
           <div className='mt-10 md:block flex md:flex-row flex-col gap-14'>
 
             <div className='flex flex-row items-center md:gap-10 gap-0'>
-              <img src='Assets/Services/Architects.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='md:text-2xl text-[16px]'>Architects</p>
+              <img src='Assets/Services/new_commercial_builds.png' className='md:w-[100px] w-[50px]'></img>
+              <p className='md:text-2xl text-[16px]'>New Commercial Builds</p>
             </div>
 
             <div className='flex flex-row items-center ml-20  md:gap-10 gap-0' >
-              <img src='Assets/Services/Electricians.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='md:text-2xl text-[16px]'>Electricians</p>
+              <img src='Assets/Services/tenant_improvement.png' className='md:w-[100px] w-[50px]'></img>
+              <p className='md:text-2xl text-[16px]'>Tenant Improvement</p>
             </div>
 
             <div className='flex flex-row  items-center ml-40 md:gap-10 gap-0'>
-              <img src='Assets/Services/Engineers.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='md:text-2xl text-[16px]'>Engineers</p>
+              <img src='Assets/Services/retail_construction.png' className='md:w-[100px] w-[50px]'></img>
+              <p className='md:text-2xl text-[16px]'>Retail Construction</p>
             </div>
 
           </div>

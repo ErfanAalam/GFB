@@ -5,14 +5,15 @@ const PostConstruction = () => {
     <div className='bg-gray-200 flex '>
 
       <div className='overflow-hidden flex w-[64px] relative mx-2 md:mx-20 justify-between  ' >
-        <img src='Assets/Contact us/2.png' className='absolute  top-20 left-0'/>
+        <img src='Assets/Contact us/2.png' className='absolute z-30 top-80 right-[-10px] w-[40px]'/>
+        <img src='Assets/Contact us/2.png' className='absolute z-30 bottom-40 right-[-10px] w-[40px]'/>
         <span className='w-[4px] h-[100%] bg-black '>
           <hr className='rotate-90 h-fit' />
         </span>
-        <span className='w-[4px] h-[100%] bg-white'>
+        <span className='w-[4px] h-[100%] bg-black'>
           <hr className='rotate-90 h-fit' />
         </span>
-        <span className='w-[4px] h-[100%] bg-white'>
+        <span className='w-[4px] h-[100%] bg-orange-500'>
           <hr className='rotate-90 h-fit' />
         </span>
       </div>
@@ -24,9 +25,9 @@ const PostConstruction = () => {
         </div>
 
         <div className='flex ml-2 md:ml-20 md:flex-row flex-col-reverse justify-between items-center relative md:pt-0 pt-16'>
-          <div className='w-[100%] md:w-[60%]'>
+          <div className='w-[100%] md:w-[70%]'>
             <h1 className='text-[20px] md:text-3xl text-orange-600 absolute top-6'>5. Quality Control & Inspection</h1>
-            <p className='font-[900] tracking-[3px]'>Following construction, our team conducts comprehensive inspections to ensure every aspect of the project meets our high-quality standards.
+            <p className='font-[900] text-[16px] md:text-2xl tracking-[2px]'>Following construction, our team conducts comprehensive inspections to ensure every aspect of the project meets our high-quality standards.
               <br /> <br />
               Utilizing advanced tools and proven techniques, we meticulously verify the integrity of every component of your project.</p>
           </div>
@@ -46,8 +47,8 @@ const PostConstruction = () => {
           </div>
 
           <div className='w-[100%] md:w-[70%]'>
-            <h1 className='text-[20px] md:text-3xl text-orange-600 absolute top-6npm run start'>6. Project Handover & Post-Construction Care</h1>
-            <p className='font-[900] tracking-[3px]'>Your new space is ready! We hand over all essential documents and detailed maintenance guidelines.
+            <h1 className='text-[20px] md:text-3xl text-orange-600 md:static absolute top-6'>6. Project Handover & Post-Construction Care</h1>
+            <p className='font-[900] text-[16px] md:text-2xl tracking-[2px]'>Your new space is ready! We hand over all essential documents and detailed maintenance guidelines.
               <br /> <br />
               But our service doesn’t stop there! We remain readily available for any post-construction questions or support you may need.
               <br /> <br />

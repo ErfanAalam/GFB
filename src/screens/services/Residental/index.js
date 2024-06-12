@@ -24,18 +24,18 @@ const Residental = () => {
           <div className='mt-5'>
 
             <div className='flex items-center gap-10'>
-              <img src='Assets/Services/Architects.png' width={"100px"}></img>
-              <p className='text-2xl'>Architects</p>
+              <img src='Assets/Services/custom_builds_&_remodels.png' width={"100px"}></img>
+              <p className='text-2xl'>Custom Builds & Remodels</p>
             </div>
 
             <div className='ml-10 flex items-center gap-10' >
-              <img src='Assets/Services/Electricians.png' width={"100px"}></img>
-              <p className='text-2xl'>Electricians</p>
+              <img src='Assets/Services/residential_complexes.png' width={"100px"}></img>
+              <p className='text-2xl'>Residential Complexes </p>
             </div>
 
             <div className='flex items-center gap-10'>
-              <img src='Assets/Services/Engineers.png' width={"100px"}></img>
-              <p className='text-2xl'>Engineers</p>
+              <img src='Assets/Services/accessory_dwelling_units.png' width={"100px"}></img>
+              <p className='text-2xl'>Accessory Dwelling Units </p>
             </div>
 
           </div>

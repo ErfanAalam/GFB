@@ -2,7 +2,7 @@ import React from 'react'
 
 const Constructions = () => {
   return (
-    <div className='bg-cover flex md:flex-row flex-col-reverse  relative justify-between p-8 md:p-10' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div className='bg-cover flex md:flex-row flex-col-reverse  relative justify-between p-8 md:py-[150px] py-0 md:p-10' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
 
       <div className='text-center flex flex-col w-[100%] md:w-[40%]  md:ml-20 gap-20 justify-center '>
         <div className='flex flex-col items-center md:static absolute top-0 right-[25%] pt-8'>
@@ -18,7 +18,7 @@ const Constructions = () => {
         </p>
       </div>
 
-      <div className='md:w-[40%] w-[100%] md:pt-0 pt-20'>
+      <div className='md:w-[40%] w-[100%] md:pt-0 pt-20 relative z-20'>
         <img src='Assets/About us/2.png' className='w-[500px]'></img>
       </div>
     </div>
