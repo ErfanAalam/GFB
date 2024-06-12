@@ -12,7 +12,7 @@ const Philoshphy = () => {
         <img src='Assets/About us/1.png' className='relative z-20'></img>
       </div>
       <div>
-        <p className='text-white text-2xl tracking-normal md:pt-0 pt-4 md:tracking-[4px] font-[700]  md:px-48'>GFB, short for “Go for Broke”, is more than just our name - it's the principle that guides us.
+        <p className='text-white text-[20px] md:text-2xl tracking-normal md:pt-0 pt-4 md:tracking-[4px]   md:px-48'>GFB, short for “Go for Broke”, is more than just our name - it's the principle that guides us.
           <br /><br />
           Inspired by the relentless determination of the 442nd Regimental Combat Team in WWII, we commit wholeheartedly to each and every project.
           <br /><br />

@@ -15,13 +15,13 @@ const Building = () => {
         </div>
 
         <div className='overflow-hidden flex w-[64px] justify-between absolute right-[40%] md:left-[48.4%] ' >
-          <span className='w-[4px] h-[2920px] bg-orange-400'>
+          <span className='w-[4px] h-[3020px] bg-orange-400'>
             <hr className='rotate-90 h-fit' />
           </span>
-          <span className='w-[4px] h-[2920px] bg-black'>
+          <span className='w-[4px] h-[3020px] bg-black'>
             <hr className='rotate-90 h-fit' />
           </span>
-          <span className='w-[4px] h-[2920px] bg-white'>
+          <span className='w-[4px] h-[3020px] bg-white'>
             <hr className='rotate-90 h-fit' />
           </span>
         </div>
