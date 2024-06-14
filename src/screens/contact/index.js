@@ -12,11 +12,11 @@ import Subject from './Subject';
 
 function Contact() {
   return (
-    <div>
+    <div className='font-orelaga'>
       <Navbar />
       <Homebanner />
       <ContactForm />
-      <Subject />
+      {/* <Subject /> */}
       <Faq />
       <UpperFooter />
       <MiddleFooter />

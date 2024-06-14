@@ -19,7 +19,7 @@ const Commercial = () => {
             Count on us for quality work, on-schedule completion, and designed to exceed your expectations.
           </p>
 
-          <div className='mt-10 md:block flex md:flex-row flex-col gap-14'>
+          <div className='mt-10 md:block flex md:flex-row flex-col gap-8'>
 
             <div className='flex flex-row items-center md:gap-10 gap-0'>
               <img src='Assets/Services/new_commercial_builds.png' className='md:w-[100px] w-[50px]'></img>

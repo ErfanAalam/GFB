@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <>
       <div className='w-[100%] bg-white py-14'>
-        <h1 className='text-3xl md:text-5xl text-center font-[700]'>Frequently Asked Questions</h1>
+        <h1 className='text-3xl md:text-5xl text-center '>Frequently Asked Questions</h1>
       </div>
 
       <div className='bg-[rgb(29,30,36)] flex'>

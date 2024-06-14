@@ -21,21 +21,21 @@ const Residental = () => {
             Our approach? Unwavering attention to detail and a commitment to superior craftsmanship.
           </p>
 
-          <div className='mt-5'>
+          <div className='mt-10 md:block flex md:flex-row flex-col gap-8'>
 
-            <div className='flex items-center gap-10'>
-              <img src='Assets/Services/custom_builds_&_remodels.png' width={"100px"}></img>
-              <p className='text-2xl'>Custom Builds & Remodels</p>
+            <div className='flex flex-row items-center md:gap-10 gap-0'>
+              <img src='Assets/Services/custom_builds_&_remodels.png' className='md:w-[100px] w-[50px]'></img>
+              <p className='text-[16px] md:text-2xl'>Custom Builds & Remodels</p>
             </div>
 
-            <div className='ml-10 flex items-center gap-10' >
-              <img src='Assets/Services/residential_complexes.png' width={"100px"}></img>
-              <p className='text-2xl'>Residential Complexes </p>
+            <div className='flex flex-row items-center md:gap-10 gap-0 ml-20' >
+              <img src='Assets/Services/residential_complexes.png' className='md:w-[100px] w-[50px]'></img>
+              <p className='text-[16px] md:text-2xl'>Residential Complexes </p>
             </div>
 
-            <div className='flex items-center gap-10'>
-              <img src='Assets/Services/accessory_dwelling_units.png' width={"100px"}></img>
-              <p className='text-2xl'>Accessory Dwelling Units </p>
+            <div className='flex flex-row items-center md:gap-10 gap-0'>
+              <img src='Assets/Services/accessory_dwelling_units.png' className='md:w-[100px] w-[50px]'></img>
+              <p className='text-[16px] md:text-2xl'>Accessory Dwelling Units </p>
             </div>
 
           </div>

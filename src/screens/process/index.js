@@ -11,7 +11,7 @@ import Footer from '../../utils/Footer';
 
 function Process() {
   return (
-    <div>
+    <div className='font-orelaga'>
       <Navbar />
       <Homebanner />
       <PreConstruction />
