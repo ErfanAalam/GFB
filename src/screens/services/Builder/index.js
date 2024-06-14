@@ -20,7 +20,7 @@ const Builder = () => {
         </div>
 
         <div className='flex justify-center '>
-          <p className='text-white [text-16px] md:text-[20px] text-center w-[100%] md:w-[50%] mt-20  leading-12 md:leading-10 tracking-[4px]'>
+          <p className='text-white [text-16px] md:text-[20px] text-center w-[100%] md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] mt-20  leading-12 md:leading-10 tracking-[4px]'>
           We’re not just builders; we’re visionaries. GFB specializes in new Commercial and Residential construction, allowing us to build for the future. Let us see how we can help you with your Tenant Improvement, Paving, Custom Homes, Residential Complexes. and more.   
           </p>
         </div>

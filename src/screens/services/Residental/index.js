@@ -7,11 +7,11 @@ const Residental = () => {
       <div className='flex relative md:flex-row flex-col justify-between gap-46 pt-20 '>
 
         <div className=''>
-          <img src='Assets/Services/residentaial.png' className='w-[400px] md:w-[500px]'></img>
+          <img src='Assets/Services/residentaial.png' className='w-[500px] md:w-[800px] md:h-[600px] lg:h-full 2xl:w-[500px]'></img>
         </div>
 
-        <div className='w-[100%] md:w-[70%]  py-6 md:px-60 px-6'>
-        <h1 className='text-3xl md:text-5xl md:static  text-orange-600  absolute top-10 '>Residental</h1>
+        <div className='w-[100%] md:w-[95%] lg:w-[80%] 2xl:w-[70%]  py-6 2xl:px-60 px-6'>
+        <h1 className='text-[32px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static text-center text-orange-600 absolute md:ml-0 ml-20 top-4'>Residental</h1>
 
           <p className='text-2xl'>
             Our services include custom home builds, multi-family complexes, versatile ADUs, and full-scale remodels.
@@ -21,7 +21,7 @@ const Residental = () => {
             Our approach? Unwavering attention to detail and a commitment to superior craftsmanship.
           </p>
 
-          <div className='mt-10 md:block flex md:flex-row flex-col gap-8'>
+          <div className='mt-10 md:mt-2 md:block flex md:flex-row flex-col'>
 
             <div className='flex flex-row items-center md:gap-10 gap-0'>
               <img src='Assets/Services/custom_builds_&_remodels.png' className='md:w-[100px] w-[50px]'></img>

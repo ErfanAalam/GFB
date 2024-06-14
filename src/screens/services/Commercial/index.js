@@ -4,12 +4,12 @@ const Commercial = () => {
   return (
     <div className='bg-cover bg-black text-white md:pt-32 pt-24' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
 
-      <div className='flex md:flex-row  relative flex-col-reverse justify-between gap-40 md:p-20 p-3 pt-20'>
+      <div className='flex md:flex-row  relative flex-col-reverse justify-between gap-40 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
-        <div className=' w-[100%] md:w-[70%] md:px-20 px-0'>
-        <h1 className='text-3xl md:text-5xl md:static  text-orange-600 absolute md:ml-0 ml-32 top-2 '>Commercial</h1>
+        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl::px-20 px-0'>
+        <h1 className='text-3xl md:text-[24px] lg:text-[30px] 2xl:text-5xl md:static  text-orange-600 absolute md:ml-0 ml-32 top-2 '>Commercial</h1>
 
-          <p className='text-[20px] md:text-2xl text-white'>GFB excels in developing commercial spaces that are both practical and visually appealing.
+          <p className='text-[20px] md:text-[20px] 2xl:text-2xl text-white'>GFB excels in developing commercial spaces that are both practical and visually appealing.
             <br /> <br />
 
             Our expertise extends to offices, warehouses, retail stores, restaurants, and more. Focusing on providing solutions that are efficient and cost-effective.
@@ -40,7 +40,7 @@ const Commercial = () => {
         </div>
 
         <div>
-        <img src='Assets/Services/commercial.png' width={"600px"} height={"300px"} ></img>
+        <img src='Assets/Services/commercial.png' className='w-[600px] h-[600px]' ></img>
         </div>
       </div>
     </div>
