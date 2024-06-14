@@ -13,7 +13,7 @@ import Footer from '../../utils/Footer.js'
 
 function Services() {
   return (
-    <div>
+    <div className='font-orelaga'>
       <Navbar />
       <Homebanner />
       <Builder />

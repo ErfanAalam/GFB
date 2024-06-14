@@ -11,7 +11,7 @@ const Residental = () => {
         </div>
 
         <div className='w-[100%] md:w-[70%]  py-6 md:px-60 px-6'>
-        <h1 className='text-3xl md:text-5xl md:static  text-orange-600 font-[700] absolute top-10 '>Residental</h1>
+        <h1 className='text-3xl md:text-5xl md:static  text-orange-600  absolute top-10 '>Residental</h1>
 
           <p className='text-2xl'>
             Our services include custom home builds, multi-family complexes, versatile ADUs, and full-scale remodels.

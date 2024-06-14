@@ -10,7 +10,7 @@ import Footer from '../../utils/Footer'
 
 function About() {
   return (
-    <div>
+    <div className='font-orelaga'>
       <Navbar />
       <Homebanner />
       <Philoshphy />

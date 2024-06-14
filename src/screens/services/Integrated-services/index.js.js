@@ -13,9 +13,9 @@ const Integrated = () => {
 
 
         <div className='w-[100%] md:w-[70%] md:py-20 py-0  md:px-24 px-0'>
-          <h1 className='text-3xl md:text-5xl md:static  text-orange-600 font-[700] absolute md:ml-0 ml-10 top-10'>Integrated Services</h1>
+          <h1 className='text-3xl md:text-5xl md:static  text-orange-600 absolute md:ml-0 ml-10 top-10'>Integrated Services</h1>
 
-          <p className='text-[20px] md:text-3xl'>Our in-house Architects, Electricians, and Engineers help provide a seamless experience for you and your project.
+          <p className='text-[20px] md:text-[28px]'>Our in-house Architects, Electricians, and Engineers help provide a seamless experience for you and your project.
             <br /> <br />
             While also allowing us to take on large electrical and utility-specific jobs without looking elsewhere.
             <br /> <br />

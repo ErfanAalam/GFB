@@ -7,9 +7,9 @@ const Commercial = () => {
       <div className='flex md:flex-row  relative flex-col-reverse justify-between gap-40 md:p-20 p-3 pt-20'>
 
         <div className=' w-[100%] md:w-[70%] md:px-20 px-0'>
-        <h1 className='text-3xl md:text-5xl md:static  text-orange-600 font-[700] absolute md:ml-0 ml-32 top-2 '>Commercial</h1>
+        <h1 className='text-3xl md:text-5xl md:static  text-orange-600 absolute md:ml-0 ml-32 top-2 '>Commercial</h1>
 
-          <p className='text-2xl text-white'>GFB excels in developing commercial spaces that are both practical and visually appealing.
+          <p className='text-[20px] md:text-2xl text-white'>GFB excels in developing commercial spaces that are both practical and visually appealing.
             <br /> <br />
 
             Our expertise extends to offices, warehouses, retail stores, restaurants, and more. Focusing on providing solutions that are efficient and cost-effective.

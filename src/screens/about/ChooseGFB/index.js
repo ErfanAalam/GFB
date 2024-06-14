@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChooseGfb = () => {
   return (
-    <div className='bg-cover flex md:flex-row flex-col justify-around p-10' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div className='bg-cover flex md:flex-row flex-col justify-around p-4' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
 
       <div className='w-[100%] md:w-[30%] relative z-30'>
         <img src='Assets/About us/3.png' className='w-[500px]'></img>
@@ -13,7 +13,7 @@ const ChooseGfb = () => {
           <h1 className='text-[24px] md:text-5xl tracking-normal md:tracking-[6px] font-[700] text-orange-700'>Why Choose GFB Construction?</h1>
           <hr className='w-[85%]' />
         </div>
-        <p className='text-white text-[20px] md:text-2xl tracking-[4px] '>
+        <p className='text-white text-[16px] md:text-2xl tracking-[4px] '>
           Our focus is on delivering nothing but the best.
           <br /><br />
           We handpick our projects to guarantee each client receives our full attention and the highest standard of work.
