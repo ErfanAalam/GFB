@@ -3,7 +3,7 @@ import colors from './color.js'
 
 const UpperFooter = () => {
   return (
-    <div className=' bg-center bg-cover md:bg-contain bg-no-repeat text-white flex justify-center items-center p-6  bg-[hsl(231,11%,13%)] leading-[20px] md:leading-[50px]' style={{ backgroundImage: "url('Assets/Home/bg/start your Bulding Journey.png')" }}>
+    <div className=' bg-center bg-cover md:bg-cover lg:bg-cover 2xl:bg-contain bg-no-repeat text-white flex justify-center items-center p-6  bg-[hsl(231,11%,13%)] leading-[20px] md:leading-[50px]' style={{ backgroundImage: "url('Assets/Home/bg/start your Bulding Journey.png')" }}>
       <div className='w-[100%] md:w-[710px] text-center flex flex-col items-center gap-4 mt-[150px] md:mt-[200px]'>
         <h1 className='text-[25px] md:text-[50px] md:mt-0 mt-20 '>Start Your Build Journey</h1>
         <hr className='w-[350px] md:w-[650px] mb-10' />

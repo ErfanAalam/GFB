@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <div className='font-orelaga'>
-            <div className=' md:absolute md:top-4 hidden md:w-[100%] md:bg-black md:bg-opacity-60 md:flex md:justify-evenly md:items-center md:text-white md:py-6 md:gap-[120px] md:text-[22px] '>
+            <div className=' md:absolute md:top-4 hidden md:w-[100%] md:bg-black md:bg-opacity-60 md:flex md:justify-evenly md:items-center md:text-white md:py-6  md:gap-[50px] lg:gap-[120px] md:text-[22px] '>
                 <a href="/services"> SERVICES</a>
                 <a href="/process"> PROCESS</a>
                 <a href='/'><img src='/Assets/logo.png' className='w-[100px] h-[44px]' alt="" ></img></a>
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <img src='/Assets/logo.png' className='w-[100px] h-[44px] ml-10 mt-4' alt=""  />
                 {
                     open ?
-                        <div className='bg-black flex flex-col p-8 w-[100%] h-[100vh]  top-[-1rem] absolute '>
+                        <div className='bg-black flex flex-col p-8 w-[100%] top-[-1rem] absolute z-[100]'>
                             <div className='flex justify-between '>
                                 <img src='/Assets/logo.png' className='w-[100px] h-[44px]' alt="" ></img>
                                 <button onClick={() => setOpen(!open)}> <CloseIcon  fontSize='large'/> </button>
@@ -37,8 +37,8 @@ const Navbar = () => {
                                 <a href="/Contact"> CONTACT</a>
                                 <hr className='w-[95%] ' />
                             </div>
-                            <div>
-                                <button className={`w-[380px] mt-[230px] p-6 border-2 text-[24px] bg-[#EF6E16] rounded-lg`}>Free Consultation</button>
+                            <div className='flex justify-center'>
+                                <button className='w-[380px] mt-[180px] p-6 border-2 text-[24px] bg-[#EF6E16] rounded-lg'>Free Consultation</button>
                             </div>
                         </div>
                         :
