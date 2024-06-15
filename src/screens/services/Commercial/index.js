@@ -2,7 +2,7 @@ import React from 'react'
 
 const Commercial = () => {
   return (
-    <div className='bg-cover bg-black text-white md:pt-32 pt-24 pl-40' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+    <div className='bg-cover bg-black text-white md:pt-32 pt-24 md:pl-40 pl-4' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
 
       <div className='flex md:flex-row  relative flex-col-reverse justify-between gap-40 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
