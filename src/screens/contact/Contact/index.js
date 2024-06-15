@@ -33,7 +33,7 @@ const ContactForm = () => {
             <input type='email' placeholder='Enter your email here' className='border-none bg-[rgb(29,30,36)]' />
             <hr className=' border-t-4 border-[#EF6E16]' />
           </div>
-          <div className='flex flex-col gap-6 px-0 md:px-20'>
+          <div className='flex flex-col gap-6 px-0 md:px-20npm run s'>
             <label htmlFor='name' className='text-2xl'>Phone Number</label>
             <input type='number' placeholder='Enter your phone number here' className='border-none bg-[rgb(29,30,36)]' />
             <hr className=' border-t-4 border-[#EF6E16]' />

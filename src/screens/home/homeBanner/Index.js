@@ -6,7 +6,7 @@ const Homebanner = () => {
 
   return (
     <main className='bg-cover pb-10 bg-gray-800 flex flex-col items-center ' style={{ backgroundImage: "url('/Assets/Home/Hero.png')" }}>
-      <h1 className={`text-[${colors.mainTextColor}] text-[38px] md:text-[46px] lg:text-[76px]  w-[100%]  text-center  px-6 md:w-[90%] lg:w-[100%] xl:w-[80%] 2xl:w-[50%] pt-[190px] h-[342px] leading-[44px] md:leading-[104px] tracking-[2px]  md:tracking-[6px]`}><span className='text-white' >G</span>uided by expertise <span className='text-white' >F</span>ueled by passion <span className='text-white' >B</span>uilt on trust</h1>
+      <h1 className={`text-[${colors.mainTextColor}] text-[38px] md:text-[46px] lg:text-[76px]  w-[100%]  text-center  px-2 md:w-[90%] lg:w-[100%] xl:w-[80%] 2xl:w-[50%] pt-[150px] h-[342px] leading-[44px] md:leading-[104px] tracking-[2px]  md:tracking-[6px]`}><span className='text-white' >G</span>uided by expertise <span className='text-white' >F</span>ueled by passion <span className='text-white' >B</span>uilt on trust</h1>
 
       <h3 className='text-white text-[23px] md:text-[30px] lg:text-[36px] w-[100%] md:w-[90%] lg:w-[60%] xl:w-[50%] 2xl:w-[30%] text-center  mb-10  md:pt-[200px]  md:leading-[60px] tracking-[2px]'>California's Commercial and Residential Specialists. </h3>
 
