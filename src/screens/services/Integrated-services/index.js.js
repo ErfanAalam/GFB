@@ -13,7 +13,7 @@ const Integrated = () => {
 
 
         <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-20 py-0  px-0 md:px-4 lg:px-10 xl:px-18 2xl:px-24'>
-          <h1 className='text-[28px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static  text-orange-600 absolute md:ml-0 ml-10 top-10'>Integrated Services</h1>
+          <h1 className='text-[28px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static  text-orange-500 absolute md:ml-0 ml-10 top-10'>Integrated Services</h1>
 
           <p className='text-[20px] md:text-[22px] 2xl:text-[28px]'>Our in-house Architects, Electricians, and Engineers help provide a seamless experience for you and your project.
             <br /> <br />

@@ -10,7 +10,7 @@ const ChooseGfb = () => {
 
       <div className='text-center flex flex-col w-[100%] md:w-[50%] md:ml-20 gap-20 justify-center '>
         <div className='flex flex-col items-center'>
-          <h1 className='text-[24px] md:text-5xl tracking-normal md:tracking-[6px] text-orange-700'>Why Choose GFB Construction?</h1>
+          <h1 className='text-[24px] md:text-5xl tracking-normal md:tracking-[6px] text-orange-500'>Why Choose GFB Construction?</h1>
           <hr className='w-[85%]' />
         </div>
         <p className='text-white text-[16px] md:text-2xl tracking-[4px] '>

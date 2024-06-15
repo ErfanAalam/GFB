@@ -6,7 +6,6 @@ import ContactForm from './Contact';
 import UpperFooter from '../../utils/UpperFooter';
 import MiddleFooter from '../../utils/MiddleFooter';
 import Footer from '../../utils/Footer';
-import Subject from './Subject';
 
 
 
@@ -16,7 +15,6 @@ function Contact() {
       <Navbar />
       <Homebanner />
       <ContactForm />
-      {/* <Subject /> */}
       <Faq />
       <UpperFooter />
       <MiddleFooter />

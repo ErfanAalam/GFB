@@ -26,7 +26,7 @@ const PostConstruction = () => {
 
         <div className='flex ml-2 md:ml-4 lg:ml-20 md:flex-row flex-col-reverse justify-between items-center relative md:pt-0 pt-16'>
           <div className='w-[100%] md:w-[90%] lg::w-[70%]'>
-            <h1 className='text-[20px] md:text-[24px] lg:text-3xl text-orange-600 md:static absolute top-6'>5. Quality Control & Inspection</h1>
+            <h1 className='text-[20px] md:text-[24px] lg:text-3xl text-orange-500 md:static absolute top-6'>5. Quality Control & Inspection</h1>
             <p className=' text-[16px] md:text-[20px] lg:text-2xl tracking-[2px]'>Following construction, our team conducts comprehensive inspections to ensure every aspect of the project meets our high-quality standards.
               <br /> <br />
               Utilizing advanced tools and proven techniques, we meticulously verify the integrity of every component of your project.</p>
@@ -47,7 +47,7 @@ const PostConstruction = () => {
           </div>
 
           <div className='w-[100%] md:w-[100%] lg:w-[70%]'>
-            <h1 className='text-[20px] md:text-[24px] lg:text-3xl text-orange-600 md:static absolute top-6'>6. Project Handover & Post-Construction Care</h1>
+            <h1 className='text-[20px] md:text-[24px] lg:text-3xl text-orange-500 md:static absolute top-6'>6. Project Handover & Post-Construction Care</h1>
             <p className=' text-[16px] md:text-[20px] lg:text-2xl tracking-[2px]'>Your new space is ready! We hand over all essential documents and detailed maintenance guidelines.
               <br /> <br />
               But our service doesn’t stop there! We remain readily available for any post-construction questions or support you may need.
