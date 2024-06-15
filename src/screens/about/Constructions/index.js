@@ -4,10 +4,10 @@ const Constructions = () => {
   return (
     <div className='bg-cover flex md:flex-row flex-col-reverse  relative justify-between p-4 md:py-[150px] py-4 md:p-10' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
       <img src='Assets/About us/Assets/2.png' className=' absolute top-[75%] right-[380px] z-10' />
-      <div className='text-center flex flex-col w-[100%] md:w-[40%]  md:ml-20 gap-20 justify-center '>
+      <div className='text-center flex flex-col w-[100%] md:w-[90%] 2xl:w-[40%] md:ml-0 xl:ml-20 gap-20 justify-center '>
         <div className='flex flex-col items-center md:static absolute top-0 right-[25%] pt-8'>
           <h1 className='text-3xl md:text-5xl tracking-[6px] text-orange-500'>Who We Are</h1>
-          <hr className='md:w-[40%] w-[90%]' />
+          <hr className='w-[60%] md:w-[60%] xl:w-[70%] 2xl:w-[40%] border-t-4' />
         </div>
         <p className='text-white text-[16px] md:text-2xl tracking-[4px] '>
           GFB Construction is your trusted, licensed, and bonded contractor headquartered in Central California.
@@ -18,8 +18,8 @@ const Constructions = () => {
         </p>
       </div>
 
-      <div className='md:w-[40%] w-[100%] md:pt-0 pt-20 relative z-20'>
-        <img src='Assets/About us/2.png' className='w-[500px]'></img>
+      <div className='md:w-[60%] lg:w-[50%] 2xl:w-[40%] w-[100%] md:pt-0 pt-20 relative z-20'>
+        <img src='Assets/About us/2.png' className='w-[600px] md:h-[700px] lg:h-[700px] xl:h-[700px]'></img>
       </div>
     </div>
   )
