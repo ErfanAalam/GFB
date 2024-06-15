@@ -4,9 +4,9 @@ const ContactForm = () => {
   return (
     <div className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
 
-      <div className='w-[15%] md:w-[9%] xl:w-[3.4%] ml-10 bg-repeat ' style={{ backgroundImage: "url('Assets/Contact us/Lines/1.png')" }}></div>
+      <div className='w-[15%] md:w-[9%] xl:w-[3.4%] ml-2 xl:ml-10 bg-repeat ' style={{ backgroundImage: "url('Assets/Contact us/Lines/1.png')" }}></div>
 
-      <div className='text-white md:w-[80%] lg:ww-[70%] xl:w-[60%] md:ml-0 ml-14 py-10 xl:p-20'>
+      <div className='text-white md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 py-10 p-4 xl:p-20'>
 
         <div className='flex flex-col items-center mb-20'>
           <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
@@ -33,7 +33,7 @@ const ContactForm = () => {
             <input type='email' placeholder='Enter your email here' className='border-none bg-[rgb(29,30,36)]' />
             <hr className=' border-t-4 border-[#EF6E16]' />
           </div>
-          <div className='flex flex-col gap-6 px-0 md:px-20npm run s'>
+          <div className='flex flex-col gap-6 px-0 md:px-20'>
             <label htmlFor='name' className='text-2xl'>Phone Number</label>
             <input type='number' placeholder='Enter your phone number here' className='border-none bg-[rgb(29,30,36)]' />
             <hr className=' border-t-4 border-[#EF6E16]' />
@@ -77,7 +77,7 @@ const ContactForm = () => {
             < hr className=' border-t-4 border-[#EF6E16]' />
           </div>
 
-          <div className='flex flex-col gap-6 w-[100%] md:w-[40%]'>
+          <div className='flex flex-col gap-6 w-[100%] md:w-[50%]'>
             <label className='text-[20px] md:text-3xl'>How Did You Hear About Us?</label>
             <input type='text' placeholder='(optional)' className='border-none bg-[rgb(29,30,36)]' />
             <hr className=' border-t-4 border-[#EF6E16]' />
