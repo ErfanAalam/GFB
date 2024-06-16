@@ -1,5 +1,5 @@
 const colors = {
-  theme: "#002147",
+  theme: "red-600",
   textWhite: "#fff",
   mainTextColor: "#EF6E16",  //orange
   black: "black",

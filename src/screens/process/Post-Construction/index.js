@@ -1,4 +1,6 @@
 import React from 'react'
+import colors from '../../../utils/color'
+
 
 const PostConstruction = () => {
   return (
@@ -13,7 +15,7 @@ const PostConstruction = () => {
         <span className='w-[4px] h-[100%] bg-black'>
           <hr className='rotate-90 h-fit' />
         </span>
-        <span className='w-[4px] h-[100%] bg-orange-500'>
+        <span className={`w-[4px] h-[100%] bg-[${colors.mainTextColor}]`}>
           <hr className='rotate-90 h-fit' />
         </span>
       </div>
@@ -24,15 +26,15 @@ const PostConstruction = () => {
           <h1 className='md:text-left text-center'>POST-CONSTRUCTION</h1>
         </div>
 
-        <div className='flex ml-2 md:ml-4 lg:ml-20 md:flex-row flex-col-reverse justify-between items-center relative md:pt-0 pt-16'>
+        <div className='flex ml-0 md:ml-4 lg:ml-20 md:flex-row flex-col-reverse justify-between items-center relative md:pt-0 pt-16'>
           <div className='w-[100%] md:w-[90%] lg::w-[70%]'>
-            <h1 className='text-[20px] md:text-[24px] lg:text-3xl text-orange-500 md:static absolute top-6'>5. Quality Control & Inspection</h1>
+            <h1 className={`text-[20px] md:text-[24px] lg:text-3xl text-[${colors.mainTextColor}] md:static absolute top-2`}>5. Quality Control & Inspection</h1>
             <p className=' text-[16px] md:text-[20px] lg:text-2xl tracking-[2px]'>Following construction, our team conducts comprehensive inspections to ensure every aspect of the project meets our high-quality standards.
               <br /> <br />
               Utilizing advanced tools and proven techniques, we meticulously verify the integrity of every component of your project.</p>
           </div>
 
-          <div className='w-[100%] md:w-[40%] lg:w-[50%]'>
+          <div className='w-[80%] md:w-[40%] lg:w-[50%]'>
             <img src='Assets/Process/6.png' />
           </div>
         </div>
@@ -42,12 +44,12 @@ const PostConstruction = () => {
 
         <div className='flex ml-2 md:ml-4 mt-0 md:mt-8 lg:ml-20 md:flex-row flex-col justify-between items-center relative md:pt-0 pt-16'>
 
-          <div className='w-[100%] md:w-[60%] lg:w-[30%]'>
+          <div className='w-[80%] md:w-[60%] lg:w-[30%]'>
             <img src='Assets/Process/7.png' />
           </div>
 
           <div className='w-[100%] md:w-[100%] lg:w-[70%]'>
-            <h1 className='text-[20px] md:text-[24px] lg:text-3xl text-orange-500 md:static absolute top-6'>6. Project Handover & Post-Construction Care</h1>
+            <h1 className={`text-[20px] md:text-[24px] lg:text-3xl text-[${colors.mainTextColor}] md:static absolute top-2`}>6. Project Handover & Post-Construction Care</h1>
             <p className=' text-[16px] md:text-[20px] lg:text-2xl tracking-[2px]'>Your new space is ready! We hand over all essential documents and detailed maintenance guidelines.
               <br /> <br />
               But our service doesn’t stop there! We remain readily available for any post-construction questions or support you may need.

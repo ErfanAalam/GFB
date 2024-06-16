@@ -5,7 +5,7 @@ const Building = () => {
   return (
     <div className=' bg-[rgb(29,30,36)] text-white pt-10' >
       <h2 className='text-[26px] md:text-[40px] text-center  pb-2 '>Building Today, for Tomorrow</h2>
-      <hr className='border-t-2 border-orange-500 w-[90%] md:w-[55%] ' />
+      <hr className={`border-t-2 border-[${colors.mainTextColor}] w-[90%] md:w-[55%] ` }/>
 
       <div className=' flex md:flex-row flex-col justify-between relative' >
 
@@ -15,7 +15,7 @@ const Building = () => {
         </div>
 
         <div className='overflow-hidden flex w-[64px] justify-between absolute right-[40%] md:left-[48.4%] ' >
-          <span className='w-[4px] 2xl:h-[2920px] md:h-[2420px]   bg-orange-400'>
+          <span className={`w-[4px] 2xl:h-[2920px] md:h-[2420px]   bg-[${colors.mainTextColor}]`}>
             <hr className='rotate-90 h-fit' />
           </span>
           <span className='w-[4px] 2xl:h-[2920px] md:h-[2420px] bg-black'>
@@ -30,7 +30,9 @@ const Building = () => {
           <p>
             At GFB Construction, We recognize that today's structures lay the foundation for tomorrow's communities. <br /> <br /> We actively construct each new project with up to date technology and building methods in mind. <br /> <br /> Our projects don't just meet current demands, they anticipate the needs of future generations. Making GFB, the right choice.
           </p>
-          <button className={`text-[${colors.mainTextColor}] rounded-md text-[24px]  md:ml-12 lg:ml-32 xl:ml-[56] relative top-20 md:top-0 left-6 md:left-0 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More  </button>
+         <div className='flex justify-center'>
+         <button className={`text-[${colors.mainTextColor}] rounded-md text-[24px]   relative top-20 md:top-0 left-6 md:left-0 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More  </button>
+         </div>
 
         </div>
 

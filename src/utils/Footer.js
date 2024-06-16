@@ -4,7 +4,7 @@ import colors from './color.js'
 
 const Footer = () => {
     return (
-        <div className='bg-[rgb(0,0,0)] p-4 md:p-20 flex flex-col items-start md:items-stretch pl-8 text-white'>
+        <div className='bg-[rgb(0,0,0)] py-6 px-10 md:px-[120px] lg:px-[140px] xl:px-[170px] flex flex-col items-start md:items-stretch  text-white'>
 
 
             <div className='flex justify-center items-center gap-6'>

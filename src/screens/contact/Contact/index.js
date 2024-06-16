@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <div className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
 
-      <div className='w-[15%] md:w-[9%] xl:w-[3.4%] ml-2 xl:ml-10 bg-repeat ' style={{ backgroundImage: "url('Assets/Contact us/Lines/1.png')" }}></div>
+      <div className='w-[30%] md:w-[9%] xl:w-[3.4%] ml-2 xl:ml-10 bg-no-repeat md:bg-repeat ' style={{ backgroundImage: "url('Assets/Contact us/Lines/1.png')" }}></div>
 
       <div className='text-white md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 py-10 p-4 xl:p-20'>
 

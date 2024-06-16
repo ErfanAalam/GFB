@@ -21,7 +21,7 @@ function Services() {
       <Commercial />
       <Residental />
       <UpperFooter />
-      <MiddleFooter />
+      <MiddleFooter />``
       <Footer />
     </div>
   )
