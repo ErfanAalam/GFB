@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className='font-orelaga'>
       <Navbar />
-      {/* HOme banner */}
+      {/* Home banner */}
       <Homebanner />
 
       {/* building today */}
@@ -32,7 +32,7 @@ function Home() {
       <MiddleFooter />
 
       {/* Footer */}
-      <Footer />
+      <Footer link1 ="homebanner"  link2 ="building" link3="services" link4="process" link5="startjourney" />
 
     </div>
   )

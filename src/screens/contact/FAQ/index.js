@@ -3,7 +3,7 @@ import React from 'react'
 const Faq = () => {
   return (
     <>
-      <div className='w-[100%] bg-white py-14'>
+      <div id='FAQ' className='w-[100%] bg-white py-14'>
         <h1 className='text-3xl md:text-5xl text-center '>Frequently Asked Questions</h1>
       </div>
 

@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const ChooseGfb = () => {
   return (
-    <div className='bg-cover flex md:flex-row flex-col md:pt-20 pt-20 justify-around p-4 py-10 relative' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div id='Choose' className='bg-cover flex md:flex-row flex-col md:pt-20 pt-20 justify-around p-4 py-10 relative' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
 
       <div className='w-[100%] md:w-[40%] xl:w-[30%] relative z-30 flex justify-center'>
         <img src='Assets/About us/3.png' className='w-[400px] md:h-[700px] lg:h-[700px] xl:h-[700px]'></img>

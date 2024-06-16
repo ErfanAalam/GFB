@@ -22,7 +22,7 @@ function Services() {
       <Residental />
       <UpperFooter />
       <MiddleFooter />``
-      <Footer />
+      <Footer link1 ="homebanner"  link2 ="builder" link3="integrated" link4="commercial" link5="residental"/>
     </div>
   )
 }

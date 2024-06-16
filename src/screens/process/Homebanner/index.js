@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Homebanner = () => {
   return (
-    <div className="bg-cover  flex flex-col pt-56 gap-0  bg-gray-700" style={{backgroundImage:"url('Assets/Process/1.png')"}}>
+    <div id='homebanner' className="bg-cover  flex flex-col pt-56 gap-0  bg-gray-700" style={{backgroundImage:"url('Assets/Process/1.png')"}}>
    <hr className={`w-[60%] ml-[40%] border-t-4 border-[${colors.mainTextColor}]`} />
       <div className='flex justify-center my-10'>
         <button className={`text-[${colors.mainTextColor}] md:w-[350px] text-6xl  md:h-[100px]`}>Process</button>

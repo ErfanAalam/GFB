@@ -2,7 +2,7 @@ import React from 'react'
 import './color.js'
 import colors from './color.js'
 
-const Footer = () => {
+const Footer = ({ link1, link2, link3, link4, link5 }) => {
     return (
         <div className='bg-[rgb(0,0,0)] py-6 px-10 md:px-[120px] lg:px-[140px] xl:px-[170px] flex flex-col items-start md:items-stretch  text-white'>
 
@@ -31,18 +31,22 @@ const Footer = () => {
                 </div>
 
                 <div className='flex flex-col  gap-4'>
-                    <a href='' className={`text-[${colors.mainTextColor}]`}>Services</a>
-                    <a href='' >Integrated</a>
-                    <a href='' >Commercial</a>
-                    <a href='' >Residental</a>
+                    <a href='/services' className={`text-[${colors.mainTextColor}]`}>Services</a>
+                    <a href={`#${link1}`} >{link1}</a>
+                    <a href={`#${link2}`}>{link2}</a>
+                    <a href={`#${link3}`}>{link3}</a>
+                    <a href={`#${link4}`}>{link4}</a>
+                    <a href={`#${link5}`}>{link5}</a>
                 </div>
 
 
                 <div className='flex flex-col gap-4'>
                     <a href='' className={`text-[${colors.mainTextColor}]`}>Quick Links</a>
-                    <a href='' >Process</a>
-                    <a href='' >About Us</a>
-                    <a href='' >Contact</a>
+                    <a href='/' >Home</a>
+                    <a href='/services' >Services</a>
+                    <a href='/process' >Process</a>
+                    <a href='/about' >About Us</a>
+                    <a href='/contact' >Contact</a>
                 </div>
 
             </div>

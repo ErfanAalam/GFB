@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Commercial = () => {
   return (
-    <div className='bg-cover bg-black text-white md:py-20 py-16 md:pl-6  2xl:pl-40 pl-4' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+    <div id='commercial' className='bg-cover bg-black text-white md:py-20 py-16 md:pl-6  2xl:pl-40 pl-4' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-10 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 

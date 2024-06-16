@@ -18,7 +18,7 @@ function Contact() {
       <Faq />
       <UpperFooter />
       <MiddleFooter />
-      <Footer />
+      <Footer link1 ="homebanner"  link2 ="Contactform" link3="FAQ"  />
     </div>
   )
 }

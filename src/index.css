@@ -5,6 +5,9 @@
     /* font-family: 'Orelega One', cursive; */
 }
 
+html{
+    scroll-behavior: smooth
+}
 
 @tailwind base;
 @tailwind components;

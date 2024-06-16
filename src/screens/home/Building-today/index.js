@@ -2,8 +2,13 @@ import React from 'react'
 import colors from '../../../utils/color'
 
 const Building = () => {
+
+  function handleLearnMore(){
+    
+  }
+
   return (
-    <div className=' bg-[rgb(29,30,36)] text-white pt-10' >
+    <div id='building' className=' bg-[rgb(29,30,36)] text-white pt-10' >
       <h2 className='text-[26px] md:text-[40px] text-center  pb-2 '>Building Today, for Tomorrow</h2>
       <hr className={`border-t-2 border-[${colors.mainTextColor}] w-[90%] md:w-[55%] ` }/>
 
@@ -31,7 +36,7 @@ const Building = () => {
             At GFB Construction, We recognize that today's structures lay the foundation for tomorrow's communities. <br /> <br /> We actively construct each new project with up to date technology and building methods in mind. <br /> <br /> Our projects don't just meet current demands, they anticipate the needs of future generations. Making GFB, the right choice.
           </p>
          <div className='flex justify-center'>
-         <button className={`text-[${colors.mainTextColor}] rounded-md text-[24px]   relative top-20 md:top-0 left-6 md:left-0 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More  </button>
+         <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px]   relative top-20 md:top-0 left-6 md:left-0 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More  </button>
          </div>
 
         </div>

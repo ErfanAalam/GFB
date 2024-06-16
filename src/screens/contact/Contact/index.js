@@ -1,8 +1,17 @@
 import React from 'react'
 
 const ContactForm = () => {
+
+  function handlebuttonChange(){
+
+  }
+
+  function handleSubmit(){
+    
+  }
+
   return (
-    <div className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
+    <div id='Contactform' className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
 
       <div className='w-[30%] md:w-[9%] xl:w-[3.4%] ml-2 xl:ml-10 bg-no-repeat md:bg-repeat ' style={{ backgroundImage: "url('Assets/Contact us/Lines/1.png')" }}></div>
 
@@ -51,10 +60,9 @@ const ContactForm = () => {
             <h1 className='text-[28px]'>Type of service needed</h1>
 
             <div className='flex justify-between'>
-              <button className='px-4 py-2 border-4 border-[#EF6E16] '>Residental</button>
-              <button className='px-4 py-2 border-4 border-[#EF6E16]'>Commercial</button>
+              <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16] '>Residental</button>
+              <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16]'>Commercial</button>
             </div>
-            {/* <hr className=' border-t-4 border-[#EF6E16]'/> */}
           </div>
         </div>
 
@@ -66,9 +74,9 @@ const ContactForm = () => {
           <h1 className='text-5xl'>Subject</h1>
 
           <div className='flex md:flex-row flex-col  md:gap-20 xl:gap-0 gap-10 justify-between'>
-            <button className='w-[200px] py-1 border-4 border-[#EF6E16] '>General Inquiry</button>
-            <button className='w-[200px] py-1 border-4 border-[#EF6E16] '>Project Quote</button>
-            <button className='w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] '>Other</button>
+            <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>General Inquiry</button>
+            <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>Project Quote</button>
+            <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] '>Other</button>
           </div>
 
           <div className='flex flex-col gap-6'>
@@ -84,7 +92,7 @@ const ContactForm = () => {
           </div>
 
           <div className='flex justify-center'>
-            <button className='w-[200px] py-2 text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
+            <button onClick={handleSubmit()} className='w-[200px] py-2 text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
           </div>
 
         </div>

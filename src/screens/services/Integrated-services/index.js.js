@@ -5,7 +5,7 @@ import colors from '../../../utils/color'
 const Integrated = () => {
   return (
 
-    <div className='bg-cover bg-black text-white pb-10' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+    <div id='integrated' className='bg-cover bg-black text-white pb-10' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
 
       <div className='flex md:flex-row flex-col relative items-center gap-10 md:gap-4 2xl:gap-40 md:p-4 lg:p-4 2xl:p-20 p-6 md:pt-0 pt-32'>
 

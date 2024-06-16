@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Residental = () => {
   return (
-    <div className='bg-cover bg-center text-white py-20' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div id='residental' className='bg-cover bg-center text-white py-20' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
 
       <div className='flex relative md:flex-row flex-col justify-between gap-46  '>
 

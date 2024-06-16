@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Construction = () => {
   return (
-    <div className=' bg-[rgb(29,30,36)]  flex '>
+    <div id='construction' className=' bg-[rgb(29,30,36)]  flex '>
 
       <div className='overflow-hidden flex w-[64px] mx-2 relative md:mx-20 justify-between  ' >
       <img src='Assets/Contact us/2.png' className='absolute  bottom-60 left-0'/>

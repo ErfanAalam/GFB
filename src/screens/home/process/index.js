@@ -4,7 +4,7 @@ import ProcessCards from '../../../Cards/ProcessCards'
 
 const Process = () => {
   return (
-    <div>
+    <div id='process'>
       <section className='bg-[rgb(29,30,36)] text-white text-center'>
         <button className={`text-[${colors.textWhite}] text-[30px] md:text-[34px] relative w-[300px]  md:w-[300px]  my-8 p-3 bg-black  h-[100px] md:h-[78px] leading-[31.35px] border-2`}>Process</button>
 

@@ -3,7 +3,7 @@ import colors from '../../../utils/color'
 
 const Builder = () => {
   return (
-    <div className='bg-[rgb(29,30,36)] bg-contain ' >
+    <div id='builder' className='bg-[rgb(29,30,36)] bg-contain ' >
          <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
           <span className={`w-[4px] h-[200px] bg-[${colors.mainTextColor}]`}>
             <hr className='rotate-90 h-fit' />

@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const PostConstruction = () => {
   return (
-    <div className='bg-gray-200 flex '>
+    <div id='postConstruction' className='bg-gray-200 flex '>
 
       <div className='overflow-hidden flex w-[64px] relative mx-2 md:mx-20 justify-between  ' >
         <img src='Assets/Contact us/2.png' className='absolute z-30 top-80 right-[-10px] w-[40px]'/>

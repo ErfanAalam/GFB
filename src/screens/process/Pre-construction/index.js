@@ -6,7 +6,7 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex  '>
 
-      <div className='overflow-hidden flex w-[64px] mx-2 md:mx-20 relative z-40 justify-between  ' >
+      <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-2 md:mx-20 relative z-40 justify-between  ' >
         <span className='w-[4px] h-[100%] bg-black'>
           <img src='Assets/Contact us/2.png' className='absolute  top-20 left-0' />
           <img src='Assets/Contact us/2.png' className='absolute  top-[600px] left-0' />
