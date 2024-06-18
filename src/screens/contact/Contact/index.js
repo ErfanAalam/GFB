@@ -1,14 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const ContactForm = () => {
 
-  function handlebuttonChange(){
+  const [userInfo, setUserInfo] = useState({})
+  const [firstName, setFirstName] = useState("")
+  const [lastName, setLastName] = useState("")
+  const [email, setEmail] = useState("")
+  const [phone, setPhone] = useState("")
+  const [address, setAddress] = useState("")
+  const [serviceType, setServiceType] = useState("")
+  const [subject, setSubject] = useState("")
+  const [message, setMessage] = useState("")
+  const [hearAbout, setHearAbout] = useState("")
 
+
+  function handleSubmit(e) {
+    e.preventDefault()
+    let obj = {
+      firstName: firstName,
+      lastName: lastName,
+      email: email,
+      phone: phone,
+      address: address,
+      serviceType: serviceType,
+      subject: subject,
+      message: message,
+      hearAbout: hearAbout
+    }
+
+    setUserInfo(obj)
+    console.log(userInfo);
   }
 
-  function handleSubmit(){
-    
-  }
 
   return (
     <div id='Contactform' className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
@@ -22,80 +45,134 @@ const ContactForm = () => {
           <hr className='w-[100%] md:w-[30%] border-t-4 border-[#EF6E16]' />
         </div>
 
-        <div className='flex md:flex-row flex-col md:gap-20 xl:gap-0 gap-8 p-0 md:p-6 justify-between md:mb-0 mb-10'>
-          <div className='flex flex-col gap-6'>
-            <label htmlFor='name' className='text-2xl '>First Name</label>
-            <input type='text' placeholder='Enter your first name here' className='border-none  bg-[rgb(29,30,36)]' />
-            <hr className=' border-t-4 border-[#EF6E16]' />
-          </div>
-          <div className='flex flex-col gap-6 px-0 md:px-20'>
-            <label htmlFor='name' className='text-2xl '>Last Name</label>
-            <input type='text' placeholder='Enter your last name here' className='border-none  bg-[rgb(29,30,36)]' />
-            <hr className=' border-t-4 border-[#EF6E16]' />
-          </div>
-        </div>
-
-
-        <div className='flex md:flex-row flex-col gap-8  md:gap-20 xl:gap-0 p-0 md:p-6 justify-between md:mb-0 mb-10'>
-          <div className='flex flex-col gap-6'>
-            <label htmlFor='name' className='text-2xl '>Email</label>
-            <input type='email' placeholder='Enter your email here' className='border-none bg-[rgb(29,30,36)]' />
-            <hr className=' border-t-4 border-[#EF6E16]' />
-          </div>
-          <div className='flex flex-col gap-6 px-0 md:px-20'>
-            <label htmlFor='name' className='text-2xl'>Phone Number</label>
-            <input type='number' placeholder='Enter your phone number here' className='border-none bg-[rgb(29,30,36)]' />
-            <hr className=' border-t-4 border-[#EF6E16]' />
-          </div>
-        </div>
-
-
-        <div className='flex md:flex-row flex-col  md:gap-20 gap-8 p-0 md:p-6  justify-between'>
-          <div className='flex flex-col gap-6'>
-            <label htmlFor='name' className='text-2xl '>Project Address </label>
-            <input type='email' placeholder='(optiional)' className='border-none bg-[rgb(29,30,36)]' />
-            <hr className=' border-t-4 border-[#EF6E16]' />
-          </div>
-          <div className='flex flex-col gap-6'>
-            <h1 className='text-[28px]'>Type of service needed</h1>
-
-            <div className='flex justify-between'>
-              <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16] '>Residental</button>
-              <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16]'>Commercial</button>
+        <form onSubmit={(e) => handleSubmit(e)}>
+          <div className='flex md:flex-row flex-col md:gap-20 xl:gap-0 gap-8 p-0 md:p-6 justify-between md:mb-0 mb-10'>
+            <div className='flex flex-col gap-6'>
+              <label htmlFor='name' className='text-2xl '>First Name</label>
+              <input onChange={(e) => setFirstName(e.target.value)}
+                value={firstName}
+                type='text'
+                placeholder='Enter your first name here'
+                className='border-none  bg-[rgb(29,30,36)]' />
+              <hr className=' border-t-4 border-[#EF6E16]' />
+            </div>
+            <div className='flex flex-col gap-6 px-0 md:px-20'>
+              <label htmlFor='name' className='text-2xl '>Last Name</label>
+              <input onChange={(e) => setLastName(e.target.value)}
+                value={lastName}
+                type='text'
+                placeholder='Enter your last name here'
+                className='border-none  bg-[rgb(29,30,36)]' />
+              <hr className=' border-t-4 border-[#EF6E16]' />
             </div>
           </div>
-        </div>
 
 
-
-
-
-        <div className='flex flex-col text-white w-[100%]  py-10 md:p-6 gap-10'>
-          <h1 className='text-5xl'>Subject</h1>
-
-          <div className='flex md:flex-row flex-col  md:gap-20 xl:gap-0 gap-10 justify-between'>
-            <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>General Inquiry</button>
-            <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>Project Quote</button>
-            <button onClick={()=>{handlebuttonChange()}} className='cursor-pointer w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] '>Other</button>
+          <div className='flex md:flex-row flex-col gap-8  md:gap-20 xl:gap-0 p-0 md:p-6 justify-between md:mb-0 mb-10'>
+            <div className='flex flex-col gap-6'>
+              <label htmlFor='name' className='text-2xl '>Email</label>
+              <input onChange={(e) => setEmail(e.target.value)}
+                type='email'
+                value={email}
+                placeholder='Enter your email here'
+                className='border-none bg-[rgb(29,30,36)]' />
+              <hr className=' border-t-4 border-[#EF6E16]' />
+            </div>
+            <div className='flex flex-col gap-6 px-0 md:px-20'>
+              <label htmlFor='name' className='text-2xl'>Phone Number</label>
+              <input onChange={(e) => setPhone(e.target.value)}
+                value={phone}
+                type='number'
+                placeholder='Enter your phone number here'
+                className='border-none bg-[rgb(29,30,36)]' />
+              <hr className=' border-t-4 border-[#EF6E16]' />
+            </div>
           </div>
 
-          <div className='flex flex-col gap-6'>
-            <label className='text-3xl'>Message</label>
-            <input type='text' placeholder='Type your message here' className='border-none bg-[rgb(29,30,36)]' />
-            < hr className=' border-t-4 border-[#EF6E16]' />
+
+          <div className='flex md:flex-row flex-col  md:gap-20 gap-8 p-0 md:p-6  justify-between'>
+            <div className='flex flex-col gap-6'>
+              <label htmlFor='name' className='text-2xl '>Project Address </label>
+              <input onChange={(e) => setAddress(e.target.value)}
+                value={address}
+                type='text'
+                placeholder='(optiional)'
+                className='border-none bg-[rgb(29,30,36)]' />
+              <hr className=' border-t-4 border-[#EF6E16]' />
+            </div>
+            <div className='flex flex-col gap-6'>
+              <h1 className='text-[28px]'>Type of service needed</h1>
+
+              <div className='flex justify-between'>
+                <button
+                  type="button"
+                  onClick={(e) => { setServiceType(e.target.value) }}
+                  value={"Residental"}
+                  className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16] '>Residental
+                </button>
+
+                <button
+                  type="button"
+                  onClick={(e) => { setServiceType(e.target.value) }}
+                  value={"Commercial"}
+                  className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16]'>Commercial
+                </button>
+
+              </div>
+            </div>
           </div>
 
-          <div className='flex flex-col gap-6 w-[100%] md:w-[50%]'>
-            <label className='text-[20px] md:text-3xl'>How Did You Hear About Us?</label>
-            <input type='text' placeholder='(optional)' className='border-none bg-[rgb(29,30,36)]' />
-            <hr className=' border-t-4 border-[#EF6E16]' />
-          </div>
+          <div className='flex flex-col text-white w-[100%]  py-10 md:p-6 gap-10'>
+            <h1 className='text-5xl'>Subject</h1>
 
-          <div className='flex justify-center'>
-            <button onClick={handleSubmit()} className='w-[200px] py-2 text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
-          </div>
+            <div className='flex md:flex-row flex-col  md:gap-20 xl:gap-0 gap-10 justify-between'>
+              <button
+                type="button"
+                onClick={(e) => { setSubject(e.target.value) }}
+                value={"General Inquiry"}
+                className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>General Inquiry
+              </button>
 
-        </div>
+              <button
+                type="button"
+                onClick={(e) => { setSubject(e.target.value) }}
+                value={"Project Quote"}
+                className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>Project Quote
+              </button>
+
+              <button
+                type="button"
+                onClick={(e) => { setSubject(e.target.value) }}
+                value={"other"}
+                className='cursor-pointer w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] '>Other
+              </button>
+
+            </div>
+
+            <div className='flex flex-col gap-6'>
+              <label className='text-3xl'>Message</label>
+              <input type='text'
+                onChange={(e) => setMessage(e.target.value)}
+                placeholder='Type your message here'
+                className='border-none bg-[rgb(29,30,36)]' />
+              < hr className=' border-t-4 border-[#EF6E16]' />
+            </div>
+
+            <div className='flex flex-col gap-6 w-[100%] md:w-[50%]'>
+              <label className='text-[20px] md:text-3xl'>How Did You Hear About Us?</label>
+              <input type='text'
+                onChange={(e) => setHearAbout(e.target.value)}
+                placeholder='(optional)'
+                className='border-none bg-[rgb(29,30,36)]' />
+              <hr className=' border-t-4 border-[#EF6E16]' />
+            </div>
+
+            <div className='flex justify-center'>
+              <button type='submit' className='w-[200px] py-2 text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
+            </div>
+
+          </div>
+        </form>
 
       </div>
     </div>
