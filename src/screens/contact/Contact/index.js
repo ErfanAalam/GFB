@@ -41,7 +41,7 @@ const ContactForm = () => {
         <div className='h-[100%] bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/2.png')" }}></div>
       </div>
 
-      <div className='text-white md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 md:mr-0 mr-16 py-10 p-4 xl:p-20'>
+      <div className='text-white w-[65%] md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 md:mr-0 mr-4 py-10 p-4 xl:p-20'>
 
         <div className='flex flex-col items-center mb-20'>
           <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
