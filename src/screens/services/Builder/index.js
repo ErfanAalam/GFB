@@ -3,17 +3,11 @@ import colors from '../../../utils/color'
 
 const Builder = () => {
   return (
-    <div id='builder' className='bg-[rgb(29,30,36)] bg-contain ' >
+    <div id='builder' className='bg-[rgb(29,30,36)]  ' >
          <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
-          <span className={`w-[4px] h-[200px] bg-[${colors.mainTextColor}]`}>
-            <hr className='rotate-90 h-fit' />
-          </span>
-          <span className='w-[4px] h-[200px] bg-black'>
-            <hr className='rotate-90 h-fit' />
-          </span>
-          <span className='w-[4px] h-[200px] bg-white'>
-            <hr className='rotate-90 h-fit' />
-          </span>
+          <span className={`w-[4px] h-[100px] bg-[${colors.mainTextColor}]`}></span>
+          <span className='w-[4px]  h-[100px] bg-black'> </span>
+          <span className='w-[4px]  h-[100px] bg-white'></span>
         </div>
         
         <div  className='w-[100%]  '>
@@ -31,9 +25,9 @@ const Builder = () => {
         </div>
 
         <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
-          <span className={`w-[4px] h-[200px] bg-[${colors.mainTextColor}]`}></span>
-          <span className='w-[4px] h-[200px] bg-black'></span>
-          <span className='w-[4px] h-[200px] bg-white'></span>
+          <span className={`w-[4px] h-[130px] bg-[${colors.mainTextColor}]`}></span>
+          <span className='w-[4px]  h-[130px] bg-black'></span>
+          <span className='w-[4px]  h-[130px] bg-white'></span>
         </div>
 
     </div>

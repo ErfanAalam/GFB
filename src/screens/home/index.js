@@ -30,7 +30,6 @@ function Home() {
 
       {/* MiddleFooter */}
       <MiddleFooter />
-
       {/* Footer */}
       <Footer link1 ="homebanner"  link2 ="building" link3="services" link4="process" link5="startjourney" />
 

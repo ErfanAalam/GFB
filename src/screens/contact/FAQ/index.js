@@ -11,7 +11,7 @@ const Faq = () => {
 
         <div className='w-[10%] ml-9 md:block hidden bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/3.png')" }}></div>
 
-        <div className='flex flex-col text-white w-[100%] md:w-[80%] md:px-0 px-4  py-20 gap-10'>
+        <div className='flex flex-col text-white w-[100%] md:w-[80%] md:px-0 px-4  py-10 gap-10'>
             
             <div className='flex flex-col items-center text-center'>
               <img src='Assets/Contact us/2.png'/>

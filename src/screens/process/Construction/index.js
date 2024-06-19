@@ -7,22 +7,22 @@ const Construction = () => {
     <div id='construction' className=' bg-[rgb(29,30,36)]  flex '>
 
       <div className='overflow-hidden flex w-[64px] mx-2 relative md:mx-20 justify-between  ' >
-      <img src='Assets/Contact us/2.png' className='absolute  bottom-60 left-0'/>
+      <div className='absolute top-10 flex left-0 gap-8 text-white'>
+          <span className='text-3xl'>0</span>
+          <span className='text-3xl'>2</span>
+        </div>
         <span className='w-[4px] h-[100%] bg-black'>
-          <hr className='rotate-90 h-fit' />
+          <img src='Assets/Contact us/2.png' className='absolute  bottom-60 left-0' />
+
         </span>
-        <span className={`w-[4px] h-[100%] bg-[${colors.mainTextColor}]`}>
-          <hr className='rotate-90 h-fit' />
-        </span>
-        <span className='w-[4px] h-[100%] bg-black'>
-          <hr className='rotate-90 h-fit' />
-        </span>
+        <span className={`w-[4px] h-[100%] bg-[${colors.mainTextColor}]`}> </span>
+        <span className='w-[4px] h-[100%] bg-black'></span>
       </div>
 
       <div className='p-2 md:p-4 lg:p-20 w-[80%] mt-4'>
 
         <div className='text-2xl md:text-4xl text-white '>
-          <h1 className='md:text-left text-center'>CONSTRUCTION</h1>
+          <h1 className=''>CONSTRUCTION</h1>
         </div>
 
         <div className='flex ml-2 md:ml-4 lg:ml-10 md:flex-row flex-col-reverse justify-between items-center p-2 relative md:pt-0 pt-16'>

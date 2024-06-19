@@ -36,16 +36,16 @@ const ContactForm = () => {
   return (
     <div id='Contactform' className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
 
-      <div className='w-[20%] md:w-[9%] xl:w-[3.4%] ml-2 xl:ml-10 flex flex-col'>
+      <div className='w-[20%] md:w-[9%] xl:w-[5%] ml-2 xl:ml-10 flex flex-col'>
         <div className='h-[90%] bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/3.png')" }}></div>
         <div className='h-[100%] bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/2.png')" }}></div>
       </div>
 
-      <div className='text-white md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 py-10 p-4 xl:p-20'>
+      <div className='text-white md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 md:mr-0 mr-16 py-10 p-4 xl:p-20'>
 
         <div className='flex flex-col items-center mb-20'>
           <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
-          <hr className='w-[100%] md:w-[30%] border-t-4 border-[#EF6E16]' />
+          <hr className='w-[60%] md:w-[30%] border-t-4 border-[#EF6E16]' />
         </div>
 
         <form onSubmit={(e) => handleSubmit(e)}>
@@ -170,7 +170,7 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16]' />
             </div>
 
-            <div className='flex justify-center'>
+            <div className='flex justify-center mt-10'>
               <button type='submit' className='w-[200px] py-2 text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
             </div>
 

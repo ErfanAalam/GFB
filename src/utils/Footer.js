@@ -4,8 +4,7 @@ import colors from './color.js'
 
 const Footer = ({ link1, link2, link3, link4, link5 }) => {
     return (
-        <div className='bg-[rgb(0,0,0)] py-6 px-10 md:px-[120px] lg:px-[140px] xl:px-[170px] flex flex-col items-center md:items-stretch  text-white'>
-
+        <div className='bg-[rgb(0,0,0)] py-6 px-10 md:px-[120px] lg:px-[140px] xl:px-[170px] flex flex-col items-center md:items-stretch zzzzz text-white'>
 
             <div className='flex justify-center items-center gap-6'>
                 <hr className='w-[45%] hidden md:block' />
@@ -54,7 +53,7 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
 
 
             <div className='flex  flex-col items-center gap-6 mt-10'>
-                <hr className='w-[100%]' />
+                <hr className='w-[100%] border-t-4' />
                 <p className='font-[700] text-[15px] text-center'>© 2024 GFB Construction and Engineering. All Rights Reserved</p>
             </div>
 
