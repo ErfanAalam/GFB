@@ -10,7 +10,7 @@ const Building = () => {
   return (
     <div id='building' className=' bg-[rgb(29,30,36)] text-white py-20' >
       <h2 className='text-[26px] md:text-[40px] text-center  pb-2 '>Building Today, for Tomorrow</h2>
-      <hr className={`border-t-2 border-[${colors.mainTextColor}] w-[90%] md:w-[55%] ` }/>
+      <hr className={`border-t-2 border-[${colors.mainTextColor}] w-[95%] md:w-[55%] ` }/>
 
       <div className=' flex md:flex-row flex-col justify-between relative' >
 
@@ -21,7 +21,7 @@ const Building = () => {
           </a>
         </div>
 
-        <div className='overflow-hidden flex w-[64px] justify-between absolute right-[10%] md:left-[48.4%] z-20 md:z-10' >
+        <div className='overflow-hidden flex w-[64px] justify-between absolute right-[11%] md:left-[48.4%] z-20 md:z-10' >
           <span className={`w-[4px] h-[1035px] 2xl:h-[2620px] md:h-[2420px]   bg-[${colors.mainTextColor}]`}> </span>
           <span className='w-[4px]  h-[1035px] 2xl:h-[2620px] md:h-[2420px] bg-black'> </span>
           <span className='w-[4px]  h-[1035px] 2xl:h-[2620px] md:h-[2420px] bg-white'></span>
@@ -33,7 +33,7 @@ const Building = () => {
           </p>
          <div className='flex justify-center'>
          <a href='/about' className='md:static absolute bottom-[-100px] right-20 flex justify-center items-center'>
-         <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px] mt-10 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-2`}>Learn More  </button>
+         <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px] mt-10 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-4 flex items-center justify-center`}>Learn More  </button>
          <hr className='w-[30%] block md:hidden border-t-4 absolute right-[-35px] bottom-[22px]' />
          </a>
          </div>

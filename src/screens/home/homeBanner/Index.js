@@ -15,7 +15,7 @@ const Homebanner = () => {
       <h3 className='text-white text-[23px] md:text-[30px] lg:text-[36px] w-[100%] md:w-[90%] lg:w-[60%] xl:w-[50%] 2xl:w-[30%] text-center  md:leading-[60px] tracking-[2px]'>California's Commercial and Residential Specialists. </h3>
 
       <a href='/contact'>
-      <button onClick={handleFreeConsultation()} className={`text-[${colors.mainTextColor}] cursor-pointer text-[20px] text-center md:text-[24px] md:mt-[50px]  w-[190px] md:w-[235px]  p-2 bg-black bg-opacity-70 md:tracking-[1px] tracking-normal  border-2 `}>Free Consultation</button>
+      <button onClick={handleFreeConsultation()} className={`text-[${colors.mainTextColor}] cursor-pointer text-[20px] rounded-lg text-center md:text-[24px] md:mt-[50px]  w-[190px] md:w-[235px]  p-2 bg-black bg-opacity-70 md:tracking-[1px] tracking-normal  border-2 `}>Free Consultation</button>
       </a>
 
     </main>

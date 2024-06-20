@@ -9,8 +9,8 @@ const Services = () => {
 
             <div className='bg-cover z-10 w-[100%] relative flex md:flex-row flex-col flex-wrap items-center justify-evenly p-6 md:p-20 sm:bg-none' style={{ backgroundImage: "url('/Assets/Home/bg/services.png')" }}>
                 <div className='mt-20'> <ServicesCards title="Integrated Services" src="Assets/Home/integrated_services.png"     /></div>
-                <div><ServicesCards title="Commercial" src="Assets/Home/commercial.png" /></div>
-                <div className='mt-0 md:mt-20'> <ServicesCards title="Residental" src="Assets/Home/residential.png" /> </div>
+                <div className='mb-0'><ServicesCards title="Commercial" src="Assets/Home/commercial.png" /></div>
+                <div className='mt-[-35px] md:mt-20'> <ServicesCards title="Residental" src="Assets/Home/residential.png" /> </div>
             </div>
         </section>
     )
