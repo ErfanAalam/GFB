@@ -1,1 +1,12 @@
+.servicediv{
+    background: url('/public/Assets/Home/bg/services.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+@media screen and (max-width: 640px) {
+    .servicediv{
+        background:none
+    }
+}
