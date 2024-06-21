@@ -1,10 +1,13 @@
 import React from 'react'
 import colors from '../../../utils/color'
+import '../../../App.css'
 
 
 const Commercial = () => {
   return (
-    <div id='commercial' className='bg-cover bg-black text-white md:py-20 py-16 md:pl-6  2xl:pl-40 pl-4 pt-0 md:pt-40' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+    <div id='commercial' className='bg-cover  text-white md:py-20 py-16 md:pl-6  2xl:pl-40 pl-4 pt-0 md:pt-40' 
+    // style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}
+    >
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-10 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
@@ -30,12 +33,12 @@ const Commercial = () => {
               <p className='md:text-2xl text-[16px]'>New Commercial Builds</p>
             </div>
 
-            <div className='flex flex-row items-center ml-20  md:gap-10 gap-0' >
+            <div className='flex flex-row items-center ml-8 md:ml-20  md:gap-10 gap-0' >
               <img src='Assets/Services/tenant_improvement.png' className='md:w-[100px] w-[50px]'></img>
               <p className='md:text-2xl text-[16px]'>Tenant Improvement</p>
             </div>
 
-            <div className='flex flex-row  items-center ml-40 md:gap-10 gap-0'>
+            <div className='flex flex-row  items-center ml-20 md:ml-40 md:gap-10 gap-0'>
               <img src='Assets/Services/retail_construction.png' className='md:w-[100px] w-[50px]'></img>
               <p className='md:text-2xl text-[16px]'>Retail Construction</p>
             </div>
@@ -45,7 +48,7 @@ const Commercial = () => {
 
         <div className='flex justify-end relative overflow-hidden'>
         <img src='Assets/Services/Group 3620.png' className='absolute top-[-450px] left-[-50px]  h-[800px] block md:hidden'/>
-          <img src='Assets/Services/commercial.png' className='w-[300px] 2xl:w-[600px] md:w-[400px] 2xl:h-[600px] relative z-20 ' ></img>
+          <img src='Assets/Services/commercial.png' className='w-[300px] 2xl:w-[600px] md:w-[400px] 2xl:h-[700px] relative z-20 ' ></img>
         </div>
       </div>
     </div>

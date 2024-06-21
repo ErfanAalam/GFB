@@ -34,7 +34,7 @@ const Building = () => {
          <div className='flex justify-center'>
          <a href='/about' className='md:static absolute bottom-[-100px] right-20 flex justify-center items-center'>
          <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px] mt-10 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-4 flex items-center justify-center`}>Learn More  </button>
-         <hr className='w-[30%] block md:hidden border-t-4 absolute right-[-35px] bottom-[22px]' />
+         <hr className='w-[15%] block md:hidden border-t-4 absolute right-[-35px] bottom-[22px]' />
          </a>
          </div>
 

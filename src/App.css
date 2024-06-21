@@ -5,8 +5,15 @@
     background-size: cover;
 }
 
+#commercial{
+    background: url('/public/Assets/Services/blur0.jpg');
+}
+
 @media screen and (max-width: 640px) {
     .servicediv{
         background:none
+    }
+    #commercial{
+        background:rgb(29,30,36);
     }
 }

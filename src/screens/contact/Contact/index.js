@@ -106,7 +106,7 @@ const ContactForm = () => {
             <div className='flex flex-col gap-6'>
               <h1 className='text-[28px]'>Type of service needed</h1>
 
-              <div className='flex justify-between'>
+              <div className='flex justify-between md:gap-0 gap-4'>
                 <button
                   type="button"
                   onClick={(e) => { setServiceType(e.target.value) }}
