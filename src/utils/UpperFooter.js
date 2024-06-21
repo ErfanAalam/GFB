@@ -7,7 +7,7 @@ const UpperFooter = () => {
 
   return (
     <div id='startjourney' className=' relative text-white flex flex-col items-center bg-[hsl(231,11%,13%)] leading-[20px] md:leading-[50px]' >
-      <img src='Assets/Home/bg/start your Bulding Journey.png' className='absolute w-[100%] h-[85%] md:h-[90%]'/>
+      <img src='Assets/Home/bg/start your Bulding Journey.png' className='absolute md:w-[100%] h-[85%] md:h-[90%]'/>
       <div className='w-[80%] md:w-[80%] lg:[w-[100%]] xl:w-[60%]  text-center flex flex-col items-center justify-center md:gap-0 gap-2 mt-[10px] md:mt-[10px]'>
         <h1 className=' text-[20px] md:text-[50px] md:mt-32 mt-20 '>Start Your Build Journey</h1>
         <hr className='w-[250px] md:w-[650px] mb-10 border-t-4' />
