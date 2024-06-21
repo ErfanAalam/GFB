@@ -12,9 +12,9 @@ const Process = () => {
 
         <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-10  md:p-20 pb-10 gap-20 py-10' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
         <div className='overflow-hidden flex w-[64px] justify-between absolute left-[50%] top-[-30px] md:hidden z-[60] ' >
-          <span className={`w-[4px] h-[2220px]  bg-[${colors.mainTextColor}]`}> </span>
-          <span className='w-[4px]  h-[2220px]  bg-black'> </span>
-          <span className='w-[4px]  h-[2220px] bg-white'></span>
+          <span className={`w-[4px] h-[2200px]  bg-[${colors.mainTextColor}]`}> </span>
+          <span className='w-[4px]  h-[2200px]  bg-black'> </span>
+          <span className='w-[4px]  h-[2200px] bg-white'></span>
         </div>
           <div className=' relative z-[80] '>
             <span className='absolute md:top-10 top-20 left-24 text-[34px]  text-orange-500 z-30'>01</span>

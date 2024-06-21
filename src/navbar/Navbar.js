@@ -21,13 +21,13 @@ const Navbar = () => {
                 <a href='/'><img src='/Assets/logo.png' className='w-[100px] h-[44px] ml-10 mt-4' alt=""  /></a>
                 {
                     open ?
-                        <div className='bg-black flex flex-col p-8 w-[100%] h-[100vh] justify-between top-[-1rem] absolute z-[100]'>
+                        <div className='bg-black flex flex-col p-8 w-[100%] gap-32 justify-between top-[-1rem] absolute z-[100]'>
                             <div className='flex justify-between '>
                                <a href='/'> <img src='/Assets/logo.png' className='w-[100px] h-[44px]' alt="" /></a>
                                 <button onClick={() => setOpen(!open)}> <CloseIcon  fontSize='large'/> </button>
                             </div>
 
-                            <div className='flex flex-col   px-4 gap-8 '>
+                            <div className='flex flex-col px-4 gap-8 '>
                                 <a href="/services"> SERVICES</a>
                                 <hr className='w-[95%] ' />
                                 <a href="/process"> PROCESS</a>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                 <hr className='w-[95%] ' />
                             </div>
                             <div className='flex justify-center'>
-                                <button className='w-[380px]  p-6  text-[24px] bg-[#EF6E16] rounded-lg'>Free Consultation</button>
+                                <button className='w-[380px] p-6 text-[24px] bg-[#EF6E16] rounded-lg'>Free Consultation</button>
                             </div>
                         </div>
                         :
