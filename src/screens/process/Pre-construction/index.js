@@ -6,11 +6,12 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex relative '>
 
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px]  top-14       left-[-10px] md:left-14 border-black' />
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[600px]  top-[700px]  left-[-10px] md:left-14 border-black' />
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[1000px] top-[1350px] left-[-10px] md:left-14 border-black' />
+      {/* <div  className='w-[30px] h-[30px] absolute md:top-[200px] top-14 left-[-10px] md:left-[100px] z-[60] border-black border-4 rounded-[50%]'></div> */}
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px] top-14 left-[-10px] md:left-14 z-[60] bg-gray-200'/>
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[600px] top-[700px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[1000px] top-[1350px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
 
-      <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between  ' >
+      <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
         <div className='absolute top-4 flex left-5 gap-3'>
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>1</span>
