@@ -15,7 +15,7 @@ const ChooseGfb = () => {
       <div className='text-center flex flex-col w-[100%] md:w-[60%] md:ml-10 xl:ml-10 gap-10 xl:gap-20 items-center pr-0 md:pr-20'>
         <div className='flex flex-col items-center md:static absolute top-28 pt-4 gap-2'>
           <h1 className={`text-[24px] md:text-3xl lg:text-4xl xl:text-5xl tracking-normal md:tracking-[6px] text-[${colors.mainTextColor}]`}>Why Choose GFB Construction?</h1>
-          <hr className='w-[85%] border-t-4' />
+          <hr className='w-[45%] md:w-[80%] border-t-4' />
         </div>
         <p className='text-white text-[16px] md:text-[24px] lg:text-[30px] xl:text-2xl tracking-[4px] '>
           Our focus is on delivering nothing but the best.

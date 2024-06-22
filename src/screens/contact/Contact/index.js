@@ -34,7 +34,7 @@ const ContactForm = () => {
 
 
   return (
-    <div id='Contactform' className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40'>
+    <div id='Contactform' className='bg-[rgb(29,30,36)] flex gap-0 md:gap-10 xl:gap-40 font-jost'>
 
       <div className='w-[20%] md:w-[9%] xl:w-[5%] ml-2 xl:ml-10 flex flex-col'>
         <div className='h-[90%] bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/3.png')" }}></div>
@@ -51,7 +51,7 @@ const ContactForm = () => {
         <form onSubmit={(e) => handleSubmit(e)}>
           <div className='flex md:flex-row flex-col md:gap-20 xl:gap-0 gap-8 p-0 md:p-6 justify-between md:mb-0 mb-10'>
             <div className='flex flex-col gap-6'>
-              <label htmlFor='name' className='text-2xl '>First Name</label>
+              <label htmlFor='name' className='text-[20px] md:text-2xl '>First Name</label>
               <input onChange={(e) => setFirstName(e.target.value)}
                 value={firstName}
                 type='text'
@@ -60,7 +60,7 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16]' />
             </div>
             <div className='flex flex-col gap-6 px-0 md:px-20'>
-              <label htmlFor='name' className='text-2xl '>Last Name</label>
+              <label htmlFor='name' className='text-[20px] md:text-2xl '>Last Name</label>
               <input onChange={(e) => setLastName(e.target.value)}
                 value={lastName}
                 type='text'
@@ -73,7 +73,7 @@ const ContactForm = () => {
 
           <div className='flex md:flex-row flex-col gap-8  md:gap-20 xl:gap-0 p-0 md:p-6 justify-between md:mb-0 mb-10'>
             <div className='flex flex-col gap-6'>
-              <label htmlFor='name' className='text-2xl '>Email</label>
+              <label htmlFor='name' className='text-[20px] md:text-2xl '>Email</label>
               <input onChange={(e) => setEmail(e.target.value)}
                 type='email'
                 value={email}
@@ -82,7 +82,7 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16]' />
             </div>
             <div className='flex flex-col gap-6 px-0 md:px-20'>
-              <label htmlFor='name' className='text-2xl'>Phone Number</label>
+              <label htmlFor='name' className='text-[20px] md:text-2xl'>Phone Number</label>
               <input onChange={(e) => setPhone(e.target.value)}
                 value={phone}
                 type='number'
@@ -95,7 +95,7 @@ const ContactForm = () => {
 
           <div className='flex md:flex-row flex-col  md:gap-20 gap-8 p-0 md:p-6  justify-between'>
             <div className='flex flex-col gap-6'>
-              <label htmlFor='name' className='text-2xl '>Project Address </label>
+              <label htmlFor='name' className='text-[20px] md:text-2xl '>Project Address </label>
               <input onChange={(e) => setAddress(e.target.value)}
                 value={address}
                 type='text'
@@ -104,7 +104,7 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16]' />
             </div>
             <div className='flex flex-col gap-6'>
-              <h1 className='text-[28px]'>Type of service needed</h1>
+              <h1 className='text-[20px] md:text-[28px]'>Type of service needed</h1>
 
               <div className='flex justify-between md:gap-0 gap-4'>
                 <button
@@ -126,7 +126,7 @@ const ContactForm = () => {
           </div>
 
           <div className='flex flex-col text-white w-[100%]  py-10 md:p-6 gap-10'>
-            <h1 className='text-5xl'>Subject</h1>
+            <h1 className='text-3xl md:text-5xl'>Subject</h1>
 
             <div className='flex md:flex-row flex-col  md:gap-20 xl:gap-0 gap-10 justify-between'>
               <button
@@ -153,7 +153,7 @@ const ContactForm = () => {
             </div>
 
             <div className='flex flex-col gap-6'>
-              <label className='text-3xl'>Message</label>
+              <label className='text-[24px] md:text-3xl'>Message</label>
               <input type='text'
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder='Type your message here'

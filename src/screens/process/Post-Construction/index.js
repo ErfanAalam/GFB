@@ -25,9 +25,9 @@ const PostConstruction = () => {
           <h1 className=''>POST-CONSTRUCTION</h1>
         </div>
 
-        <div className='flex ml-0 md:ml-4 lg:ml-20 md:flex-row flex-col-reverse gap-0 md:gap-20 items-center relative md:pt-0 pt-32'>
+        <div className='flex ml-0 md:ml-4 lg:ml-20 md:flex-row flex-col-reverse gap-0 md:gap-20 items-center relative md:pt-0 pt-24'>
           <div className='w-[100%] md:w-[90%] lg:w-[90%]'>
-            <h1 className={`text-[20px] md:text-[24px] lg:text-3xl text-[${colors.mainTextColor}] md:static absolute top-20`}>5. Quality Control & Inspection</h1>
+            <h1 className={`text-[20px] md:text-[24px] lg:text-3xl text-[${colors.mainTextColor}] md:static absolute top-8`}>5. Quality Control & Inspection</h1>
             <p className=' text-[16px] md:text-[20px] lg:text-2xl tracking-[2px]'>Following construction, our team conducts comprehensive inspections to ensure every aspect of the project meets our high-quality standards.
               <br /> <br />
               Utilizing advanced tools and proven techniques, we meticulously verify the integrity of every component of your project.</p>

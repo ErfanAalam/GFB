@@ -5,8 +5,8 @@ import colors from '../../../utils/color'
 const Integrated = () => {
   return (
 
-    <div id='integrated' className='relative bg-center bg-cover bg-black text-white pb-10 overflow-hidden md:overflow-visible' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
-      <img src='Assets/Services/Group 3620.png' className='absolute top-[25%] right-[-200px] md:left-0 z-20 md:z-0 h-[600px] md:h-fit '/>
+    <div id='integrated' className='relative bg-center bg-cover bg-black text-white pb-10 overflow-hidden md:overflow-visible' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')"}}>
+      <img src='Assets/Services/Group 3620.png' className='absolute top-[30%] right-[-200px] md:left-0 z-20 md:z-0 h-[600px] md:h-fit '/>
       <div className='flex md:flex-row flex-col relative items-center gap-10 md:gap-4 2xl:gap-40 md:p-4 lg:p-4 2xl:p-20 p-6 md:pt-0 pt-32'>
 
         <div>
@@ -14,7 +14,7 @@ const Integrated = () => {
         </div>
 
 
-        <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-10 py-0  px-0 md:px-0 lg:px-2 xl:px-18 2xl:px-24'>
+        <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-10 py-0 md:pt-0 pt-10  px-0 md:px-0 lg:px-2 xl:px-18 2xl:px-24'>
           <div className='flex justify-center md:justify-start'>
             <h1 className={`text-[28px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static  text-[${colors.mainTextColor}] absolute  top-10`}>Integrated Services</h1>
           </div>

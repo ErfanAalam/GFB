@@ -3,8 +3,8 @@ import React from 'react'
 const Faq = () => {
   return (
     <>
-      <div id='FAQ' className='w-[100%] bg-white py-14'>
-        <h1 className='text-3xl md:text-5xl text-center '>Frequently Asked Questions</h1>
+      <div id='FAQ' className='w-[100%] bg-gray-200 py-10'>
+        <h1 className='text-[24px] md:text-5xl text-center '>Frequently Asked Questions</h1>
       </div>
 
       <div className='bg-[rgb(29,30,36)] flex pb-20'>
