@@ -10,7 +10,7 @@ const Building = () => {
   return (
     <div id='building' className=' bg-[rgb(29,30,36)] text-white py-20' >
       <h2 className='text-[26px] md:text-[40px] text-center  pb-2 '>Building Today, for Tomorrow</h2>
-      <hr className={`border-t-2 border-[${colors.mainTextColor}] w-[95%] md:w-[55%] ` }/>
+      <hr className={`border-t-4 border-[${colors.mainTextColor}] w-[95%] md:w-[55%]` }/>
 
       <div className=' flex md:flex-row flex-col justify-between relative' >
 

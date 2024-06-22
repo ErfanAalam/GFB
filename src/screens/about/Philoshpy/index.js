@@ -5,7 +5,7 @@ import colors from '../../../utils/color'
 const Philoshphy = () => {
   return (
     <div id='philosiphy' className='bg-cover p-4 2xl:p-20 pb-10 2xl:pb-[100px] bg-black text-center relative text-white md:py-0 py-20' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
-      <img src='Assets/About us/Assets/1.png' className='absolute top-[20%] md:top-[50%] lg:top-[20%] 2xl:top-[20%] right-[80px] md:right-[150px] 2xl:right-[360px] z-10'/>
+      <img src='Assets/About us/Assets/1.png' className='absolute hidden md:block top-[20%] md:top-[50%] lg:top-[20%] 2xl:top-[20%] right-[80px] md:right-[150px] 2xl:right-[360px] z-10'/>
       <div className='flex flex-col items-center gap-2'>
         <h1 className={`text-2xl md:text-5xl text-[${colors.mainTextColor}]  tracking-normal md:tracking-[4px]`}>Our Philosophy & Mindset</h1>
         <hr className='w-[60%] md:w-[40%] lg:w-[50%] 2xl:w-[30%] border-t-4 border-t-white' />
