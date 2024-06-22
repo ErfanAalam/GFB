@@ -7,6 +7,9 @@
 
 #commercial{
     background: url('/public/Assets/Services/blur0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 @media screen and (max-width: 640px) {

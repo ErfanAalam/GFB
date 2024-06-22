@@ -6,13 +6,12 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex relative '>
 
-      {/* <div  className='w-[30px] h-[30px] absolute md:top-[200px] top-14 left-[-10px] md:left-[100px] z-[60] border-black border-4 rounded-[50%]'></div> */}
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px] top-14 left-[-10px] md:left-14 z-[60] bg-gray-200'/>
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px] top-[200px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
       <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[600px] top-[700px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[1000px] top-[1350px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[1000px] top-[1200px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
 
       <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
-        <div className='absolute top-4 flex left-5 gap-3'>
+        <div className='absolute top-8 md:top-10 flex left-5 gap-3'>
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>1</span>
         </div>
@@ -25,7 +24,7 @@ const PreConstruction = () => {
         <span className='w-[4px] h-[100%] bg-white'></span>
       </div>
 
-      <div className='p-2 md:p-4 xl:p-20 w-[80%] mt-4 flex flex-col gap-4 md:gap-8 relative z-10'>
+      <div className='p-2 md:p-4 xl:p-10 pt-8 md:pt-0 w-[80%] mt-0 flex flex-col gap-4 md:gap-8 relative z-10'>
 
         <div className='text-[24px] md:text-[28px] lg:text-3xl xl:text-4xl '>
           <h1 className=' '>PRE-CONSTRUCTION</h1>
@@ -59,7 +58,7 @@ const PreConstruction = () => {
 
         </div>
 
-        <div className='flex m-2 md:ml-4 lg:ml-20 md:pt-0 pt-20 md:flex-row flex-col-reverse gap-0 md:gap-20 mb-20 items-center relative '>
+        <div className='flex m-2 md:ml-4 lg:ml-20 md:pt-0 pt-20 md:flex-row flex-col-reverse gap-0 md:gap-20 items-center relative '>
           <div className='w-[100%] md:w-[70%] xl:w-[90%]'>
             <h1 className={`text-[20px] md:text-3xl text-[${colors.mainTextColor}] md:static absolute top-10`}>3. Permitting & Approvals</h1>
             <p className=' text-[16px] md:text-2xl tracking-[2px]'>Navigating regulatory requirements can be tricky, but we've got you covered.

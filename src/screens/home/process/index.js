@@ -5,17 +5,19 @@ import ProcessCards from '../../../Cards/ProcessCards'
 const Process = () => {
   return (
     <div id='process'>
-      <section className='bg-[rgb(29,30,36)] text-white text-center relative'>
+      <section className='bg-[rgb(29,30,36)] text-white text-center relative p-4'>
         <button className={`text-[${colors.textWhite}] text-[30px] md:text-[34px] relative w-[300px] z-20  md:w-[260px]  my-8 p-3 bg-black  h-[100px] md:h-[58px] leading-[31.35px] border-2`}>Process</button>
 
         
 
-        <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-10  md:p-20 pb-10 gap-20 py-10' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
+        <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-10  md:p-0 pb-10 md:pb-10 gap-20 py-10' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
+        
         <div className='overflow-hidden flex w-[64px] justify-between absolute left-[50%] top-[-30px] md:hidden z-[60] ' >
           <span className={`w-[4px] h-[2200px]  bg-[${colors.mainTextColor}]`}> </span>
           <span className='w-[4px]  h-[2200px]  bg-black'> </span>
           <span className='w-[4px]  h-[2200px] bg-white'></span>
         </div>
+
           <div className=' relative z-[80] '>
             <span className='absolute md:top-10 top-20 left-24 text-[34px]  text-orange-500 z-30'>01</span>
             <button className=' py-2 w-[220px] z-20  md:w-[240px] shadow-inner shadow-gray-600 p-1 text-white text-[24px] md:text-[24px] mb-0 absolute md:top-20 top-32 left-20  md:mb-14 tracking-wide leading-8 rounded-lg bg-[rgb(29,30,36)]  '>Pre-Construction</button>
@@ -34,6 +36,7 @@ const Process = () => {
             <button className=' py-2 w-[250px] z-20  md:w-[240px] shadow-inner shadow-gray-600 p-1 text-white text-[24px] md:text-[24px] mb-0 absolute md:top-20 top-32 left-[-18px] md:mb-14 tracking-wide leading-8 rounded-lg bg-[rgb(29,30,36)]'>Post-Construction</button>
             <ProcessCards title="Post-Construction" src="Assets/Home/post_onstruction.png" count={"03"} heading={"Ensuring Perfection"} desc="After the build, our commitment continues. We inspect, refine, and guarantee our work, ensuring your space stands the test of time and resonates with perfection." />
           </div>
+
         </div>
       </section>
     </div>

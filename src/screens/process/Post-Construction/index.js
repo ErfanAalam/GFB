@@ -10,8 +10,8 @@ const PostConstruction = () => {
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>3</span>
         </div>
-        <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-80 top-48 left-[45px] md:left-[115px] z-[60] bg-gray-200' />
-        <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[800px] bottom-[600px] left-[45px] md:left-[115px] z-[60] bg-gray-200' />
+        <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px] top-[350px] left-[45px] md:left-[115px] z-[60] bg-gray-200' />
+        <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[600px] top-[950px] left-[45px] md:left-[115px] z-[60] bg-gray-200' />
 
       <div className='overflow-hidden flex w-[64px] relative mx-2 md:mx-20 justify-between  ' >
         <span className='w-[4px] h-[100%] bg-black '></span>
@@ -19,9 +19,9 @@ const PostConstruction = () => {
         <span className={`w-[4px] h-[100%] bg-[${colors.mainTextColor}]`}></span> 
       </div>
 
-      <div className='p-2 md:p-4 lg:p-20 w-[80%] mt-4'>
+      <div className='p-2 md:p-4 lg:p-10 w-[80%] md:mt-0 mt-10'>
 
-        <div className='text-2xl md:text-4xl '>
+        <div className='text-2xl md:text-[32px] '>
           <h1 className=''>POST-CONSTRUCTION</h1>
         </div>
 
@@ -41,7 +41,7 @@ const PostConstruction = () => {
 
 
 
-        <div className='flex ml-2 md:ml-4 mt-0 md:mt-8 lg:ml-20 md:flex-row flex-col justify-between items-center relative md:pt-0 pt-32 mb-20 md:mb-10'>
+        <div className='flex ml-2 md:ml-4 mt-0 md:mt-8 lg:ml-20 md:flex-row flex-col justify-between gap-0 md:gap-20  items-center relative md:pt-0 pt-32 mb-20 md:mb-10'>
 
           <div className='w-[80%] md:w-[60%] lg:w-[30%]'>
             <img src='Assets/Process/7.png' />

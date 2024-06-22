@@ -14,7 +14,7 @@ const Integrated = () => {
         </div>
 
 
-        <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-20 py-0  px-0 md:px-0 lg:px-2 xl:px-18 2xl:px-24'>
+        <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-10 py-0  px-0 md:px-0 lg:px-2 xl:px-18 2xl:px-24'>
           <div className='flex justify-center md:justify-start'>
             <h1 className={`text-[28px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static  text-[${colors.mainTextColor}] absolute  top-10`}>Integrated Services</h1>
           </div>

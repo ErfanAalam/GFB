@@ -9,10 +9,10 @@ const ChooseGfb = () => {
       <img src='Assets/About us/Assets/Group 66.png' className='block md:hidden h-[1000px] absolute top-[-580px] left-0 z-[100]' />
 
       <div className='w-[100%] md:w-[40%] xl:w-[30%] relative z-30 flex justify-center'>
-        <img src='Assets/About us/3.png' className='w-[400px] md:h-[700px] lg:h-[700px] xl:h-[700px]'></img>
+        <img src='Assets/About us/3.png' className='w-[400px] md:h-[600px] lg:h-[600px] xl:h-[600px]'></img>
       </div>
 
-      <div className='text-center flex flex-col w-[100%] md:w-[70%] md:ml-4 xl:ml-20 gap-10  xl:gap-20 items-center '>
+      <div className='text-center flex flex-col w-[100%] md:w-[60%] md:ml-10 xl:ml-10 gap-10 xl:gap-20 items-center pr-0 md:pr-20'>
         <div className='flex flex-col items-center md:static absolute top-28 pt-4 gap-2'>
           <h1 className={`text-[24px] md:text-3xl lg:text-4xl xl:text-5xl tracking-normal md:tracking-[6px] text-[${colors.mainTextColor}]`}>Why Choose GFB Construction?</h1>
           <hr className='w-[85%] border-t-4' />

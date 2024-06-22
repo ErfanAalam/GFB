@@ -12,20 +12,20 @@ const Construction = () => {
           <span className='text-3xl'>2</span>
         </div>
         <span className='w-[4px] h-[100%] bg-black'>
-          <img src='Assets/Contact us/2.png' className='w-[50px] absolute bottom-60 left-2 bg-[rgb(29,30,36)]' />
+          <img src='Assets/Contact us/2.png' className='w-[50px] absolute top-[45%] left-2 bg-[rgb(29,30,36)]' />
 
         </span>
         <span className={`w-[4px] h-[100%] bg-[${colors.mainTextColor}]`}> </span>
         <span className='w-[4px] h-[100%] bg-black'></span>
       </div>
 
-      <div className='p-2 md:p-4 lg:p-20 w-[80%] mt-4'>
+      <div className='p-2 md:p-4 lg:p-10 w-[80%] mt-10 md:mt-0'>
 
         <div className='text-2xl md:text-4xl text-white '>
           <h1 className=''>CONSTRUCTION</h1>
         </div>
 
-        <div className='flex ml-2 md:ml-4 lg:ml-10 md:flex-row flex-col-reverse justify-between items-center p-2 relative md:pt-0 pt-16'>
+        <div className='flex ml-2 md:ml-4 lg:ml-10 md:flex-row flex-col-reverse justify-between items-center p-2 relative md:pt-0 pt-14'>
           <div className='w-[100%] md:w-[70%] lg:w-[50%]'>
             <h1 className={`text-[20px] md:text-3xl text-[${colors.mainTextColor}] md:static absolute top-4`}>4. Construction Phase</h1>
             <p className='text-[16px] md:text-[20px] text-white tracking-normal md:tracking-[2px]'>We maintain transparent communication through regular updates and scheduled on-site meetings, keeping you closely connected to the project's progress.
