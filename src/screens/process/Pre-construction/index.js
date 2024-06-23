@@ -6,9 +6,9 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex relative '>
 
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px] top-[200px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[600px] top-[700px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[1000px] top-[1200px] left-[-10px] md:left-14 z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[200px] top-[200px] left-[-10px] md:left-14 z-[60] ' />
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[600px] top-[700px] left-[-10px] md:left-14 z-[60] ' />
+      <img src='Assets/Contact us/2.png' className='w-[50px] absolute md:top-[1000px] top-[1200px] left-[-10px] md:left-14 z-[60] ' />
 
       <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
         <div className='absolute top-8 md:top-10 flex left-5 gap-3'>
