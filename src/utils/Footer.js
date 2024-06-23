@@ -22,11 +22,11 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
                     <a href='/'> <img src='Assets/Insta.png' alt='linkedin icon' /> </a>
                 </div>
 
-                <div className=' w-[240px] text-center md:w-[270px]'>
-                    <p>icense Number # #1114879
-                        Email (will Change) info@gfbconstruction.com
-                        Phone Number - 559-389-3646
-                        Location - Fresno California (edited)</p>
+                <div className=' w-[240px] text-center md:text-left md:w-[270px]'>
+                    <p>icense Number # #1114879 </p>
+                    <p>Email (will Change) info@gfbconstruction.com</p>
+                    <p>Phone Number - 559-389-3646</p>
+                    <p>Location - Fresno California (edited)</p>
                 </div>
 
                 <div className='flex flex-col items-center gap-4 text-gray-400'>

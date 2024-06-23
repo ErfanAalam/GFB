@@ -5,18 +5,17 @@ import '../../../App.css'
 
 const Commercial = () => {
   return (
-    <div id='commercial' className='bg-cover  text-white md:py-20 py-16 md:pl-6  2xl:pl-40 pl-4 pt-0 md:pt-40'>
+    <div id='commercial' className='text-white md:py-20 py-16 md:pl-6  2xl:pl-40 pl-4 pt-0 md:pt-48'>
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-10 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
-        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl::px-20 px-4'>
+        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl::px-20 px-4 mt-20'>
           <div className='flex justify-center md:justify-start'>
             <h1 className={`text-3xl md:text-[24px] lg:text-[30px] 2xl:text-5xl md:static  text-[${colors.mainTextColor}] absolute top-2 `}>Commercial</h1>
           </div>
 
           <p className='text-[20px] md:text-[20px] 2xl:text-2xl text-white'>GFB excels in developing commercial spaces that are both practical and visually appealing.
             <br /> <br />
-
             Our expertise extends to offices, warehouses, retail stores, restaurants, and more. Focusing on providing solutions that are efficient and cost-effective.
             <br /><br />
             We work closely with you to ensure that the final space reflects your brand and needs.
@@ -45,7 +44,7 @@ const Commercial = () => {
         </div>
 
         <div className='flex justify-end relative overflow-hidden'>
-        <img src='Assets/Services/Group 3620.png' className='absolute top-[-450px] left-[-50px]  h-[800px] block md:hidden'/>
+          <img src='Assets/Services/Group 3620.png' className='absolute top-[-200px] left-[-119px]  h-[350px] block md:hidden' />
           <img src='Assets/Services/commercial.png' className='w-[300px] 2xl:w-[600px] md:w-[400px] 2xl:h-[700px] relative z-20 ' ></img>
         </div>
       </div>
