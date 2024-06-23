@@ -14,7 +14,7 @@ const Integrated = () => {
         </div>
 
 
-        <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-10 py-0 md:pt-0 lg:pt-0 xl:pt-0  pt-10  px-0 md:px-0 lg:px-2 xl:px-18 2xl:px-24'>
+        <div className='w-[100%] md:w-[95%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] md:py-10 py-0 md:pt-0 lg:pt-10 xl:pt-20  pt-10  px-0 md:px-0 lg:px-2 xl:px-18 2xl:px-24'>
           <div className='flex justify-center md:justify-start'>
             <h1 className={`text-[28px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static  text-[${colors.mainTextColor}] absolute  top-10`}>Integrated Services</h1>
           </div>
@@ -25,19 +25,19 @@ const Integrated = () => {
             <br /> <br />
             See how our skilled professionals can help with your next project!</p>
 
-          <div className='mt-10 md:block flex gap-4'>
+          <div className='mt-10 md:block flex gap-0'>
 
-            <div className='flex flex-row items-center md:gap-10 gap-0'>
+            <div className='flex flex-row items-center md:gap-10 gap-0 h-[80px]'>
               <img src='Assets/Services/Architects.png' className='md:w-[100px] w-[40px]'></img>
               <p className='md:text-2xl text-[16px]'>Architects</p>
             </div>
 
-            <div className='flex flex-row items-center md:ml-10 lg:ml-20 ml-0 md:gap-10 gap-0' >
+            <div className='flex flex-row items-center md:ml-10 lg:ml-20 ml-0 md:gap-10 gap-0 h-[80px]' >
               <img src='Assets/Services/Electricians.png' className='md:w-[100px] w-[40px]'></img>
               <p className='md:text-2xl text-[16px]'>Electricians</p>
             </div>
 
-            <div className='flex flex-row  items-center md:gap-10 gap-0'>
+            <div className='flex flex-row  items-center md:gap-10 gap-0 h-[80px]'>
               <img src='Assets/Services/Engineers.png' className='md:w-[100px] w-[40px]'></img>
               <p className='md:text-2xl text-[16px]'>Engineers</p>
             </div>

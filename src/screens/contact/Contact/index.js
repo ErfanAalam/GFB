@@ -43,7 +43,7 @@ const ContactForm = () => {
 
       <div className='text-white w-[65%] md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 md:mr-0 mr-4 py-10 p-4 xl:p-20'>
 
-        <div className='flex flex-col items-center mb-20'>
+        <div className='flex flex-col items-center mb-20 gap-2'>
           <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
           <hr className='w-[60%] md:w-[30%] border-t-4 border-[#EF6E16]' />
         </div>
