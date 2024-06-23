@@ -10,11 +10,11 @@ const Navbar = () => {
     return (
         <div className='font-orelaga'>
             <div className=' md:absolute md:top-4 hidden md:w-[100%] md:bg-black md:bg-opacity-60 md:flex md:justify-evenly md:items-center md:text-white md:py-6    md:text-[22px] '>
-                <a href="/services"> SERVICES</a>
-                <a href="/process"> PROCESS</a>
+                <a href="/services"> Services</a>
+                <a href="/process"> Process</a>
                 <a href='/'><img src='/Assets/logo.png' className='w-[100px] h-[44px]' alt="" /></a>
-                <a href="/about">ABOUT US</a>
-                <a href="/contact"> CONTACT</a>
+                <a href="/about">About us</a>
+                <a href="/contact"> Contact</a>
             </div>
 
             <div className='absolute top-0 md:hidden text-white w-[100%] flex justify-between '>
@@ -28,13 +28,13 @@ const Navbar = () => {
                             </div>
 
                             <div className='flex flex-col px-4 gap-8 '>
-                                <a href="/services"> SERVICES</a>
+                                <a href="/services"> Services</a>
                                 <hr className='w-[95%] ' />
-                                <a href="/process"> PROCESS</a>
+                                <a href="/process"> Process</a>
                                 <hr className='w-[95%] ' />
-                                <a href="/about">ABOUT US</a>
+                                <a href="/about">About us</a>
                                 <hr className='w-[95%] ' />
-                                <a href="/Contact"> CONTACT</a>
+                                <a href="/Contact"> Contact</a>
                                 <hr className='w-[95%] ' />
                             </div>
                             <div className='flex justify-center'>

@@ -23,7 +23,7 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
                 </div>
 
                 <div className=' w-[240px] text-center md:text-left md:w-[270px]'>
-                    <p>icense Number # #1114879 </p>
+                    <p>License Number # #1114879 </p>
                     <p>Email (will Change) info@gfbconstruction.com</p>
                     <p>Phone Number - 559-389-3646</p>
                     <p>Location - Fresno California (edited)</p>
@@ -53,7 +53,7 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
 
 
             <div className='flex  flex-col items-center gap-6 mt-10'>
-                <hr className='w-[100%] border-t-4' />
+                <hr className='w-[100%] md:border-t-[1px] border-t-4' />
                 <p className='font-[700] text-[15px] text-center'>© 2024 GFB Construction and Engineering. All Rights Reserved</p>
             </div>
 

@@ -9,15 +9,15 @@ const Building = () => {
 
   return (
     <div id='building' className=' bg-[rgb(29,30,36)] text-white py-10' >
-      <h2 className='text-[26px] md:text-[40px] text-center  pb-2 '>Building Today, for Tomorrow</h2>
-      <hr className={`border-t-4 border-[${colors.mainTextColor}] w-[95%] md:w-[55%]`} />
+      <h2 className='text-[26px] md:text-[40px] text-center  pb-2 tracking-normal md:tracking-[6px]'>Building Today, for Tomorrow</h2>
+      <hr className={`border-t-4 border-[${colors.mainTextColor}] w-[95%] md:w-[68%] lg:w-[65%] xl:w-[63%] 2xl:w-[59%]`} />
 
       <div className=' flex md:flex-row flex-col justify-between relative' >
 
         <div className='relative p-6 md:p-0 md:w-[40%] pt-10 ' >
           <img src='Assets/Home/more_about_us.png' className='w-[592px] md:w-[529px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[700px] 2xl:w-[792px]  relative z-30 bg-black md:bg-transparent  md:pt-10' alt=''></img>
           <a href='/about'>
-            <button className={`text-[${colors.textWhite}] hidden md:block absolute z-30 top-[100px]  border-r-0 right-[-60px] text-[24px] p-2 bg-black bg-opacity-70  h-[52px] leading-[31.35px] border-2`}>MORE ABOUT US</button>
+            <button className={`text-[${colors.textWhite}] hidden md:block absolute z-30 top-[200px]  border-r-0 right-[-60px] text-[24px] p-2 bg-black bg-opacity-70  h-[72px] leading-[31.35px] border-2`}>MORE ABOUT US</button>
           </a>
         </div>
 
