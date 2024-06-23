@@ -161,13 +161,13 @@ const ContactForm = () => {
               < hr className=' border-t-4 border-[#EF6E16]' />
             </div>
 
-            <div className='flex flex-col gap-6 w-[100%] md:w-[50%]'>
+            <div className='flex flex-col gap-6 '>
               <label className='text-[20px] md:text-3xl'>How Did You Hear About Us?</label>
               <input type='text'
                 onChange={(e) => setHearAbout(e.target.value)}
                 placeholder='(optional)'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16]' />
+              <hr className=' border-t-4 border-[#EF6E16] w-[100%] md:w-[55%] lg:w-[55%] xl:w-[55%] 2xl:w-[45%] 3xl:w-[40%]' />
             </div>
 
             <div className='flex justify-center mt-10'>

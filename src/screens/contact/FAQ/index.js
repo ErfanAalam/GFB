@@ -13,23 +13,23 @@ const Faq = () => {
 
         <div className='flex flex-col text-white w-[100%] md:w-[80%] md:px-0 px-4  py-10 gap-10'>
             
-            <div className='flex flex-col items-center text-center'>
-              <img src='Assets/Contact us/2.png'/>
+            <div className='flex flex-col items-center text-center gap-4'>
+              <img src='Assets/Contact us/2.png' className='rounded-[40%]'/>
               <h1 className='text-[24px] md:text-3xl text-[#EF6E16] tracking-normal md:tracking-[3px]'>How Do I Start My project with GFB?</h1>
               <p className='text-[20px] md:text-2xl tracking-normal md:tracking-[4px]'>Start by filling out our contact form above, or give us a call. We'll set up a no-obligation consultation to discuss your project and guide you through our process.
               </p>
             </div>
 
 
-            <div className='flex flex-col items-center text-center'>
-            <img src='Assets/Contact us/2.png'/>
+            <div className='flex flex-col items-center text-center gap-4'>
+            <img src='Assets/Contact us/2.png' className='rounded-[40%]'/>
               <h1 className='text-[24px] md:text-3xl text-[#EF6E16] tracking-normal md:tracking-[3px]'>Do you provide consultation for both residential and commercial projects?</h1>
               <p className='text-[20px] md:text-2xl tracking-normal md:tracking-[4px]'>Absolutely, we cater to both residential and commercial construction needs, offering tailored solutions </p>
             </div>
 
 
             <div className='flex flex-col items-center text-center gap-4'>
-            <img src='Assets/Contact us/2.png'/>
+            <img src='Assets/Contact us/2.png' className='rounded-[40%]'/>
               <h1 className='text-[24px] md:text-3xl text-[#EF6E16] tracking-normal md:tracking-[3px]'>Can I provide my own designs or sketches?</h1>
               <p className='text-[20px] md:text-2xl tracking-normal md:tracking-[4px]'>Certainly! We work closely with our clients, ensuring their vision is realized. Our in-house architects can also help refine or develop your design concepts further. Remember to bring this up during your consultation!</p>
             </div>
