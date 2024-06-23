@@ -10,7 +10,7 @@ const Philoshphy = () => {
 
       <div className='flex flex-col items-center gap-2 mb-10'>
         <h1 className={`text-2xl md:text-5xl text-[${colors.mainTextColor}]  tracking-normal md:tracking-[4px]`}>Our Philosophy & Mindset</h1>
-        <hr className='w-[40%] md:w-[40%] lg:w-[50%] 2xl:w-[30%] border-t-4 border-t-white' />
+        <hr className='w-[53%] md:w-[40%] lg:w-[50%] 2xl:w-[30%] border-t-4 border-t-white' />
       </div>
 
       <div className='mb-10 flex justify-center relative z-20'>
