@@ -44,7 +44,7 @@ const Commercial = () => {
         </div>
 
         <div className='flex justify-end relative overflow-hidden pt-10'>
-          <img src='Assets/Services/Group 3620.png' className='absolute top-[-150px] right-[140px] w-[80%] h-[260px] block md:hidden ' />
+          <img src='Assets/Services/Group 3620.png' className='absolute top-[-160px] 3xsm:top-[-200px] 4xsm:top-[-210px] right-[140px] 4xsm:right-[150px] w-[100%] 2xsm:w-[100%] h-[270px] 3xsm:h-[340px] 4xsm:h-[360px] block md:hidden'/>
           <img src='Assets/Services/commercial.png' className='w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[500px] lg:h-[500px] 2xl:h-[700px] relative z-20 ' ></img>
         </div>
       </div>
