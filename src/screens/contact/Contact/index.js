@@ -41,7 +41,7 @@ const ContactForm = () => {
         <div className='h-[100%] bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/2.png')" }}></div>
       </div>
 
-      <div className='text-white w-[65%] md:w-[80%] lg:w-[70%] xl:w-[60%] md:ml-0 ml-0 md:mr-0 mr-4 py-10 p-4 xl:p-20'>
+      <div className='text-white w-[65%] md:w-[80%] lg:w-[80%] xl:w-[70%] md:ml-0 ml-0 md:mr-0 mr-4 py-10 p-4 xl:p-20'>
 
         <div className='flex flex-col items-center mb-20 gap-2'>
           <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
@@ -57,7 +57,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your first name here'
                 className='border-none  bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
             <div className='flex flex-col gap-6 px-0 md:px-20'>
               <label htmlFor='name' className='text-[20px] md:text-2xl '>Last Name</label>
@@ -66,7 +66,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your last name here'
                 className='border-none  bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
           </div>
 
@@ -79,7 +79,7 @@ const ContactForm = () => {
                 value={email}
                 placeholder='Enter your email here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
             <div className='flex flex-col gap-6 px-0 md:px-20'>
               <label htmlFor='name' className='text-[20px] md:text-2xl'>Phone Number</label>
@@ -88,7 +88,7 @@ const ContactForm = () => {
                 type='number'
                 placeholder='Enter your phone number here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
           </div>
 
@@ -101,7 +101,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='(optiional)'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
             <div className='flex flex-col gap-6'>
               <h1 className='text-[20px] md:text-[28px]'>Type of service needed</h1>

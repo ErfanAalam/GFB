@@ -10,8 +10,10 @@ const UpperFooter = () => {
       <img src='Assets/Home/bg/start your Bulding Journey.png' className='absolute md:w-[100%] h-[73%] md:h-[76%]' />
 
       <div className='w-[80%] md:w-[80%] lg:w-[100%] xl:w-[60%]  text-center flex flex-col items-center justify-center md:gap-0 gap-2 mt-[10px] md:mt-[10px]'>
-        <h1 className=' text-[20px] md:text-[46px] md:mt-32 mt-20 '>Start Your Build Journey</h1>
-        <hr className='w-[250px] md:w-[530px] mb-10 border-t-4' />
+        <div className='flex flex-col gap-4'>
+        <h1 className=' text-[20px] md:text-[40px] md:mt-32 mt-20 '>Start Your Build Journey</h1>
+        <hr className='w-[250px] md:w-[480px] mb-10 border-t-4' />
+        </div>
         <div className='w-[80%] md:w-[70%] lg:w-[60%] xl:w-[50%] md:font-jost font-orelaga'>
           <p className='text-[16px] md:text-[26px] mb-2 leading-5 md:leading-8'>At GFB, we turn aspirations into architectural masterpieces. </p>
           <p className='text-[16px] md:text-[26px] mb-2 leading-5 md:leading-8'>Serving California, we're ready to bring your construction dreams to life. </p>

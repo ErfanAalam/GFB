@@ -29,7 +29,7 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
                     <p>Location - Fresno California (edited)</p>
                 </div>
 
-                <div className='flex flex-col items-center gap-4 text-gray-400'>
+                <div className='flex flex-col items-center md:items-start gap-4 text-gray-400'>
                     <a href='/services' className={`text-[${colors.mainTextColor}]`}>Services</a>
                     <a href={`#${link1}`} >{link1}</a>
                     <a href={`#${link2}`}>{link2}</a>

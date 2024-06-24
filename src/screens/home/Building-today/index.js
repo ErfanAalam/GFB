@@ -21,7 +21,7 @@ const Building = () => {
           </a>
         </div>
 
-        <div className='overflow-hidden flex w-[64px] h-[98%] md:h-[300%] justify-between absolute right-[13%] md:left-[48.4%] z-20 md:z-10' >
+        <div className='overflow-hidden flex w-[64px] h-[98%] md:h-[300%] justify-between absolute right-[50px] md:left-[48.4%] z-20 md:z-10' >
           <span className={`w-[4px]  bg-[${colors.mainTextColor}]`}> </span>
           <span className='w-[4px]  bg-black'> </span>
           <span className='w-[4px]  bg-white'></span>
