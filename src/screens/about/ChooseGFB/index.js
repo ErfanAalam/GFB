@@ -6,7 +6,7 @@ const ChooseGfb = () => {
   return (
     <div id='Choose' className='bg-cover bg-center bg-black flex md:flex-row flex-col md:pt-20 justify-around p-4 py-10 md:py-32 pt-48 relative' style={{ backgroundImage: "url('Assets/Services/blur-3.png')" }}>
 
-      <div className='absolute bg-black backdrop-blur-lg h-[20vh] w-[100%] blur-[30px] opacity-40 bottom-[-80px] z-[100] '></div>
+      <div className='absolute bg-black backdrop-blur-lg h-[10vh] md:h-[20vh] w-[90%] md:w-[100%] blur-[30px] opacity-40 bottom-[-80px] z-[100] '></div>
 
       <img src='Assets/About us/Assets/Group 66.png' className='block md:hidden h-[1000px] absolute top-[-580px] left-0 z-[100]' />
 

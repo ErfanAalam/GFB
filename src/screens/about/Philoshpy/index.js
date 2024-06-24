@@ -8,7 +8,7 @@ const Philoshphy = () => {
 
       <img src='Assets/About us/Assets/1.png' className='h-[90%] absolute hidden md:block top-[20%] md:top-[27%] lg:top-[30%] xl:top-[30%] 2xl:top-[30%] right-[80px] md:right-[150px] lg:right-[100px] xl:right-[150px] 2xl:right-[16%] 3xl:right-[22%] z-10' />
 
-      <div className='flex flex-col items-center gap-2 mb-10'>
+      <div className='flex flex-col items-center gap-2 mb-10 mt-10 md:mt-0'>
         <h1 className={`text-2xl md:text-5xl text-[${colors.mainTextColor}]  tracking-normal md:tracking-[4px]`}>Our Philosophy & Mindset</h1>
         <hr className='w-[53%] md:w-[60%] lg:w-[50%] xl:w-[30%] 2xl:w-[26%] border-t-4 border-t-white' />
       </div>
