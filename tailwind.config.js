@@ -11,7 +11,9 @@ module.exports = {
         jost:["Jost"]
       },
       screens:{
-        '3xl': '1750px'
+        '3xl': '1750px',
+        'xsm': "400px",
+        '2xsm': "500px"
       }
     },
   },
