@@ -5,14 +5,14 @@ import ProcessCards from '../../../Cards/ProcessCards'
 const Process = () => {
   return (
     <div id='process'>
-      <section className='bg-[rgb(29,30,36)] text-white text-center relative p-0'>
-        <button className={`text-[${colors.textWhite}] text-[24px] md:text-[24px] relative w-[300px] z-20  md:w-[260px]  my-8 p-3 bg-black h-[100px] md:h-[58px] leading-[31.35px] border-2`}>Process</button>
+      <section className='bg-[rgb(29,30,36)] text-white text-center relative p-0 pt-8 md:pt-14'>
+        <button className={`text-[${colors.textWhite}] text-[24px] md:text-[24px] relative w-[260px] z-20  md:w-[260px]  my-8 p-3 bg-black h-[70px] md:h-[58px] leading-[31.35px] border-2`}>Process</button>
 
         
 
         <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-10  md:p-0 pb-10 md:pb-10 gap-20 py-10' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
         
-        <div className='overflow-hidden flex w-[64px] justify-between absolute left-[50%] top-[-30px] md:hidden z-[60] ' >
+        <div className='overflow-hidden flex w-[64px] justify-between absolute left-[40%] top-[-30px] md:hidden z-[60] ' >
           <span className={`w-[4px] h-[2200px]  bg-[${colors.mainTextColor}]`}> </span>
           <span className='w-[4px]  h-[2200px]  bg-black'> </span>
           <span className='w-[4px]  h-[2200px] bg-white'></span>

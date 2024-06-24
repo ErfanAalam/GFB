@@ -14,7 +14,7 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
 
 
 
-            <div className='flex justify-between items-center gap-4 md:gap-0 md:items-center md:flex-row flex-col mt-10'>
+            <div className='flex justify-between gap-4 md:gap-0  md:flex-row flex-col mt-14'>
                 <div className='md:flex hidden  w-[350px] gap-10 '>
                     <p>Follow Us on Social Media</p>
                     <a href='/'> <img src='Assets/Linkedin.png' alt='linkedin icon' /> </a>

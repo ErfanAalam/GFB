@@ -21,7 +21,7 @@ const Building = () => {
           </a>
         </div>
 
-        <div className='overflow-hidden flex w-[64px] h-[98%] md:h-[300%] justify-between absolute right-[12%] md:left-[48.4%] z-20 md:z-10' >
+        <div className='overflow-hidden flex w-[64px] h-[98%] md:h-[300%] justify-between absolute right-[13%] md:left-[48.4%] z-20 md:z-10' >
           <span className={`w-[4px]  bg-[${colors.mainTextColor}]`}> </span>
           <span className='w-[4px]  bg-black'> </span>
           <span className='w-[4px]  bg-white'></span>
@@ -34,7 +34,7 @@ const Building = () => {
             </p>
 
           </div>
-          <div className='flex justify-center'>
+          <div className='flex justify-center mr-10'>
             <a href='/about' className='md:static absolute bottom-0  flex justify-center items-center z-[100]'>
               <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px] mt-10 w-[225px]  p-2 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-4 flex items-center justify-center`}>Learn More  </button>
               <hr className='w-[15%] block md:hidden border-t-4 absolute right-[-35px] bottom-[22px]' />

@@ -27,17 +27,17 @@ const Integrated = () => {
 
           <div className='mt-10 md:block flex gap-0'>
 
-            <div className='flex flex-row items-center md:gap-10 gap-0 h-[80px]'>
+            <div className='flex flex-row items-center md:gap-4 gap-0 h-[80px]'>
               <img src='Assets/Services/Architects.png' className='md:w-[100px] w-[40px]'></img>
               <p className='md:text-2xl text-[16px]'>Architects</p>
             </div>
 
-            <div className='flex flex-row items-center md:ml-10 lg:ml-20 ml-0 md:gap-10 gap-0 h-[80px]' >
+            <div className='flex flex-row items-center md:ml-10 lg:ml-20 ml-0 md:gap-4 gap-0 h-[80px]' >
               <img src='Assets/Services/Electricians.png' className='md:w-[100px] w-[40px]'></img>
               <p className='md:text-2xl text-[16px]'>Electricians</p>
             </div>
 
-            <div className='flex flex-row  items-center md:gap-10 gap-0 h-[80px]'>
+            <div className='flex flex-row  items-center md:gap-4 gap-0 h-[80px]'>
               <img src='Assets/Services/Engineers.png' className='md:w-[100px] w-[40px]'></img>
               <p className='md:text-2xl text-[16px]'>Engineers</p>
             </div>
