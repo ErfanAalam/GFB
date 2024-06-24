@@ -10,12 +10,18 @@ const Process = () => {
 
         
 
-        <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-4  md:p-0 pb-10 md:pb-10 gap-20 py-10 shadow-custom' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
+        <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-4  md:p-0 pb-10 md:pb-20 gap-20 py-10 ' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
         
         <div className='overflow-hidden flex w-[64px] justify-between absolute left-[41%] xsm:left-[42%] 2xsm:left-[44%] top-[-30px] md:hidden z-[60]' >
           <span className={`w-[4px] h-[2205px]  bg-[${colors.mainTextColor}]`}> </span>
           <span className='w-[4px]  h-[2205px]  bg-black md:opacity-100 opacity-30'> </span>
           <span className='w-[4px]  h-[2205px] bg-white'></span>
+        </div>
+
+         <div className='overflow-hidden md:flex w-[64px] justify-between absolute left-[48.4%]  top-[-30px] hidden  z-[60]' >
+          <span className={`w-[4px] h-[805px]  bg-[${colors.mainTextColor}] opacity-30`}> </span>
+          {/* <span className='w-[4px]  h-[205px]  bg-black md:opacity-100 opacity-30'> </span>
+          <span className='w-[4px]  h-[205px] bg-white'></span> */}
         </div>
 
           <div className=' relative z-[80] pr-14 '>

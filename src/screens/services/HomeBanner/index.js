@@ -11,9 +11,9 @@ const Homebanner = () => {
       </div>
       <hr className={`w-[60%] border-t-4 border-[${colors.mainTextColor}]`} />
       <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
-        <span className={`w-[4px] h-[100px] bg-[${colors.mainTextColor}]`}></span>
-        <span className='w-[4px]  h-[100px] bg-black'></span>
-        <span className='w-[4px]  h-[100px] bg-white'></span>
+        <span className={`w-[3px] h-[200px] bg-[${colors.mainTextColor}]`}></span>
+        <span className='w-[3px]  h-[200px] bg-black'></span>
+        <span className='w-[3px]  h-[200px] bg-white'></span>
       </div>
     </div>
   )

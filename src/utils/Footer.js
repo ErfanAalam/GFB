@@ -15,14 +15,16 @@ const Footer = ({ link1, link2, link3 }) => {
 
 
             <div className='flex justify-between gap-4 md:gap-0  md:flex-row flex-col mt-14'>
-                <div className='md:flex hidden  w-[350px] gap-10 '>
-                    <p>Follow Us on Social Media</p>
-                    <a href='/'> <img src='Assets/Linkedin.png' alt='linkedin icon' /> </a>
-                    <a href='/'> <img src='Assets/facebook.png' alt='linkedin icon' /> </a>
-                    <a href='/'> <img src='Assets/Insta.png' alt='linkedin icon' /> </a>
+                <div className='md:flex hidden  w-[350px] gap-4 '>
+                    <p className='text-[22px]'>FOLLOW US ON SOCIAL</p>
+                    <div className='flex gap-6 mt-2'>
+                    <a href='/'> <img src='Assets/Linkedin.png' className='w-[80px]' alt='linkedin icon' /> </a>
+                    <a href='/'> <img src='Assets/facebook.png' className='w-[80px]' alt='linkedin icon' /> </a>
+                    <a href='/'> <img src='Assets/Insta.png'    className='w-[80px]' alt='linkedin icon' /> </a>
+                    </div>
                 </div>
 
-                <div className=' w-[240px] text-center md:text-left md:w-[270px]'>
+                <div className=' w-[240px] text-center md:text-left md:text-[20px] text-[12px] md:w-[420px]'>
                     <p>License Number # #1114879 </p>
                     <p>Email (will Change) info@gfbconstruction.com</p>
                     <p>Phone Number - 559-389-3646</p>

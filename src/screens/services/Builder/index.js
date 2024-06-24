@@ -5,9 +5,9 @@ const Builder = () => {
   return (
     <div id='builder' className='bg-[rgb(29,30,36)]  ' >
          <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
-          <span className={`w-[4px] h-[100px] bg-[${colors.mainTextColor}]`}></span>
-          <span className='w-[4px]  h-[100px] bg-black'> </span>
-          <span className='w-[4px]  h-[100px] bg-white'></span>
+          <span className={`w-[3px] h-[180px] bg-[${colors.mainTextColor}]`}></span>
+          <span className='w-[3px]  h-[180px] bg-black'> </span>
+          <span className='w-[3px]  h-[180px] bg-white'></span>
         </div>
         
         <div  className='w-[100%]  '>
@@ -25,9 +25,9 @@ const Builder = () => {
         </div>
 
         <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
-          <span className={`w-[4px] h-[130px] bg-[${colors.mainTextColor}]`}></span>
-          <span className='w-[4px]  h-[130px] bg-black'></span>
-          <span className='w-[4px]  h-[130px] bg-white'></span>
+          <span className={`w-[3px] h-[180px] bg-[${colors.mainTextColor}]`}></span>
+          <span className='w-[3px]  h-[180px] bg-black'></span>
+          <span className='w-[3px]  h-[180px] bg-white'></span>
         </div>
 
     </div>
