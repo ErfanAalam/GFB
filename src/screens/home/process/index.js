@@ -10,15 +10,15 @@ const Process = () => {
 
         
 
-        <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-10  md:p-0 pb-10 md:pb-10 gap-20 py-10' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
+        <div className='bg-cover bg-center z-10 relative flex flex-wrap md:flex-row flex-col items-center justify-evenly px-4  md:p-0 pb-10 md:pb-10 gap-20 py-10' style={{ backgroundImage: "url('/Assets/Home/bg/process.png')" }}>
         
-        <div className='overflow-hidden flex w-[64px] justify-between absolute left-[42%] top-[-30px] md:hidden z-[60] ' >
-          <span className={`w-[4px] h-[2200px]  bg-[${colors.mainTextColor}]`}> </span>
-          <span className='w-[4px]  h-[2200px]  bg-black'> </span>
-          <span className='w-[4px]  h-[2200px] bg-white'></span>
+        <div className='overflow-hidden flex w-[64px] justify-between absolute left-[41%] top-[-30px] md:hidden z-[60]' >
+          <span className={`w-[4px] h-[2205px]  bg-[${colors.mainTextColor}]`}> </span>
+          <span className='w-[4px]  h-[2205px]  bg-black'> </span>
+          <span className='w-[4px]  h-[2205px] bg-white'></span>
         </div>
 
-          <div className=' relative z-[80] '>
+          <div className=' relative z-[80] pr-14 '>
             <span className='absolute md:top-10 top-20 left-24 text-[34px]  text-orange-500 z-30'>01</span>
             <button className=' py-2 w-[220px] z-20  md:w-[240px] shadow-inner shadow-gray-600 p-1 text-white text-[24px] md:text-[24px] mb-0 absolute md:top-20 top-32 left-20  md:mb-14 tracking-wide leading-8 rounded-[15px] bg-[rgb(29,30,36)]  '>Pre-Construction</button>
             <ProcessCards src="Assets/Home/pre_construction.png" heading="Planning Your Vision" desc="From initial consultations to detailed blueprints, we set the foundation by understanding your needs, aligning with architects, and ensuring every detail is planned meticulously." />
@@ -31,7 +31,7 @@ const Process = () => {
             With best-in-class tools, materials, and expertise, we ensure timely execution and unmatched quality in every build." />
           </div>
 
-          <div className=' relative z-[80]'>
+          <div className=' relative z-[80] pl-10'>
             <span className='absolute md:top-10 top-20 left-44 text-[34px]  text-orange-500 z-30'>03</span>
             <button className=' py-2 w-[250px] z-20  md:w-[240px] shadow-inner shadow-gray-600 p-1 text-white text-[24px] md:text-[24px] mb-0 absolute md:top-20 top-32 left-[-18px] md:mb-14 tracking-wide leading-8 rounded-[15px] bg-[rgb(29,30,36)]'>Post-Construction</button>
             <ProcessCards title="Post-Construction" src="Assets/Home/post_onstruction.png" count={"03"} heading={"Ensuring Perfection"} desc="After the build, our commitment continues. We inspect, refine, and guarantee our work, ensuring your space stands the test of time and resonates with perfection." />
