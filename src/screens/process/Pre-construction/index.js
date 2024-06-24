@@ -6,9 +6,9 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex relative '>
 
-      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[200px] top-[100px] left-1 md:left-[66px] z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[600px] top-[665px] left-0 md:left-[66px] z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[1000px] top-[1240px] left-0 md:left-[66px] z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[21%] top-[100px] left-1 md:left-[66px] z-[60] border-black border-4 bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[47%] top-[36%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[77%] top-[69%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' />
 
       <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
         <div className='absolute top-8 md:top-10 flex left-5 gap-3'>
@@ -31,11 +31,11 @@ const PreConstruction = () => {
         </div>
 
         <div className='flex m-0 md:ml-4 lg:ml-20 md:flex-row md:pt-0 pt-14 flex-col-reverse gap-0 md:gap-20 items-center relative '>
-          <div className='w-[100%] md:w-[90%] xl:w-[90%]'>
+          <div className='w-[100%] md:w-[90%] xl:w-[80%]'>
             <h1 className={`text-[20px] md:text-[30px] xl:text-3xl text-[${colors.mainTextColor}] md:static absolute top-4`}>1. Consultation & Discovery</h1>
-            <p className=' text-[16px] md:text-2xl tracking-[2px]'>We begin with a thorough assessment of your job site, project scope, and feasibility.
-              <br /> <br />
-              Our goal is to meticulously understand your vision, ensuring a solid, informed start to every project.</p>
+            <p className=' text-[16px] md:text-2xl tracking-[2px] flex flex-col gap-4'><span className='pr-0 xl:pr-20'>We begin with a thorough assessment of your job site, project scope, and feasibility.</span>
+            
+             <span> Our goal is to meticulously understand your vision, ensuring a solid, informed start to every project.</span></p>
           </div>
 
           <div className='w-[100%] md:w-[70%] lg:w-[30%]'>
@@ -43,17 +43,16 @@ const PreConstruction = () => {
           </div>
         </div>
 
-        <div className='flex m-2 md:ml-0 lg:ml-2 md:pt-0 pt-20 md:flex-row flex-col gap-0 md:gap-20  items-center relative'>
+        <div className='flex m-2 md:ml-0 lg:ml-16 md:pt-0 pt-20 md:flex-row flex-col gap-0 md:gap-20  relative'>
 
           <div className='w-[100%]  md:w-[70%] lg:w-[30%] xl:w-[30%]'>
             <img src='Assets/Process/3.png' />
           </div>
 
-          <div className='w-[100%] md:w-[90%] lg:w-[70%] xl:w-[80%]'>
+          <div className='w-[100%] md:w-[90%] lg:w-[70%] xl:w-[80%] mt-10'>
             <h1 className={`text-[20px] md:text-3xl text-[${colors.mainTextColor}] md:static absolute top-10 flex md:gap-2 gap-6`}><span>2.</span> <span>Design & Planning</span></h1>
-            <p className=' text-[16px] md:text-2xl tracking-[2px]  xl:pr-40'>At this stage, our in-house architects and engineers take the lead, transforming your ideas into actionable blueprints.
-              <br /> <br />
-              We ensure every design is efficient, innovative, and tailored to your needs.</p>
+            <p className=' text-[16px] md:text-2xl tracking-[2px] xl:pr-40 flex flex-col gap-4'><span>At this stage, our in-house architects and engineers take the lead, transforming your ideas into actionable blueprints.</span>
+             <span> We ensure every design is efficient, innovative, and tailored to your needs.</span></p>
           </div>
 
         </div>
@@ -61,9 +60,8 @@ const PreConstruction = () => {
         <div className='flex m-2 md:ml-4 lg:ml-20 md:pt-0 pt-20 md:flex-row flex-col-reverse gap-0 md:gap-20 items-center relative '>
           <div className='w-[100%] md:w-[70%] xl:w-[90%]'>
             <h1 className={`text-[20px] md:text-3xl text-[${colors.mainTextColor}] md:static absolute top-10`}>3. Permitting & Approvals</h1>
-            <p className=' text-[16px] md:text-2xl tracking-[2px] mb-10'>Navigating regulatory requirements can be tricky, but we've got you covered.
-              <br /> <br />
-              We ensure all plans adhere to local building codes, obtaining the necessary permits to kickstart construction.</p>
+            <p className=' text-[16px] md:text-2xl tracking-[2px] mb-10 flex flex-col gap-4'><span>Navigating regulatory requirements can be tricky, but we've got you covered.</span>
+             <span> We ensure all plans adhere to local building codes, obtaining the necessary permits to kickstart construction.</span></p>
           </div>
           <div className='md:w-[50%] lg:w-[30%]'>
             <img src='Assets/Process/4.png' />

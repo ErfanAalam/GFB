@@ -6,11 +6,11 @@ const Integrated = () => {
   return (
 
     <div id='integrated' className='relative bg-center bg-cover text-white pb-10 overflow-hidden md:overflow-visible' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')"}}>
-      <img src='Assets/Services/Group 3620.png' className='absolute top-[30%] md:top-[44%] left-[55%] xsm:left-[50%] 2xsm:left-[45%] md:left-4 lg:left-20 xl:left-20 2xl:left-[-6%]  z-20 md:z-0 h-[450px] md:h-[96%] lg:h-[100%] md:w-[83%] lg:w-[85%] xl:w-[90%] '/>
+      <img src='Assets/Services/Group 3620.png' className='absolute top-[20%] md:top-[44%] left-[45%] xsm:left-[45%] 2xsm:left-[45%] md:left-4 lg:left-20 xl:left-20 2xl:left-[-6%]  z-20 md:z-0 h-[400px] xsm:h-[550px] md:h-[96%] lg:h-[100%] md:w-[83%] lg:w-[85%] xl:w-[90%] '/>
       <div className='flex md:flex-row flex-col relative items-center gap-10 md:gap-40 2xl:gap-40 md:p-4 lg:p-20 2xl:p-20 p-6 md:pt-0 pt-32'>
 
         <div>
-          <img src='Assets/Services/intergrated_services.png' className='max:sm:w-[200px] w-[300px] md:w-[800px] md:h-[600px] lg:h-fit 2xl:w-[500px]' ></img>
+          <img src='Assets/Services/intergrated_services.png' className='w-[200px] xsm:w-[300px] md:w-[800px] md:h-[600px] lg:h-fit 2xl:w-[500px]' ></img>
         </div>
 
 

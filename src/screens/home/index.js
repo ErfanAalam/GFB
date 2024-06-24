@@ -31,7 +31,7 @@ function Home() {
       {/* MiddleFooter */}
       <MiddleFooter />
       {/* Footer */}
-      <Footer link1 ="homebanner"  link2 ="building" link3="services" link4="process" link5="startjourney" />
+      <Footer link1 ="Integrated"  link2 ="Commercial" link3="Residential" />
 
     </div>
   )
