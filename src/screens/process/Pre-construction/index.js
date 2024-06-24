@@ -6,9 +6,9 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex relative '>
 
-      <img src='Assets/Contact us/2.png' className='w-[30px] absolute md:top-[200px] top-[200px] left-1 md:left-[66px] z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='w-[30px] absolute md:top-[600px] top-[700px] left-0 md:left-[66px] z-[60] bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='w-[30px] absolute md:top-[1000px] top-[1200px] left-0 md:left-[66px] z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[200px] top-[100px] left-1 md:left-[66px] z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[600px] top-[665px] left-0 md:left-[66px] z-[60] bg-gray-200' />
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[1000px] top-[1240px] left-0 md:left-[66px] z-[60] bg-gray-200' />
 
       <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
         <div className='absolute top-8 md:top-10 flex left-5 gap-3'>
