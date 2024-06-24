@@ -12,7 +12,7 @@ const Construction = () => {
           <span className='text-3xl'>2</span>
         </div>
         <span className='w-[4px] h-[100%] bg-black'>
-          <img src='Assets/Contact us/2.png' className='w-[50px] absolute top-[45%] left-2 bg-[rgb(29,30,36)]' />
+          <img src='Assets/Contact us/2.png' className='w-[40px] absolute top-[52%] left-3 bg-[rgb(29,30,36)]' />
 
         </span>
         <span className={`w-[4px] h-[100%] bg-[${colors.mainTextColor}]`}> </span>
