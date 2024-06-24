@@ -55,7 +55,7 @@ const ContactForm = () => {
               <input onChange={(e) => setFirstName(e.target.value)}
                 value={firstName}
                 type='text'
-                placeholder='Enter your first name here'
+                placeholder='Enter your first name here ddfbvdsjfhvdjknb'
                 className='border-none  bg-[rgb(29,30,36)]' />
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
@@ -64,7 +64,7 @@ const ContactForm = () => {
               <input onChange={(e) => setLastName(e.target.value)}
                 value={lastName}
                 type='text'
-                placeholder='Enter your last name here'
+                placeholder='Enter your last name here erfan'
                 className='border-none  bg-[rgb(29,30,36)]' />
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>

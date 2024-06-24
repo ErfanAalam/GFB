@@ -14,7 +14,7 @@ const Process = () => {
         
         <div className='overflow-hidden flex w-[64px] justify-between absolute left-[41%] top-[-30px] md:hidden z-[60]' >
           <span className={`w-[4px] h-[2205px]  bg-[${colors.mainTextColor}]`}> </span>
-          <span className='w-[4px]  h-[2205px]  bg-black'> </span>
+          <span className='w-[4px]  h-[2205px]  bg-black md:opacity-100 opacity-30'> </span>
           <span className='w-[4px]  h-[2205px] bg-white'></span>
         </div>
 

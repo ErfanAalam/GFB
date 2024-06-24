@@ -2,7 +2,7 @@ import React from 'react'
 import './color.js'
 import colors from './color.js'
 
-const Footer = ({ link1, link2, link3, link4, link5 }) => {
+const Footer = ({ link1, link2, link3 }) => {
     return (
         <div className='bg-[rgb(0,0,0)] py-6 px-10 md:px-[120px] lg:px-[140px] xl:px-[170px] flex flex-col items-center md:items-stretch zzzzz text-white'>
 
@@ -34,15 +34,13 @@ const Footer = ({ link1, link2, link3, link4, link5 }) => {
                     <a href={`#${link1}`} >{link1}</a>
                     <a href={`#${link2}`}>{link2}</a>
                     <a href={`#${link3}`}>{link3}</a>
-                    <a href={`#${link4}`}>{link4}</a>
-                    <a href={`#${link5}`}>{link5}</a>
+                   
                 </div>
 
 
                 <div className='flex flex-col items-center gap-4 text-gray-400 '>
                     <a href='' className={`text-[${colors.mainTextColor}]`}>Quick Links</a>
-                    <a href='/' >Home</a>
-                    <a href='/services' >Services</a>
+                   
                     <a href='/process' >Process</a>
                     <a href='/about' >About Us</a>
                     <a href='/contact' >Contact</a>

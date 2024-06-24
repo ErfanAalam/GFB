@@ -18,7 +18,7 @@ function About() {
       <ChooseGfb />
       <UpperFooter />
       <MiddleFooter />
-      <Footer link1 ="homebanner"  link2 ="philosiphy" link3="constructions" link4="Choose" link5="startjourney"/>
+      <Footer link1="Integrated"  link2 ="Commercial" link3="Residential"/>
     </div>
   )
 }
