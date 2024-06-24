@@ -16,7 +16,7 @@ module.exports = {
         '2xsm': "500px"
       },
       boxShadow: {
-        'custom': '0 4px 6px -1px "#EF6E16, 0 2px 4px -1px rgba(239, 110, 22, 0.06)',
+        'custom': ' 0px 4px 4px 0px rgba(231, 231, 231, 0.64) inset',
       }
     },
   },

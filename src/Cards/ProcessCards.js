@@ -6,7 +6,7 @@ console.log(typeof(colors.mainTextColor));
 const ProcessCards = ({ src, heading, desc }) => {
   return (
     <div>
-      <div className=' w-[100%] md:w-[300px]  text-center  text-black '>
+      <div className=' w-[100%] md:w-[300px]  text-center  text-black shadow-custom rounded-[60px] p-1'>
         <div className='h-[652px] w-[280px] md:w-[300px] relative flex flex-col items-center justify-end bg-cover bg-center gap-6 rounded-[60px] ' style={{ backgroundImage: `url(${src})` }}>
           <h3 className={`text-[${colors.mainTextColor}] text-2xl`}>{heading} </h3>
           <p className='text-white px-4'>{desc}</p>
