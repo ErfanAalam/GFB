@@ -6,7 +6,7 @@ import '../../../App.css'
 const Commercial = () => {
   return (
     <div id='commercial' className='text-white md:py-20 py-16 md:pl-6 relative  2xl:pl-40 pl-4 pt-10 md:pt-48'>
-            <div className='absolute bg-black h-[20vh] w-[90%] blur-3xl opacity-100 top-[-50px] '></div>
+      <div className='absolute bg-black h-[20vh] w-[90%] blur-3xl opacity-100 top-[-50px] '></div>
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-10 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
@@ -45,7 +45,7 @@ const Commercial = () => {
         </div>
 
         <div className='flex justify-end relative overflow-hidden pt-10'>
-          <img src='Assets/Services/Group 3620.png' className='absolute top-[-160px] 3xsm:top-[-200px] 4xsm:top-[-210px] right-[140px] 4xsm:right-[150px] w-[100%] 2xsm:w-[100%] h-[270px] 3xsm:h-[340px] 4xsm:h-[360px] block md:hidden'/>
+          <img src='Assets/Services/Group 3620.png' className='absolute top-[-160px] 3xsm:top-[-200px] 4xsm:top-[-210px] right-[140px] 4xsm:right-[150px] w-[100%] 2xsm:w-[100%] h-[270px] 3xsm:h-[340px] 4xsm:h-[360px] block md:hidden' />
           <img src='Assets/Services/commercial.png' className='w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[500px] lg:h-[500px] 2xl:h-[700px] relative z-20 ' ></img>
         </div>
       </div>
