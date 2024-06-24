@@ -13,7 +13,9 @@ module.exports = {
       screens:{
         '3xl': '1750px',
         'xsm': "400px",
-        '2xsm': "500px"
+        '2xsm': "500px",
+        '3xsm' : "550px",
+        '4xsm' : "600px"
       },
       boxShadow: {
         'custom': ' 0px 4px 4px 0px rgba(231, 231, 231, 0.64) inset',
