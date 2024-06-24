@@ -6,9 +6,22 @@ const PreConstruction = () => {
   return (
     <div className='bg-gray-200 flex relative '>
 
-      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[21%] top-[100px] left-1 md:left-[66px] z-[60] border-black border-4 bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[47%] top-[36%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' />
-      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[77%] top-[69%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' />
+      {/* <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[21%] top-[100px] left-1 md:left-[66px] z-[60] border-black border-4 bg-gray-200' /> */}
+      <div className='rounded-[50%] w-[30px] h-[30px] absolute md:top-[21%] top-[100px] left-1 md:left-[66px] z-[60] border-black border-4 bg-gray-200'>
+        <div className='rounded-[50%] w-[40px] h-[40px] top-[-10px] left-[-10px] relative  border-orange-500 border-4 blur-sm'></div>
+      </div>
+
+      <div className='rounded-[50%] w-[30px] h-[30px] absolute md:top-[47%] top-[36%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200'>
+        <div className='rounded-[50%] w-[40px] h-[40px] top-[-10px] left-[-10px] relative  border-orange-500 border-4 blur-sm'></div>
+      </div>
+
+      <div className='rounded-[50%] w-[30px] h-[30px] absolute md:top-[77%] top-[69%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200'>
+        <div className='rounded-[50%] w-[40px] h-[40px] top-[-10px] left-[-10px] relative  border-orange-500 border-4 blur-sm'></div>
+      </div>
+
+      {/* <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[47%] top-[36%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' />
+      z
+      <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[77%] top-[69%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' /> */}
 
       <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
         <div className='absolute top-8 md:top-10 flex left-5 gap-3'>

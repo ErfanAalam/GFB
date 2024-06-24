@@ -10,6 +10,7 @@ const PostConstruction = () => {
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>3</span>
         </div>
+        
         <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[30%] top-[110px] left-[53px] md:left-[125px] z-[60] bg-gray-200' />
         <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[75%] top-[51%] left-[53px] md:left-[125px] z-[60] bg-gray-200' />
 
