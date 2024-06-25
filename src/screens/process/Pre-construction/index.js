@@ -72,7 +72,7 @@ const PreConstruction = () => {
 
         <div className='flex m-2 md:ml-4 lg:ml-20 md:pt-0 pt-20 md:flex-row flex-col-reverse gap-0 md:gap-20 items-center relative '>
           <div className='w-[100%] md:w-[70%] xl:w-[90%]'>
-            <h1 className={`text-[20px] md:text-3xl text-[${colors.mainTextColor}] md:static absolute top-10`}>3. Permitting & Approvals</h1>
+            <h1 className={`text-[20px] md:text-3xl text-[${colors.mainTextColor}] md:static absolute top-10 flex gap-6`}><span>3.</span> <span>Permitting & Approvals</span></h1>
             <p className=' text-[16px] md:text-2xl tracking-[2px] mb-10 flex flex-col gap-4'><span>Navigating regulatory requirements can be tricky, but we've got you covered.</span>
              <span> We ensure all plans adhere to local building codes, obtaining the necessary permits to kickstart construction.</span></p>
           </div>

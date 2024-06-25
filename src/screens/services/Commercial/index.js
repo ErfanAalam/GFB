@@ -25,28 +25,28 @@ const Commercial = () => {
             Count on us for quality work, on-schedule completion, and designed to exceed your expectations.
           </p>
 
-          <div className='mt-10 md:block flex md:flex-row flex-col gap-8'>
+          <div className='mt-10 md:block flex md:flex-row flex-col gap-4 md:gap-8'>
 
             <div className='flex flex-row items-center md:gap-10 gap-0'>
               <img src='Assets/Services/new_commercial_builds.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='md:text-2xl text-[16px]'>New Commercial Builds</p>
+              <p className='md:text-2xl text-[16px] tracking-wide'>New Commercial Builds</p>
             </div>
 
             <div className='flex flex-row items-center ml-8 md:ml-20  md:gap-10 gap-0' >
               <img src='Assets/Services/tenant_improvement.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='md:text-2xl text-[16px]'>Tenant Improvement</p>
+              <p className='md:text-2xl text-[16px] tracking-wide'>Tenant Improvement</p>
             </div>
 
-            <div className='flex flex-row  items-center ml-20 md:ml-40 md:gap-10 gap-0'>
+            <div className='flex flex-row  items-center ml-16 md:ml-40 md:gap-10 gap-0'>
               <img src='Assets/Services/retail_construction.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='md:text-2xl text-[16px]'>Retail Construction</p>
+              <p className='md:text-2xl text-[16px] tracking-wide'>Retail Construction</p>
             </div>
 
           </div>
         </div>
 
         <div className='flex justify-end relative overflow-hidden pt-10'>
-          <img src='Assets/Services/Group 3620.png' className='absolute top-[-160px] 3xsm:top-[-200px] 4xsm:top-[-210px] right-[140px] 4xsm:right-[150px] w-[100%] 2xsm:w-[100%] h-[270px] 3xsm:h-[340px] 4xsm:h-[360px] block md:hidden' />
+          <img src='Assets/Services/Group 3620.png' className='absolute top-[-160px] 3xsm:top-[-200px] 4xsm:top-[-245px] right-[140px] 3xsm:right-[158px] 4xsm:right-[170px] w-[100%] 2xsm:w-[100%]  h-[270px] 3xsm:h-[340px] 4xsm:h-[420px] block md:hidden' />
           <img src='Assets/Services/commercial.png' className='w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[500px] lg:h-[500px] 2xl:h-[700px] relative z-20 ' ></img>
         </div>
       </div>

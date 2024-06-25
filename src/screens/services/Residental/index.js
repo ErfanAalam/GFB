@@ -28,18 +28,18 @@ const Residental = () => {
           <div className='mt-10 md:mt-10 md:block flex md:flex-row flex-col'>
 
             <div className='flex flex-row items-center md:gap-4 xl:gap-4 gap-0 h-[75px]'>
-              <img src='Assets/Services/custom_builds_&_remodels.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='text-[16px] md:text-2xl'>Custom Builds & Remodels</p>
+              <img src='Assets/Services/custom_builds_&_remodels.png' className='md:w-[100px] w-[70px]'></img>
+              <p className='text-[18px] md:text-2xl'>Custom Builds & Remodels</p>
             </div>
 
-            <div className='flex flex-row items-center md:gap-4 xl:gap-4 gap-0 ml-20 h-[75px]' >
-              <img src='Assets/Services/residential_complexes.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='text-[16px] md:text-2xl'>Residential Complexes </p>
+            <div className='flex flex-row items-center md:gap-0 xl:gap-0 gap-0 ml-16 h-[75px]' >
+              <img src='Assets/Services/residential_complexes.png' className='md:w-[100px] w-[70px]'></img>
+              <p className='text-[18px] md:text-2xl'>Residential Complexes </p>
             </div>
 
             <div className='flex flex-row items-center md:gap-4 xl:gap-4 gap-0 h-[75px]'>
-              <img src='Assets/Services/accessory_dwelling_units.png' className='md:w-[100px] w-[50px]'></img>
-              <p className='text-[16px] md:text-2xl'>Accessory Dwelling Units </p>
+              <img src='Assets/Services/accessory_dwelling_units.png' className='md:w-[100px] w-[70px]'></img>
+              <p className='text-[18px] md:text-2xl'>Accessory Dwelling Units </p>
             </div>
 
           </div>

@@ -6,13 +6,13 @@ const PostConstruction = () => {
   return (
     <div id='postConstruction' className='bg-gray-200 flex relative'>
 
-        <div className='absolute top-10 flex left-4 md:left-14 md:gap-20 gap-4'>
+        <div className='absolute top-10 flex left-[17px] md:left-14 md:gap-20 gap-[18px]'>
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>3</span>
         </div>
         
         <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[30%] top-[110px] left-[53px] md:left-[125px] z-[60] bg-gray-200' />
-        <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[75%] top-[51%] left-[53px] md:left-[125px] z-[60] bg-gray-200' />
+        <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[75%] top-[52%] left-[53px] md:left-[125px] z-[60] bg-gray-200' />
 
       <div className='overflow-hidden flex w-[64px] relative mx-2 md:mx-20 justify-between  ' >
         <span className='w-[4px] h-[100%] bg-black '></span>
@@ -22,7 +22,7 @@ const PostConstruction = () => {
 
       <div className='p-2 md:p-4 lg:p-10 w-[80%] md:mt-0 mt-10'>
 
-        <div className='text-2xl md:text-[32px] '>
+        <div className='text-2xl md:text-[32px]  '>
           <h1 className=''>POST-CONSTRUCTION</h1>
         </div>
 

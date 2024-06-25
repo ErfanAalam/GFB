@@ -21,8 +21,8 @@ const Construction = () => {
 
       <div className='p-2 md:p-4 lg:p-10 w-[80%] mt-10 md:mt-0'>
 
-        <div className='text-2xl md:text-4xl text-white '>
-          <h1 className=''>CONSTRUCTION</h1>
+        <div className='text-2xl md:text-4xl text-white  '>
+          <h1 className='ml-4 md:ml-0'>CONSTRUCTION</h1>
         </div>
 
         <div className='flex ml-2 md:ml-4 lg:ml-20 md:flex-row flex-col-reverse justify-between items-center p-2 relative md:pt-0 pt-14'>
