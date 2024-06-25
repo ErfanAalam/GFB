@@ -7,6 +7,7 @@ const Commercial = () => {
   return (
     <div id='commercial' className='text-white md:py-20 py-16 md:pl-6 relative  2xl:pl-40 pl-0 pt-10 md:pt-48'>
       <div className='absolute bg-black h-[20vh] w-[90%] blur-3xl opacity-100 top-[-50px] '></div>
+      <div className='absolute top-[-30px] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm'></div>
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-10 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 

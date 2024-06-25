@@ -5,15 +5,11 @@ import colors from '../../../utils/color'
 const Integrated = () => {
   return (
 
-    <div id='integrated' className='relative bg-center bg-cover text-white pb-10 overflow-hidden md:overflow-visible shadow-service-shadow ' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
-    {/* // <div id='integrated' className='relative bg-center bg-cover text-white pb-10 overflow-hidden md:overflow-visible shadow-md shadow-black bg-black opacity-90'> */}
-      {/* <div className='absolute bg-black h-[4vh] w-[100%] blur-[100px] backdrop-blur-[50px] opacity-80 top-0 shadow-service-shadow'></div> */}
+    <div id='integrated' className='relative bg-center bg-cover text-white pb-10 overflow-hidden md:overflow-visible' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+      <div className='absolute top-[-10px] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm shadow-integrated-shadow'></div>
+      
 
-
-      {/* <div class="relative w-full h-full bg-black">
-        <img src="Assets/Services/integrated-bg.jpeg" alt="Blurred Background" class="absolute inset-0 w-[100%]  object-cover" />
-      </div> */}
-      {/* <div class="absolute inset-0 backdrop-blur-md"></div> */}
+      <div className='absolute bottom-[-30px] right-0 left-0 top-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm'></div>
 
 
       <div class="absolute inset-0 bg-[rgb(29,30,36)] opacity-30"></div>

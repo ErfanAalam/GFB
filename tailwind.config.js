@@ -20,6 +20,7 @@ module.exports = {
       boxShadow: {
         'custom': ' 0px 4px 4px 0px rgba(231, 231, 231, 0.64) inset',
         'service-shadow': ' 0px 2px 1000px 10px rgba(0, 0, 0, 0.84) , 0px 20px 1000px 10px rgb(29,30,36,0.84)  ',
+        "integrated-shadow" : "0px 2px 70px 20px rgba(0, 0, 0, 0.84)  "
       }
     },
   },
