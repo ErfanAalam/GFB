@@ -6,11 +6,9 @@ const UpperFooter = () => {
   function handleStartYourProject() { }
 
   return (
-    <div id='startjourney' className=' relative text-white flex flex-col items-center bg-[hsl(231,11%,13%)] leading-[20px] gap-10 md:leading-[50px] py-6' >
-      <img src='Assets/Home/bg/start your Bulding Journey.png' className='absolute md:w-[100%] h-[76%] md:h-[80%] z-[100] hidden md:block' />
-      <img src='Assets/Home/bg/mob_start your Bulding Journey.png' className='absolute w-[100%] h-[80%] z-[100] md:hidden' />
-
-      {/* mob_start your Bulding Journey */}
+    <div id='startjourney' className=' relative text-white flex flex-col items-center bg-[hsl(231,11%,13%)] leading-[20px] gap-10 md:leading-[50px] py-0' >
+      <img src='Assets/Home/bg/start your Bulding Journey.png' className='absolute md:w-[100%] h-[76%] md:h-[88%] z-[100] hidden md:block' />
+      <img src='Assets/Home/bg/mob_start your Bulding Journey.png' className='absolute w-[100%] h-[85%] z-[100] md:hidden' />
 
       <div className='w-[80%] md:w-[80%] lg:w-[100%] xl:w-[60%]  text-center flex flex-col items-center justify-center md:gap-0 gap-2 mt-[10px] md:mt-[10px]'>
         <div className='flex flex-col gap-4'>
@@ -26,7 +24,7 @@ const UpperFooter = () => {
       </div>
 
       <div href='/contact' className='mt-4 md:mt-16'>
-        <button onClick={handleStartYourProject()} className={`text-[${colors.textWhite}] cursor-pointer  text-[30px]  md:w-[625px]  p-2 bg-black bg-opacity-70  h-[58px] leading-[31.35px] border-2 border-[${colors.mainTextColor}] `}>Start Your Project</button>
+        <button onClick={handleStartYourProject()} className={`text-[${colors.textWhite}] cursor-pointer  text-[24px] xsm:text-[28px] w-[270px] xsm:w-[320px] 2xsm:w-[370px] 3xsm:w-[420px]  md:w-[625px]  p-2 bg-black bg-opacity-70  h-[58px] leading-[31.35px] border-2 border-[${colors.mainTextColor}] `}>Start Your Project</button>
       </div>
 
     </div>
