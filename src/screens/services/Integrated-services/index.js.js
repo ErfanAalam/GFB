@@ -18,7 +18,7 @@ const Integrated = () => {
 
       <div class="absolute inset-0 bg-[rgb(29,30,36)] opacity-30"></div>
 
-      <img src='Assets/Services/Group 3620.png' className='absolute top-[20%] md:top-[33%] left-[45%] xsm:left-[45%] 2xsm:left-[45%] md:left-36 lg:left-52 xl:left-56 2xl:left-[4%]  z-20 md:z-20 h-[400px] xsm:h-[550px] md:h-[106%] lg:h-[112%] md:w-[70%] lg:w-[72%] xl:w-[75%] 2xl:w-[80%]' />
+      <img src='Assets/Services/Group 3620.png' className='absolute top-[20%] md:top-[33%] left-[45%] xsm:left-[45%] 2xsm:left-[45%] 3xsm:left-[40%] md:left-36 lg:left-52 xl:left-56 2xl:left-[4%]  z-20 md:z-20 h-[400px] xsm:h-[550px] md:h-[106%] lg:h-[112%] md:w-[70%] lg:w-[72%] xl:w-[75%] 2xl:w-[80%]' />
 
       <div className='flex md:flex-row flex-col relative items-center gap-10 md:gap-40 2xl:gap-40 md:p-4 lg:p-20 2xl:p-20 p-6 md:pt-0 pt-32'>
 
@@ -38,7 +38,7 @@ const Integrated = () => {
             <br /> <br />
             See how our skilled professionals can help with your next project!</p>
 
-          <div className='mt-10 md:block flex gap-0'>
+          <div className='mt-10 md:block flex gap-0 xsm:gap-4 2xsm:gap-8 3xsm:gap-12'>
 
             <div className='flex flex-row items-center md:gap-4 gap-0 h-[80px]'>
               <img src='Assets/Services/Architects.png' className='md:w-[100px] w-[40px]'></img>
