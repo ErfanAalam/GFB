@@ -23,8 +23,8 @@ const PreConstruction = () => {
       z
       <img src='Assets/Contact us/2.png' className='rounded-[50%] w-[30px] absolute md:top-[77%] top-[69%] left-0 md:left-[66px] z-[60]  border-black border-4 bg-gray-200' /> */}
 
-      <div id='preconstruction' className='overflow-hidden flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
-        <div className='absolute top-8 md:top-10 flex left-5 gap-3'>
+      <div id='preconstruction' className=' flex w-[64px] mx-4 md:mx-20 relative z-50 justify-between'>
+        <div className='absolute top-8 md:top-10 flex left-6 gap-3'>
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>1</span>
         </div>

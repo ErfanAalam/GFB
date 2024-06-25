@@ -5,12 +5,12 @@ import '../../../App.css'
 
 const Commercial = () => {
   return (
-    <div id='commercial' className='text-white md:py-20 py-16 md:pl-6 relative  2xl:pl-40 pl-4 pt-10 md:pt-48'>
+    <div id='commercial' className='text-white md:py-20 py-16 md:pl-6 relative  2xl:pl-40 pl-0 pt-10 md:pt-48'>
       <div className='absolute bg-black h-[20vh] w-[90%] blur-3xl opacity-100 top-[-50px] '></div>
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-10 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
-        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl::px-20 px-4 mt-20'>
+        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl:px-20 px-4 mt-20'>
           <div className='flex justify-center md:justify-start'>
             <h1 className={`text-3xl md:text-[24px] lg:text-[30px] 2xl:text-5xl md:static  text-[${colors.mainTextColor}] absolute top-0 `}>Commercial</h1>
           </div>

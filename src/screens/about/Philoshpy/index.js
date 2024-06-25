@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Philoshphy = () => {
   return (
-    <div id='philosiphy' className='bg-cover p-4 md:p-20 pb-10 md:pb-[100px] bg-black text-center relative text-white ' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+    <div id='philosiphy' className='bg-cover p-4 md:p-20 pb-[100px] md:pb-[100px] bg-black text-center relative text-white ' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
 
       <img src='Assets/About us/Assets/1.png' className='h-[90%] absolute hidden md:block top-[20%] md:top-[27%] lg:top-[30%] xl:top-[30%] 2xl:top-[30%] right-[80px] md:right-[150px] lg:right-[100px] xl:right-[150px] 2xl:right-[16%] 3xl:right-[22%] z-10' />
 
@@ -13,7 +13,7 @@ const Philoshphy = () => {
         <hr className='w-[53%] md:w-[60%] lg:w-[50%] xl:w-[30%] 2xl:w-[26%] border-t-4 border-t-white' />
       </div>
 
-      <div className='mb-10 flex justify-center relative z-20'>
+      <div className='mb-10 flex justify-center relative z-[60]'>
         <img src='Assets/About us/1.png' className='rounded-[40px] bg-black'></img>
       </div>
 

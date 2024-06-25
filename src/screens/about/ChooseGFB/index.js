@@ -8,10 +8,10 @@ const ChooseGfb = () => {
 
       <div className='absolute bg-black backdrop-blur-lg h-[10vh] md:h-[20vh] w-[90%] md:w-[100%] blur-[30px] opacity-40 bottom-[-80px] z-[100] '></div>
 
-      <img src='Assets/About us/Assets/Group 66.png' className='block md:hidden h-[1000px] absolute top-[-580px] left-0 z-[100]' />
+      <img src='Assets/About us/Assets/Group 66.png' className=' block md:hidden h-[1000px] absolute top-[-580px] left-0 z-[100]' />
 
-      <div className='w-[100%] md:w-[40%] xl:w-[30%] relative z-30 flex justify-center'>
-        <img src='Assets/About us/3.png' className='w-[400px] md:h-[600px] lg:h-[600px] xl:h-[600px]'></img>
+      <div className='w-[100%] md:w-[40%] xl:w-[30%] relative md:z-30 flex justify-center z-[100]'>
+        <img src='Assets/About us/3.png' className='w-[400px] xsm:w-[500px] md:h-[600px] lg:h-[600px] xl:h-[600px]'></img>
       </div>
 
       <div className='text-center flex flex-col w-[100%] md:w-[60%] md:ml-10 xl:ml-10 gap-10 xl:gap-20 items-center pr-0 md:pr-20'>

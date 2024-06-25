@@ -6,8 +6,8 @@ const Construction = () => {
   return (
     <div id='construction' className=' bg-[rgb(29,30,36)]  flex '>
 
-      <div className='overflow-hidden flex w-[64px] mx-2 relative md:mx-20 justify-between  ' >
-        <div className='absolute top-10 flex left-0 gap-8 text-white'>
+      <div className=' flex w-[64px] mx-2 relative md:mx-20 justify-between  ' >
+        <div className='absolute top-10 flex left-5 gap-4 text-white'>
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>2</span>
         </div>
@@ -32,7 +32,7 @@ const Construction = () => {
               <span>Our commitment is to uphold safety, maximize efficiency, and ensure top-quality construction at every stage.</span></p>
           </div>
 
-          <div className='w-[100%] md:w-[30%] flex justify-center'>
+          <div className='w-[100%] md:w-[30%] flex justify-center md:mr-0 mr-10'>
             <img src='Assets/Process/5.png' className='w-[220px] md:w-[180px]' />
           </div>
         </div>

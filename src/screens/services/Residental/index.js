@@ -4,18 +4,18 @@ import colors from '../../../utils/color'
 
 const Residental = () => {
   return (
-    <div id='residental' className='bg-cover  text-white py-20' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div id='residental' className='bg-cover  text-white py-20 pt-28 md:pt-20' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
 
       <div className='flex relative md:flex-row flex-col gap-20 md:gap-20 xl:gap-36  '>
 
         <div className=''>
-          <img src='Assets/Services/residentaial.png' className='w-[400px] md:w-[800px] h-[500px] md:h-[600px] lg:h-full 2xl:w-[500px]'></img>
+          <img src='Assets/Services/residentaial.png' className='w-[300px] xsm:w-[350px] 2xsm:w-[400px] md:w-[800px] h-[500px] md:h-[600px] lg:h-full 2xl:w-[500px]'></img>
         </div>
 
         <div className='w-[100%] md:w-[95%] lg:w-[60%] 2xl:w-[50%]  py-6 2xl:px-24 pr-4 md:pr-10 xl:pr-40 px-6'>
-       <div className='flex justify-center md:justify-start'>
-       <h1 className={`text-[32px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static text-center text-[${colors.mainTextColor}] absolute  top-[-70px]`}>Residental</h1>
-       </div>
+          <div className='flex justify-center md:justify-start'>
+            <h1 className={`text-[32px] lg:text-3xl xl:text-4xl 2xl:text-5xl md:static text-center text-[${colors.mainTextColor}] absolute  top-[-90px]`}>Residental</h1>
+          </div>
 
           <p className='text-2xl'>
             Our services include custom home builds, multi-family complexes, versatile ADUs, and full-scale remodels.

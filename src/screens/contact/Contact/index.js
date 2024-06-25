@@ -41,7 +41,7 @@ const ContactForm = () => {
         <div className='h-[100%] bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/2.png')" }}></div>
       </div>
 
-      <div className='text-white w-[65%] md:w-[80%] lg:w-[80%] xl:w-[70%] md:ml-0 ml-0 md:mr-0 mr-4 py-10 p-4 xl:p-20'>
+      <div className='text-white w-[60%] md:w-[80%] lg:w-[80%] xl:w-[70%] md:ml-0 ml-0 md:mr-0 mr-4 py-10 p-4 xl:p-20'>
 
         <div className='flex flex-col items-center mb-20 gap-2'>
           <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
@@ -55,7 +55,7 @@ const ContactForm = () => {
               <input onChange={(e) => setFirstName(e.target.value)}
                 value={firstName}
                 type='text'
-                placeholder='Enter your first name here ddfbvdsjfhvdjknb'
+                placeholder='Enter your first name here '
                 className='border-none  bg-[rgb(29,30,36)]' />
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
@@ -64,7 +64,7 @@ const ContactForm = () => {
               <input onChange={(e) => setLastName(e.target.value)}
                 value={lastName}
                 type='text'
-                placeholder='Enter your last name here erfan'
+                placeholder='Enter your last name here '
                 className='border-none  bg-[rgb(29,30,36)]' />
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
