@@ -6,7 +6,7 @@ const Philoshphy = () => {
   return (
     <div id='philosiphy' className='bg-cover p-4 md:p-20 pb-[100px] md:pb-[100px] bg-black text-center relative text-white '>
 
-      <img src='Assets/About us/Assets/1.png' className='h-[90%] absolute hidden md:block top-[20%] md:top-[27%] lg:top-[30%] xl:top-[30%] 2xl:top-[30%] right-[80px] md:right-[150px] lg:right-[100px] xl:right-[150px] 2xl:right-[16%] 3xl:right-[22%] z-10' />
+      <img src='Assets/About us/Assets/1.png' className='h-[90%] absolute hidden md:block top-[20%] md:top-[27%] lg:top-[30%] xl:top-[30%] 2xl:top-[30%] right-[80px] md:right-[150px] lg:right-[100px] xl:right-[140px] 2xl:right-[16%] 3xl:right-[22%] z-10' />
 
       <div className='flex flex-col items-center gap-2 mb-10 mt-10 md:mt-0'>
         <h1 className={`text-2xl md:text-5xl text-[${colors.mainTextColor}]  tracking-normal md:tracking-[4px]`}>Our Philosophy & Mindset</h1>
