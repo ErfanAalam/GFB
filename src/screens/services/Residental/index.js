@@ -4,9 +4,12 @@ import colors from '../../../utils/color'
 
 const Residental = () => {
   return (
-    <div id='residental' className='bg-cover  text-white py-20 pt-28 md:pt-20' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div id='residental' className='bg-cover text-white py-20 pt-28 md:pt-20 relative ' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
 
-      <div className='flex relative md:flex-row flex-col gap-20 md:gap-20 xl:gap-36  '>
+      <div className='absolute bottom-[-40px]  h-[102%] md:hidden w-full  bg-[rgba(77,61,44,0.1)] opacity-100 backdrop-blur-[25px] blur-sm z-[20] shadow-integrated-shadow'></div>
+
+      <div className='flex relative md:flex-row flex-col gap-20 md:gap-20 xl:gap-36 z-[50] '>
+
 
         <div className=''>
           <img src='Assets/Services/residentaial.png' className='w-[300px] xsm:w-[350px] 2xsm:w-[400px] md:w-[800px] h-[500px] md:h-[600px] lg:h-full 2xl:w-[500px]'></img>
