@@ -9,7 +9,7 @@ const Integrated = () => {
       <div className='absolute top-[-10px] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm shadow-integrated-shadow'></div>
       
 
-      <div className='absolute bottom-[-30px] right-0 left-0 top-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm'></div>
+      <div className='absolute bottom-[-30px] right-0 left-0 top-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[35px] blur-3xl'></div>
 
 
       <div class="absolute inset-0 bg-[rgb(29,30,36)] opacity-30"></div>
