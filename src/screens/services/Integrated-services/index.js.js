@@ -5,21 +5,18 @@ import colors from '../../../utils/color'
 const Integrated = () => {
   return (
 
-    <div id='integrated' className='relative bg-center bg-cover text-white pb-10 overflow-hidden md:overflow-visible' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
-      <div className='absolute top-[-30px] md:top-[-10px] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm shadow-integrated-shadow'></div>
-      
+    <div id='integrated' className='relative  bg-cover bg-black bg-center text-white pb-10 overflow-visible'>
+      <div className='absolute top-[-30px] md:top-[-10px] md:h-full h-[50vh] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm shadow-integrated-shadow'></div>
 
-      <div className='absolute bottom-[-30px] right-0 left-0 top-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[35px] blur-3xl'></div>
+      <img src='Assets/Services/Group 3620.png' className='hidden md:block absolute top-[20%] md:top-[33%] left-[35%] xsm:left-[42%] 2xsm:left-[38%] 3xsm:left-[36%] md:left-28 lg:left-40 xl:left-44 2xl:left-[-4%]  z-20 md:z-20 h-[400px] xsm:h-[550px] md:h-[123%] lg:h-[112%] md:w-[70%] lg:w-[72%] xl:w-[75%] 2xl:w-[88%]' />
 
-
-      <div class="absolute inset-0 bg-[rgb(29,30,36)] opacity-30"></div>
-
-      <img src='Assets/Services/Group 3620.png' className='absolute top-[20%] md:top-[33%] left-[35%] xsm:left-[42%] 2xsm:left-[38%] 3xsm:left-[36%] md:left-28 lg:left-40 xl:left-44 2xl:left-[-4%]  z-20 md:z-20 h-[400px] xsm:h-[550px] md:h-[123%] lg:h-[112%] md:w-[70%] lg:w-[72%] xl:w-[75%] 2xl:w-[88%]' />
-
-      <div className='flex md:flex-row flex-col relative items-center gap-10 md:gap-40 2xl:gap-40 md:p-4 lg:p-20 2xl:p-20 p-6 md:pt-0 pt-32'>
+      <div className='flex md:flex-row flex-col relative items-center gap-0 md:gap-40 2xl:gap-40 md:p-4 lg:p-20 2xl:p-20 p-6 md:pt-0 pt-32'>
 
         <div>
-          <img src='Assets/Services/intergrated_services.png' className='w-[200px] xsm:w-[300px] md:w-[800px] md:h-[600px] lg:h-fit 2xl:w-[500px] relative z-[50]' ></img>
+          <img src='Assets/Services/intergrated_services.png' className='hidden md:block w-[200px] xsm:w-[300px] md:w-[800px] md:h-[600px] lg:h-fit 2xl:w-[500px] relative z-[50]' ></img>
+
+          <img src='Assets/Services/img1.png' className='ml-6 w-[400px] xsm:w-[500px] 3xsm:w-[600px] md:hidden ' ></img>
+
         </div>
 
 
@@ -54,7 +51,7 @@ const Integrated = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
 
   )
 }

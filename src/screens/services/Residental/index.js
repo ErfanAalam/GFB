@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Residental = () => {
   return (
-    <div id='residental' className='bg-cover text-white py-20 pt-28 md:pt-20 relative ' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div id='residental' className='bg-cover bg-center bg-black text-white py-20 pt-28 md:pt-20 relative '>
 
       <div className='absolute bottom-[-40px]  h-[102%] md:hidden w-full  bg-[rgba(77,61,44,0.1)] opacity-100 backdrop-blur-[25px] blur-sm z-[20] shadow-integrated-shadow'></div>
 
@@ -28,14 +28,14 @@ const Residental = () => {
             Our approach? Unwavering attention to detail and a commitment to superior craftsmanship.
           </p>
 
-          <div className='mt-10 md:mt-10 md:block flex md:flex-row flex-col'>
+          <div className='mt-10 md:block flex md:flex-row flex-col'>
 
             <div className='flex flex-row items-center md:gap-4 xl:gap-4 gap-0 h-[75px]'>
               <img src='Assets/Services/custom_builds_&_remodels.png' className='md:w-[100px] w-[70px]'></img>
               <p className='text-[18px] md:text-2xl'>Custom Builds & Remodels</p>
             </div>
 
-            <div className='flex flex-row items-center md:gap-0 xl:gap-0 gap-0 ml-16 h-[75px]' >
+            <div className='flex flex-row items-center md:gap-0 xl:gap-0 gap-0 ml-10 md:ml-16 h-[75px]' >
               <img src='Assets/Services/residential_complexes.png' className='md:w-[100px] w-[70px]'></img>
               <p className='text-[18px] md:text-2xl'>Residential Complexes </p>
             </div>

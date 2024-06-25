@@ -21,7 +21,7 @@ const Building = () => {
           </a>
         </div>
 
-        <div className='overflow-hidden flex w-[64px] h-[97%] md:h-[300%] justify-between absolute right-[50px] md:left-[48.4%] z-20 md:z-10' >
+        <div className='overflow-hidden flex w-[64px] h-[70%] md:h-[300%] justify-between absolute right-[50px] md:left-[48.4%] z-20 md:z-10' >
           <span className={`w-[4px]  bg-[${colors.mainTextColor}] relative z-20`}> </span>
           <span className='w-[4px]  bg-black'> </span>
           <span className='w-[4px]  bg-white'></span>
@@ -36,8 +36,8 @@ const Building = () => {
           <div className='flex justify-center items-center  w-[100%]'>
             <div href='/about' className='md:static absolute bottom-0  flex justify-center items-center z-[100] w-[100%]'>
               <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px]  p-6 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-4 flex items-center justify-center`}>Learn More  </button>
-              {/* <hr className='w-[15%] xsm:w-[30%] 2xsm:w-[45%] 3xsm:w-[65%] 4xsm:w-[75%] block md:hidden border-t-4 absolute right-[-35px] xsm:right-[-70px] 2xsm:right-[-105px] 3xsm:right-[-140px] 4xsm:right-[-165px] bottom-[22px]' /> */}
-              <div className='w-[25%] xsm:w-[38%] 2xsm:w-[50%] 3xsm:w-[55%] block md:hidden border-t-4 right-[-4rem] bottom-[22px] mb-0'></div>
+              {/* <hr className='w-[15%] xsm:w-[30%] 2xsm:w-[45%] 3xsm:w-[65%] 4xsm:w-[75%] block md:hidden border-t-4 absolute right-[-35px] xsm:right-[-70px] 2xsm:right-[-105px] 3xsm:right-[-140px] 4xsm:right-[-165px] bottom-[22px]' />
+              <div className='w-[25%] xsm:w-[38%] 2xsm:w-[50%] 3xsm:w-[55%] block md:hidden border-t-4 right-[-4rem] bottom-[22px] mb-0'></div> */}
             </div>
           </div>
         </div>
