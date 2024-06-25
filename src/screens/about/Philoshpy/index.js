@@ -4,7 +4,7 @@ import colors from '../../../utils/color'
 
 const Philoshphy = () => {
   return (
-    <div id='philosiphy' className='bg-cover p-4 md:p-20 pb-[100px] md:pb-[100px] bg-black text-center relative text-white ' style={{ backgroundImage: "url('Assets/Services/blur0.jpg')" }}>
+    <div id='philosiphy' className='bg-cover p-4 md:p-20 pb-[100px] md:pb-[100px] bg-black text-center relative text-white '>
 
       <img src='Assets/About us/Assets/1.png' className='h-[90%] absolute hidden md:block top-[20%] md:top-[27%] lg:top-[30%] xl:top-[30%] 2xl:top-[30%] right-[80px] md:right-[150px] lg:right-[100px] xl:right-[150px] 2xl:right-[16%] 3xl:right-[22%] z-10' />
 

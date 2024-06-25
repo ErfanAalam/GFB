@@ -3,7 +3,7 @@ import colors from '../../../utils/color'
 
 const Constructions = () => {
   return (
-    <div id='constructions' className='bg-cover bg-center flex md:flex-row flex-col-reverse  relative justify-between p-4 md:py-[105px] py-8  pt-24 md:pt-36 md:p-4' style={{ backgroundImage: "url('Assets/Services/blur2.png')" }}>
+    <div id='constructions' className='bg-cover bg-center flex md:flex-row flex-col-reverse  relative justify-between p-4 md:py-[105px] py-8  pt-24 md:pt-36 md:p-4'>
       <img src='Assets/About us/Assets/2.png' className='md:block hidden absolute md:h-[27%] md:w-[80%] lg:w-[70%] top-[75%] md:top-[85%] lg:top-[85%] right-[380px] md:right-[80px] lg:right-[50px] xl:right-[150px] 2xl:right-[290px] z-10' />
 
       <img src='Assets/About us/Assets/Group 65.png' className='h-[700px] w-[350px] absolute top-[-490px] md:hidden left-[-10px] z-[50]'/>

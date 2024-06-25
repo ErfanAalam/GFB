@@ -29,6 +29,30 @@
     background-color: black;
 }
 
+#philosiphy{
+    background: url('/public/Assets/Services/blur0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+#constructions{
+    background: url('/public/Assets/Services/blur2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
+#Choose{
+    background: url('/public/Assets/Services/blur-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+
 @media screen and (max-width: 640px) {
     .servicediv{
         background:none
@@ -46,7 +70,29 @@
         background:rgb(29,30,36);
         background-repeat: no-repeat;
     }
+
+    #philosiphy{
+        background: url('/public/Assets/Services/our_phio_bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+    }
+    
+    #constructions{
+        background: url('/public/Assets/Services/who_are_we_bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+    }
+    
+    #Choose{
+        background: url('/public/Assets/Services/why_choose_bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+    }
 }
 
-
-/* mob_integrated_services_bg */
