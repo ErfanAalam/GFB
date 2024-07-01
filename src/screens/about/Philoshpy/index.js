@@ -14,7 +14,7 @@ const Philoshphy = () => {
       </div>
 
       <div className='mb-10 flex justify-center relative z-[60]'>
-        <img src='Assets/About us/1.png' className='rounded-[40px] bg-black'></img>
+        <img src='Assets/About us/1.png' className='rounded-[40px] bg-black w-[550px]'></img>
       </div>
 
       <div>

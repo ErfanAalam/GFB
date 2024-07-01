@@ -23,7 +23,7 @@ const Homebanner = () => {
       </div>
 
       <a href='/contact'>
-        <button onClick={handleFreeConsultation()} className={`text-[${colors.mainTextColor}] cursor-pointer text-[20px] rounded-lg text-center md:text-[24px] md:mt-[20px]  w-[190px] md:w-[235px] p-2 bg-black bg-opacity-70 md:tracking-[1px] tracking-normal  border-2 `}>Free Consultation</button>
+        <button onClick={handleFreeConsultation()} className={`text-[${colors.mainTextColor}] cursor-pointer text-[20px] rounded-md text-center md:text-[24px] md:mt-[20px]  w-[190px] md:w-[235px] p-2 bg-black bg-opacity-70 md:tracking-[1px] tracking-normal  border-2 `}>Free Consultation</button>
       </a>
 
     </main>

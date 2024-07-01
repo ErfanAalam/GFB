@@ -15,7 +15,7 @@ const UpperFooter = () => {
           <h1 className=' text-[20px] md:text-[40px] md:mt-32 mt-40 '>Start Your Build Journey</h1>
           <hr className='w-[250px] md:w-[480px] mb-10 border-t-4' />
         </div>
-        <div className='w-[100%] 2xsm:w-[80%] 3xsm:w-[80%] 4xsm:w-[70%] md:w-[80%] lg:w-[70%] xl:w-[70%] md:font-jost font-orelaga flex flex-col gap-4'>
+        <div className='w-[100%] 2xsm:w-[80%] 3xsm:w-[80%] 4xsm:w-[70%] md:w-[80%] lg:w-[70%] xl:w-[70%] md:font-orelaga font-orelaga flex flex-col gap-4'>
           <p className='text-[16px] md:text-[26px] tracking-[4px] md:px-0 3xsm:px-4 mb-2 leading-5 md:leading-8'>At GFB, we turn aspirations into architectural masterpieces. </p>
           <p className='text-[16px] md:text-[26px] tracking-[4px] md:px-0 3xsm:px-4 mb-2 leading-5 md:leading-8'>Serving California, we're ready to bring your construction dreams to life. </p>
           <p className='text-[16px] md:text-[26px] tracking-[4px] md:px-0 3xsm:px-4 mb-2 leading-5 md:leading-8'>Why wait?</p>

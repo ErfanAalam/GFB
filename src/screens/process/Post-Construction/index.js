@@ -33,7 +33,7 @@ const PostConstruction = () => {
              <span> Utilizing advanced tools and proven techniques, we meticulously verify the integrity of every component of your project.</span></p>
           </div>
 
-          <div className='w-[80%] md:w-[40%] lg:w-[50%]'>
+          <div className='w-[80%] md:w-[40%] lg:w-[50%] pb-10'>
             <img src='Assets/Process/6.png' />
           </div>
         </div>
@@ -43,7 +43,7 @@ const PostConstruction = () => {
 
         <div className='flex ml-2 md:ml-4 mt-0 md:mt-8 lg:ml-16 md:flex-row flex-col justify-between gap-0 md:gap-20  items-center relative md:pt-0 pt-32 mb-20 md:mb-10'>
 
-          <div className='w-[80%] md:w-[60%] lg:w-[30%]'>
+          <div className='w-[80%] md:w-[60%] lg:w-[30%] py-10'>
             <img src='Assets/Process/7.png' />
           </div>
 

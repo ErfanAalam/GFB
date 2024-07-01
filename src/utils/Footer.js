@@ -25,10 +25,10 @@ const Footer = ({ link1, link2, link3 }) => {
                 </div>
 
                 <div className=' w-[240px] text-center md:text-left md:text-[20px] text-[12px] md:w-[420px]'>
-                    <p>License Number # #1114879 </p>
-                    <p>Email (will Change) info@gfbconstruction.com</p>
-                    <p>Phone Number - 559-389-3646</p>
-                    <p>Location - Fresno California (edited)</p>
+                    <p><span className='text-[#EF6E16]'>License Number</span> - #1114879 </p>
+                    <p><span className='text-[#EF6E16]'>Email</span> - info@gfbconstruction.com</p>
+                    <p><span className='text-[#EF6E16]'>Phone Number</span> - 559-389-3646</p>
+                    <p> <span className='text-[#EF6E16]'>Location</span> - Fresno California (edited)</p>
                 </div>
 
                 <div className='flex flex-col items-center md:items-start gap-4 text-gray-400'>
@@ -42,7 +42,7 @@ const Footer = ({ link1, link2, link3 }) => {
 
                 <div className='flex flex-col items-center gap-4 text-gray-400 '>
                     <a href='' className={`text-[${colors.mainTextColor}]`}>Quick Links</a>
-                   
+                    <a href='/services' >Services</a>
                     <a href='/process' >Process</a>
                     <a href='/about' >About Us</a>
                     <a href='/contact' >Contact</a>

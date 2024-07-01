@@ -33,7 +33,7 @@ const Construction = () => {
           </div>
 
           <div className='w-[100%] md:w-[30%] flex justify-center md:mr-0 mr-10'>
-            <img src='Assets/Process/5.png' className='w-[220px] md:w-[180px]' />
+            <img src='Assets/Process/5.png' className='w-[220px] h-[300px] md:h-[470px] md:w-[180px]' />
           </div>
         </div>
 

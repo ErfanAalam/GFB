@@ -11,12 +11,12 @@ const Commercial = () => {
 
       <div className='flex md:flex-row relative flex-col-reverse justify-between gap-0 md:gap-10 xl:gap-20 2xl:gap-40  md:p-0 p-0 pt-20'>
 
-        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl:px-20 px-4 mt-20'>
-          <div className='flex justify-center md:justify-start'>
+        <div className=' w-[100%] md:w-[95%] 2xl:w-[70%] md:px-4 xl:px-20 px-4 mt-6 md:mt-20'>
+          <div className='flex justify-center md:justify-start mb-10'>
             <h1 className={`text-3xl md:text-[24px] lg:text-[30px] 2xl:text-5xl md:static  text-[${colors.mainTextColor}] absolute top-0 `}>Commercial</h1>
           </div>
 
-          <p className='text-[20px] md:text-[20px] 2xl:text-2xl text-white'>GFB excels in developing commercial spaces that are both practical and visually appealing.
+          <p className='text-[20px] md:text-[20px] 2xl:text-2xl text-white text-center md:text-left'>GFB excels in developing commercial spaces that are both practical and visually appealing.
             <br /> <br />
             Our expertise extends to offices, warehouses, retail stores, restaurants, and more. Focusing on providing solutions that are efficient and cost-effective.
             <br /><br />
@@ -25,19 +25,19 @@ const Commercial = () => {
             Count on us for quality work, on-schedule completion, and designed to exceed your expectations.
           </p>
 
-          <div className='mt-10 md:block flex md:flex-row flex-col gap-4 md:gap-8'>
+          <div className='mt-10 md:block flex md:flex-row flex-col items-center gap-4 md:gap-8'>
 
-            <div className='flex flex-row items-center md:gap-10 gap-0'>
+            <div className='flex flex-row items-center md:gap-10 gap-0 md:ml-0 ml-6'>
               <img src='Assets/Services/new_commercial_builds.png' className='md:w-[100px] w-[50px]'></img>
               <p className='md:text-2xl text-[16px] tracking-wide'>New Commercial Builds</p>
             </div>
 
-            <div className='flex flex-row items-center ml-8 md:ml-20  md:gap-10 gap-0' >
+            <div className='flex flex-row items-center ml-0 md:ml-20  md:gap-10 gap-0' >
               <img src='Assets/Services/tenant_improvement.png' className='md:w-[100px] w-[50px]'></img>
               <p className='md:text-2xl text-[16px] tracking-wide'>Tenant Improvement</p>
             </div>
 
-            <div className='flex flex-row  items-center ml-16 md:ml-40 md:gap-10 gap-0'>
+            <div className='flex flex-row  items-center  md:gap-10 gap-0'>
               <img src='Assets/Services/retail_construction.png' className='md:w-[100px] w-[50px]'></img>
               <p className='md:text-2xl text-[16px] tracking-wide'>Retail Construction</p>
             </div>
@@ -45,10 +45,10 @@ const Commercial = () => {
           </div>
         </div>
 
-        <div className='flex  relative '>
+        <div className='flex justify-center'>
          
           <img src='Assets/Services/commercial.png' className='md:block hidden w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[500px] lg:h-[500px] 2xl:h-[700px] relative z-20 ' ></img>
-          <img src='Assets/Services/img2.png' className='md:hidden w-[600px] 2xl:w-[600px] md:w-[400px] md:h-[500px] lg:h-[500px] 2xl:h-[700px] relative z-20 ' ></img>
+          <img src='Assets/Services/img2.png' className='md:hidden w-[300px] relative z-20 ' ></img>
         </div>
       </div>
     </div>
