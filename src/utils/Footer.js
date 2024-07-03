@@ -28,12 +28,12 @@ const Footer = ({ link1, link2, link3 }) => {
                     <p><span className='text-[#EF6E16]'>License Number</span> - #1114879 </p>
                     <p><span className='text-[#EF6E16]'>Email</span> - info@gfbconstruction.com</p>
                     <p><span className='text-[#EF6E16]'>Phone Number</span> - 559-389-3646</p>
-                    <p> <span className='text-[#EF6E16]'>Location</span> - Fresno California (edited)</p>
+                    <p> <span className='text-[#EF6E16]'>Location</span> - Fresno California</p>
                 </div>
 
                 <div className='flex flex-col items-center md:items-start gap-4 text-gray-400'>
                     <a href='/services' className={`text-[${colors.mainTextColor}]`}>Services</a>
-                    <a href={`#${link1}`} >{link1}</a>
+                    <a href={`#${link1}`}>{link1}</a>
                     <a href={`#${link2}`}>{link2}</a>
                     <a href={`#${link3}`}>{link3}</a>
                    

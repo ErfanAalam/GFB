@@ -47,7 +47,7 @@ const Commercial = () => {
 
         <div className='flex justify-center'>
          
-          <img src='Assets/Services/commercial.png' className='md:block hidden w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[500px] lg:h-[500px] 2xl:h-[700px] relative z-20 ' ></img>
+          <img src='Assets/Services/commercial.png' className='md:block hidden w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[400px] lg:h-[400px] 2xl:h-[650px] relative z-20 ' ></img>
           <img src='Assets/Services/img2.png' className='md:hidden w-[300px] relative z-20 ' ></img>
         </div>
       </div>

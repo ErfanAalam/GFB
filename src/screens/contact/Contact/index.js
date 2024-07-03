@@ -13,6 +13,15 @@ const ContactForm = () => {
   const [message, setMessage] = useState("")
   const [hearAbout, setHearAbout] = useState("")
 
+  // states for the type of service needed buttons
+  const [residental, setResidental] = useState(false)
+  const [commercial, setCommercial] = useState(false)
+
+  // states for thesubject buttons
+  const [inquiry, setInquiry] = useState(false)
+  const [quote, setQuote] = useState(false)
+  const [other, setother] = useState(false)
+
 
   function handleSubmit(e) {
     e.preventDefault()
@@ -29,7 +38,6 @@ const ContactForm = () => {
     }
 
     setUserInfo(obj)
-    console.log(userInfo);
   }
 
 
@@ -109,16 +117,16 @@ const ContactForm = () => {
               <div className='flex justify-between md:gap-0 gap-4'>
                 <button
                   type="button"
-                  onClick={(e) => { setServiceType(e.target.value) }}
+                  onClick={(e) => { setServiceType(e.target.value); setCommercial(false); setResidental(true) }}
                   value={"Residental"}
-                  className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16] active:bg-[#EF6E16]'>Residental
+                  className={`cursor-pointer px-4 py-2 border-4 border-[#EF6E16] ${residental ? "bg-[#EF6E16]" : "bg-none" }`}>Residental
                 </button>
 
                 <button
                   type="button"
-                  onClick={(e) => { setServiceType(e.target.value) }}
+                  onClick={(e) => { setServiceType(e.target.value) ; setCommercial(true); setResidental(false) }}
                   value={"Commercial"}
-                  className='cursor-pointer px-4 py-2 border-4 border-[#EF6E16] active:bg-[#EF6E16]'>Commercial
+                  className={`cursor-pointer px-4 py-2 border-4 border-[#EF6E16] ${commercial ? "bg-[#EF6E16]" : "bg-none" }`}>Commercial
                 </button>
 
               </div>
@@ -131,23 +139,23 @@ const ContactForm = () => {
             <div className='flex md:flex-row flex-col items-center md:gap-20 xl:gap-0 gap-10 justify-between'>
               <button
                 type="button"
-                onClick={(e) => { setSubject(e.target.value) }}
+                onClick={(e) => { setSubject(e.target.value); setInquiry(true); setQuote(false); setother(false) }}
                 value={"General Inquiry"}
-                className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>General Inquiry
+                className={`cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16] ${inquiry ? "bg-[#EF6E16]" : "bg-none" }`}>General Inquiry
               </button>
 
               <button
                 type="button"
-                onClick={(e) => { setSubject(e.target.value) }}
+                onClick={(e) => { setSubject(e.target.value); setInquiry(false); setQuote(true); setother(false) }}
                 value={"Project Quote"}
-                className='cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16]'>Project Quote
+                className={`cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16] ${quote ? "bg-[#EF6E16]" : "bg-none" }`}>Project Quote
               </button>
 
               <button
                 type="button"
-                onClick={(e) => { setSubject(e.target.value) }}
+                onClick={(e) => { setSubject(e.target.value); setInquiry(false); setQuote(false); setother(true) }}
                 value={"other"}
-                className='cursor-pointer w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] '>Other
+                className={`cursor-pointer w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] ${other ? "bg-[#EF6E16]" : "bg-none" }`}>Other
               </button>
 
             </div>

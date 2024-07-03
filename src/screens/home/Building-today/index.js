@@ -15,9 +15,9 @@ const Building = () => {
       <div className=' flex md:flex-row flex-col justify-between relative' >
 
         <div className='relative p-6 md:p-0 md:w-[40%] pt-10 ' >
-          <img src='Assets/Home/more_about_us.png' className='w-[592px] md:w-[529px] md:h-[400px] lg:h-[400px] xl:h-[500px] 2xl:h-[600px] 2xl:w-[792px]  relative z-30 bg-black md:bg-transparent  md:pt-10' alt=''></img>
+          <img src='Assets/Home/more_about_us.png' className='w-[592px] md:w-[529px] md:h-[400px] lg:h-[400px] xl:h-[500px] 2xl:h-[500px] xl:w-[792px] 2xl:w-[792px]  relative z-30 bg-black md:bg-transparent  md:pt-10' alt=''></img>
           <a href='/about'>
-            <button className={`text-[${colors.textWhite}] hidden md:block absolute z-30 top-[200px]   right-[-60px] text-[24px] p-2 bg-black bg-opacity-70  h-[72px] leading-[31.35px] border-4`}>MORE ABOUT US</button>
+            <button className={`text-[${colors.textWhite}] hidden md:block absolute z-30 top-[150px] right-[-60px] text-[24px] p-2 bg-black bg-opacity-70  h-[72px] leading-[31.35px] border-4`}>MORE ABOUT US</button>
           </a>
         </div>
 
