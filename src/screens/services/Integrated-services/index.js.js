@@ -8,7 +8,12 @@ const Integrated = () => {
     <div id='integrated' className='relative  bg-cover bg-black bg-center text-white pb-10 overflow-visible'>
       <div className='absolute top-[-30px] md:top-[-10px] md:h-full h-[50vh] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm shadow-integrated-shadow'></div>
 
-      <img src='Assets/Services/Group 3620.png' alt='group 3620' className='hidden md:block absolute top-[20%] md:top-[50%] lg:top-[48%] xl:top-[42%] 2xl:top-[35%] left-[35%] xsm:left-[42%] 2xsm:left-[38%] 3xsm:left-[36%] md:left-28 lg:left-40 xl:left-[-60px] 2xl:left-[-4%] z-20 md:z-20 h-[400px] xsm:h-[550px] md:h-[98%] lg:h-[95%] xl:h-[105%] 2xl:h-[112%] md:w-[70%] lg:w-[72%] xl:w-[90%] 2xl:w-[85%]' />
+      <img src='Assets/Services/Group 3620.png' alt='group 3620' className='hidden md:block absolute 
+      top-[20%] md:top-[50%] lg:top-[50%] xl:top-[42%] 2xl:top-[36%] 
+      left-[35%] xsm:left-[42%] 2xsm:left-[38%] 3xsm:left-[36%] md:left-28 lg:left-40 xl:left-[-50px] 2xl:left-[-4%] 
+      z-20 md:z-20 
+      h-[400px] xsm:h-[550px] md:h-[100%] lg:h-[85%] xl:h-[100%] 2xl:h-[108%] 
+      md:w-[70%] lg:w-[72%] xl:w-[85%] 2xl:w-[85%]' />
 
       <div className='flex md:flex-row flex-col relative items-center gap-0 md:gap-40 2xl:gap-40 md:p-4 lg:p-20 2xl:p-20 p-6 md:pt-0 pt-32'>
 

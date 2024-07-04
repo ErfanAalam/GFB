@@ -5,7 +5,7 @@ import '../../../App.css'
 
 const Commercial = () => {
   return (
-    <div id='commercial' className='text-white md:py-20 py-16 md:pl-6 relative  2xl:pl-40 pl-0 pt-10 md:pt-20'>
+    <div id='commercial' className='text-white md:py-10 py-16 md:pl-6 relative  2xl:pl-40 pl-0 pt-10 md:pt-20'>
       <div className='hidden md:block absolute bg-black h-[20vh] w-[90%] blur-3xl opacity-100 top-[-50px] '></div>
       <div className='hidden md:block absolute top-[-30px] right-0 left-0 bottom-0 bg-[rgba(0,0,0,0.3)] backdrop-blur-[15px] blur-sm'></div>
 
@@ -45,9 +45,9 @@ const Commercial = () => {
           </div>
         </div>
 
-        <div className='flex justify-center relative top-0 md:top-36'>
+        <div className='flex justify-center items-center '>
          
-          <img src='Assets/Services/commercial.png' className='md:block hidden w-[200px] 2xl:w-[600px] md:w-[400px] md:h-[400px] lg:h-[400px] 2xl:h-[650px] relative z-20 ' ></img>
+          <img src='Assets/Services/commercial.png' className='md:block hidden w-[200px] 2xl:w-[600px] md:w-[700px] md:h-[500px] lg:h-[600px] 2xl:h-[650px] relative z-20 ' ></img>
           <img src='Assets/Services/img2.png' className='md:hidden w-[300px] relative z-20 ' ></img>
         </div>
       </div>
