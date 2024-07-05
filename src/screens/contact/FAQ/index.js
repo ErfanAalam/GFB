@@ -7,7 +7,7 @@ const Faq = () => {
         <h1 className='text-[24px] md:text-5xl text-center '>Frequently Asked Questions</h1>
       </div>
 
-      <div className='bg-[rgb(29,30,36)] flex pb-20 '>
+      <div className='bg-[rgb(29,30,36)] flex pb-0 '>
 
         <div className='w-[10%] ml-9 md:block hidden bg-no-repeat' style={{ backgroundImage: "url('Assets/Contact us/Lines/3.png')" }}></div>
 
