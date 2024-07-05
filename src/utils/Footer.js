@@ -33,9 +33,9 @@ const Footer = ({ link1, link2, link3 }) => {
 
                 <div className='flex flex-col items-center md:items-start gap-4 text-gray-400 text-[14px] lg:text-[16px]'>
                     <a href='/services' className={`text-[${colors.mainTextColor}]`}>Services</a>
-                    <a href={`#${link1}`}>{link1}</a>
-                    <a href={`#${link2}`}>{link2}</a>
-                    <a href={`#${link3}`}>{link3}</a>
+                    <a href={`/services`}>{link1}</a>
+                    <a href={`/services`}>{link2}</a>
+                    <a href={`/services`}>{link3}</a>
                    
                 </div>
 

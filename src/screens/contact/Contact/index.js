@@ -66,7 +66,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your first name here '
                 className='border-none  bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%] shadow-md shadow-black' />
             </div>
             <div className='flex flex-col md:gap-6 gap-2px-0 md:px-20'>
               <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Last Name</label>
@@ -75,7 +75,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your last name here '
                 className='border-none  bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%] shadow-md shadow-black' />
             </div>
           </div>
 
@@ -88,7 +88,7 @@ const ContactForm = () => {
                 value={email}
                 placeholder='Enter your email here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%] shadow-md shadow-black' />
             </div>
             <div className='flex flex-col md:gap-6 gap-2 px-0 md:px-20'>
               <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Phone Number</label>
@@ -97,7 +97,7 @@ const ContactForm = () => {
                 type='number'
                 placeholder='Enter your phone number here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%] shadow-md shadow-black' />
             </div>
           </div>
 
@@ -117,8 +117,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your Project Address here'
                 className='border-none bg-[rgb(29,30,36)] md:hidden' />
-              {/* Enter your Project Address here */}
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%] shadow-md shadow-black' />
             </div>
             <div className='flex flex-col gap-6 px-0 md:pl-20 lg:pl-0'>
               <h1 className='text-[14px] md:text-[24px] lg:text-[28px] text-center'>Type of service needed</h1>
@@ -169,18 +168,18 @@ const ContactForm = () => {
 
             </div>
 
-            <div className='flex flex-col gap-6'>
-              <label className='text-[14px] md:text-3xl text-center md:text-left'>Message</label>
+            <div className='flex flex-col  md:gap-6 gap-2'>
+              <label className='text-[14px] md:text-3xl text-center md:text-left mb-2 md:mb-0'>Message</label>
               <input type='text'
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder='Type your message here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              < hr className=' border-t-4 border-[#EF6E16]' />
+              < hr className=' border-t-4 border-[#EF6E16]' shadow-md shadow-black/>
             </div>
 
-            <div className='flex flex-col gap-6 '>
+            <div className='flex flex-col  md:gap-6 gap-2 '>
               <label className=' md:text-[26px] md:block hidden'>How Did You Hear About Us?</label>
-              <label className='text-[14px]  md:hidden'>How Did You Hear About Us (optional)</label>
+              <label className='text-[14px]  md:hidden mb-2'>How Did You Hear About Us (optional)</label>
               <input type='text'
                 onChange={(e) => setHearAbout(e.target.value)}
                 placeholder='(optional)'
