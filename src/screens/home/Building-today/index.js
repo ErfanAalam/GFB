@@ -34,9 +34,9 @@ const Building = () => {
             </p>
           </div>
           <div className='flex justify-center items-center mt-10'>
-            <div href='/about' className='md:static absolute bottom-[-90px]  flex justify-center items-center z-[100] w-[100%]'>
+            <a href='/services' className='md:static absolute bottom-[-90px]  flex justify-center items-center z-[100] w-[100%]'>
               <button onClick={handleLearnMore()} className={`text-[${colors.mainTextColor}] rounded-md text-[24px]  p-6 px-14 bg-black bg-opacity-100 md:bg-opacity-70  h-[48px] leading-[31.35px] border-4 flex items-center justify-center`}>Learn More  </button>
-            </div>
+            </a>
           </div>
         </div>
 

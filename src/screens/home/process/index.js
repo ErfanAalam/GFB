@@ -24,7 +24,7 @@ const Process = () => {
 
           <div className=' relative z-[80] '>
             <span className='absolute md:top-10 top-20 left-16 md:left-24 text-[34px]  text-orange-500 z-30'>01</span>
-            <button className=' py-2 w-[220px] z-20  md:w-[240px] shadow-inner shadow-gray-600 p-1 text-white text-[24px] md:text-[24px] mb-0 absolute md:top-20 top-32 md:left-20 left-0  md:mb-14 tracking-wide leading-8 rounded-[15px] bg-[rgb(29,30,36)]  '>Pre-Construction</button>
+            <button className=' py-2 w-[250px] z-20  md:w-[240px] shadow-inner shadow-gray-600 p-1 text-white text-[24px] md:text-[24px] mb-0 absolute md:top-20 top-32 md:left-20 left-2  md:mb-14 tracking-wide leading-8 rounded-[15px] bg-[rgb(29,30,36)]  '>Pre-Construction</button>
             <ProcessCards src="Assets/Home/pre_construction.png" heading="Planning Your Vision" desc="From initial consultations to detailed blueprints, we set the foundation by understanding your needs, aligning with architects, and ensuring every detail is planned meticulously." />
           </div>
 

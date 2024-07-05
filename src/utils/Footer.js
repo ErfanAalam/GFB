@@ -24,8 +24,8 @@ const Footer = ({ link1, link2, link3 }) => {
                     </div>
                 </div>
 
-                <div className=' w-[240px] text-center md:text-left md:text-[20px] text-[12px] md:w-[420px]'>
-                    <p><span className='text-[#EF6E16]'>License Number</span> - #1114879 </p>
+                <div className=' w-[240px] text-center md:text-left md:text-[20px] text-[16px] md:w-[420px]'>
+                    <p><span className='text-[#EF6E16]'>License Number</span> - #114 </p>
                     <p><span className='text-[#EF6E16]'>Email</span> - info@gfbconstruction.com</p>
                     <p><span className='text-[#EF6E16]'>Phone Number</span> - 559-389-3646</p>
                     <p> <span className='text-[#EF6E16]'>Location</span> - Fresno California</p>
@@ -52,7 +52,7 @@ const Footer = ({ link1, link2, link3 }) => {
 
             <div className='flex  flex-col items-center gap-6 mt-10'>
                 <hr className='w-[100%] md:border-t-[1px] border-t-4 md:opacity-60 opacity-90' />
-                <p className='text-[18px] text-center'>© 2024 GFB Construction and Engineering. All Rights Reserved</p>
+                <p className='text-[12px] text-center'>© 2024 GFB Construction and Engineering. All Rights Reserved</p>
             </div>
 
         </div>

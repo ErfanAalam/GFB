@@ -9,7 +9,7 @@ const Homebanner = () => {
 
 
   return (
-    <main id='homebanner' className='md:bg-cover bg-center bg-cover pb-36 bg-gray-800 flex flex-col items-center gap-8' style={{ backgroundImage: "url('/Assets/Home/Hero.png')" }}>
+    <main id='homebanner' className='md:bg-cover bg-center bg-cover pb-36 bg-gray-900 flex flex-col items-center gap-8' style={{ backgroundImage: "url('/Assets/Home/Hero.png')" }}>
 
       <div className={`text-[${colors.mainTextColor}] text-[30px] md:text-[46px] lg:text-[76px]  w-[100%] text-center  px-2  pt-[200px] leading-[36px] md:leading-[86px] tracking-[2px]  md:tracking-[4px]`}>
         <h1><span className='text-white' >G</span>uided by expertise</h1>
