@@ -7,10 +7,10 @@ const ProcessCards = ({ src, heading, desc }) => {
   return (
     <div>
       <div className=' w-[100%] md:w-[300px]  text-center  text-black md:shadow-none shadow-custom rounded-[60px] p-1'>
-        <div className='h-[600px] md:h-[652px] w-[260px] md:w-[300px] relative flex flex-col items-center justify-end bg-cover bg-center gap-6 rounded-[60px] ' style={{ backgroundImage: `url(${src})` }}>
-          <h3 className={`text-[${colors.mainTextColor}] text-2xl`}>{heading} </h3>
-          <p className='text-white px-4'>{desc}</p>
-          <a href="/process"> <img src='Assets/Home/btn.png' alt='' /></a>
+        <div className='h-[600px] md:h-[652px] w-[260px] md:w-[300px] relative flex flex-col items-center pt-72 md:pt-80 bg-cover bg-center gap-4` rounded-[60px] ' style={{ backgroundImage: `url(${src})` }}>
+          <h3 className={`text-[${colors.mainTextColor}] text-2xl text-[20px] md:text-[26px] `}>{heading} </h3>
+          <p className='text-white px-2 md:text-[18px] text-[20px]'>{desc}</p>
+          <a href="/process"> <img src='Assets/Home/btn.png' alt='' className='w-[80px]' /></a>
         </div>
       </div>
     </div>
