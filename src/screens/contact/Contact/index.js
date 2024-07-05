@@ -38,6 +38,7 @@ const ContactForm = () => {
     }
 
     setUserInfo(obj)
+    alert("Form Submitted")
   }
 
 
@@ -65,7 +66,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your first name here '
                 className='border-none  bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
             </div>
             <div className='flex flex-col md:gap-6 gap-2px-0 md:px-20'>
               <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Last Name</label>
@@ -74,7 +75,7 @@ const ContactForm = () => {
                 type='text'
                 placeholder='Enter your last name here '
                 className='border-none  bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
             </div>
           </div>
 
@@ -87,7 +88,7 @@ const ContactForm = () => {
                 value={email}
                 placeholder='Enter your email here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
             </div>
             <div className='flex flex-col md:gap-6 gap-2 px-0 md:px-20'>
               <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Phone Number</label>
@@ -96,7 +97,7 @@ const ContactForm = () => {
                 type='number'
                 placeholder='Enter your phone number here'
                 className='border-none bg-[rgb(29,30,36)]' />
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
             </div>
           </div>
 
@@ -117,12 +118,12 @@ const ContactForm = () => {
                 placeholder='Enter your Project Address here'
                 className='border-none bg-[rgb(29,30,36)] md:hidden' />
               {/* Enter your Project Address here */}
-              <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
+              <hr className=' border-t-4 border-[#EF6E16] md:w-[110%] xl:w-[200%]' />
             </div>
-            <div className='flex flex-col gap-6'>
-              <h1 className='text-[14px] md:text-[28px] text-center'>Type of service needed</h1>
+            <div className='flex flex-col gap-6 px-0 md:pl-20 lg:pl-0'>
+              <h1 className='text-[14px] md:text-[24px] lg:text-[28px] text-center'>Type of service needed</h1>
 
-              <div className='flex justify-between md:gap-0 gap-4'>
+              <div className='flex justify-between md:gap-2 gap-4'>
                 <button
                   type="button"
                   onClick={(e) => { setServiceType(e.target.value); setCommercial(false); setResidental(true) }}
