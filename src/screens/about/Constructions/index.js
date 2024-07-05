@@ -13,7 +13,7 @@ const Constructions = () => {
           <h1 className={`text-3xl md:text-5xl tracking-[6px] text-[${colors.mainTextColor}] relative z-[110]`}>Who We Are</h1>
           <hr className='w-[80%] md:w-[60%] xl:w-[70%] 2xl:w-[80%] border-t-4' />
         </div>
-        <p className='text-white text-[16px] md:text-2xl tracking-[4px] '>
+        <p className='text-white text-[12px] md:text-2xl tracking-[4px] '>
           GFB Construction is your trusted, licensed, and bonded contractor headquartered in Central California.
           <br /><br />
           We offer top-tier commercial and residential services with quality put first.

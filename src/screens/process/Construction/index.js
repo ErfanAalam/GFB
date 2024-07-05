@@ -7,7 +7,7 @@ const Construction = () => {
     <div id='construction' className=' bg-[rgb(29,30,36)]  flex '>
 
       <div className=' flex w-[64px] mx-2 relative md:mx-20 justify-between  ' >
-        <div className='absolute top-10 flex left-5 gap-4 text-white'>
+        <div className='absolute top-10 flex left-6 gap-[10px] text-white'>
           <span className='text-3xl'>0</span>
           <span className='text-3xl'>2</span>
         </div>

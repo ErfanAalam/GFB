@@ -52,14 +52,14 @@ const ContactForm = () => {
       <div className='text-white w-[65%] md:w-[80%] lg:w-[80%] xl:w-[70%] md:ml-0 ml-4 md:mr-0 mr-4 py-10 p-4 pr-0 xl:p-20 '>
 
         <div className='flex flex-col items-center mb-20 gap-2'>
-          <h1 className='text-center text-3xl md:text-5xl '>Contact Us</h1>
-          <hr className='w-[60%] md:w-[30%] border-t-4 border-[#EF6E16]' />
+          <h1 className='text-center text-[24px] md:text-5xl '>Contact Us</h1>
+          <hr className='w-[50%] md:w-[30%] border-t-4 border-[#EF6E16]' />
         </div>
 
         <form onSubmit={(e) => handleSubmit(e)}>
           <div className='flex md:flex-row flex-col md:gap-20 xl:gap-0 gap-8 p-0 md:p-6 justify-between md:mb-0 mb-10'>
             <div className='flex flex-col md:gap-6 gap-2'>
-              <label htmlFor='name' className='text-[20px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>First Name</label>
+              <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>First Name</label>
               <input onChange={(e) => setFirstName(e.target.value)}
                 value={firstName}
                 type='text'
@@ -68,7 +68,7 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
             <div className='flex flex-col md:gap-6 gap-2px-0 md:px-20'>
-              <label htmlFor='name' className='text-[20px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Last Name</label>
+              <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Last Name</label>
               <input onChange={(e) => setLastName(e.target.value)}
                 value={lastName}
                 type='text'
@@ -81,7 +81,7 @@ const ContactForm = () => {
 
           <div className='flex md:flex-row flex-col gap-8  md:gap-20 xl:gap-0 p-0 md:p-6 justify-between md:mb-0 mb-10'>
             <div className='flex flex-col md:gap-6 gap-2 '>
-              <label htmlFor='name' className='text-[20px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Email</label>
+              <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Email</label>
               <input onChange={(e) => setEmail(e.target.value)}
                 type='email'
                 value={email}
@@ -90,7 +90,7 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
             <div className='flex flex-col md:gap-6 gap-2 px-0 md:px-20'>
-              <label htmlFor='name' className='text-[20px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Phone Number</label>
+              <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:text-left mb-2 md:mb-0'>Phone Number</label>
               <input onChange={(e) => setPhone(e.target.value)}
                 value={phone}
                 type='number'
@@ -103,13 +103,13 @@ const ContactForm = () => {
 
           <div className='flex md:flex-row flex-col  md:gap-20 gap-8 p-0 md:p-6  justify-between'>
             <div className='flex flex-col gap-6'>
-              <label htmlFor='name' className='text-[20px] md:text-2xl text-left hidden md:block'>Project Address </label>
-              <label htmlFor='name' className='text-[20px] md:text-2xl text-center md:hidden '>Project Address (optional)</label>
+              <label htmlFor='name' className=' md:text-2xl text-left hidden md:block'>Project Address </label>
+              <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:hidden '>Project Address (optional)</label>
               <input onChange={(e) => setAddress(e.target.value)}
                 value={address}
                 type='text'
                 placeholder='(optiional)'
-                className='border-none bg-[rgb(29,30,36)] md:block hidden' />
+                className='border-none bg-[rgb(29,30,36)] md:block hidden ' />
 
               <input onChange={(e) => setAddress(e.target.value)}
                 value={address}
@@ -120,21 +120,21 @@ const ContactForm = () => {
               <hr className=' border-t-4 border-[#EF6E16] md:w-[200%]' />
             </div>
             <div className='flex flex-col gap-6'>
-              <h1 className='text-[20px] md:text-[28px] text-center'>Type of service needed</h1>
+              <h1 className='text-[14px] md:text-[28px] text-center'>Type of service needed</h1>
 
               <div className='flex justify-between md:gap-0 gap-4'>
                 <button
                   type="button"
                   onClick={(e) => { setServiceType(e.target.value); setCommercial(false); setResidental(true) }}
                   value={"Residental"}
-                  className={`cursor-pointer px-4 py-2 border-4 border-[#EF6E16] ${residental ? "bg-[#EF6E16]" : "bg-none"}`}>Residental
+                  className={`cursor-pointer text-[12px] md:text-[18px] px-4 py-2 border-4 border-[#EF6E16] ${residental ? "bg-[#EF6E16]" : "bg-none"}`}>Residental
                 </button>
 
                 <button
                   type="button"
                   onClick={(e) => { setServiceType(e.target.value); setCommercial(true); setResidental(false) }}
                   value={"Commercial"}
-                  className={`cursor-pointer px-4 py-2 border-4 border-[#EF6E16] ${commercial ? "bg-[#EF6E16]" : "bg-none"}`}>Commercial
+                  className={`cursor-pointer text-[12px] md:text-[18px] px-4 py-2 border-4 border-[#EF6E16] ${commercial ? "bg-[#EF6E16]" : "bg-none"}`}>Commercial
                 </button>
 
               </div>
@@ -142,34 +142,34 @@ const ContactForm = () => {
           </div>
 
           <div className='flex flex-col text-white w-[100%]  py-10 md:p-6 gap-10'>
-            <h1 className='text-3xl md:text-5xl text-center md:text-left'>Subject</h1>
+            <h1 className='text-[24px] md:text-5xl text-center md:text-left'>Subject</h1>
 
             <div className='flex md:flex-row flex-col items-center md:gap-20 xl:gap-0 gap-10 justify-between'>
               <button
                 type="button"
                 onClick={(e) => { setSubject(e.target.value); setInquiry(true); setQuote(false); setother(false) }}
                 value={"General Inquiry"}
-                className={`cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16] ${inquiry ? "bg-[#EF6E16]" : "bg-none"}`}>General Inquiry
+                className={`cursor-pointer text-[12px] md:text-[24px] w-[200px] py-1 border-4 border-[#EF6E16] ${inquiry ? "bg-[#EF6E16]" : "bg-none"}`}>General Inquiry
               </button>
 
               <button
                 type="button"
                 onClick={(e) => { setSubject(e.target.value); setInquiry(false); setQuote(true); setother(false) }}
                 value={"Project Quote"}
-                className={`cursor-pointer w-[200px] py-1 border-4 border-[#EF6E16] ${quote ? "bg-[#EF6E16]" : "bg-none"}`}>Project Quote
+                className={`cursor-pointer text-[12px] md:text-[24px] w-[200px] py-1 border-4 border-[#EF6E16] ${quote ? "bg-[#EF6E16]" : "bg-none"}`}>Project Quote
               </button>
 
               <button
                 type="button"
                 onClick={(e) => { setSubject(e.target.value); setInquiry(false); setQuote(false); setother(true) }}
                 value={"other"}
-                className={`cursor-pointer w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] ${other ? "bg-[#EF6E16]" : "bg-none"}`}>Other
+                className={`cursor-pointer text-[12px] md:text-[24px] w-[200px] md:w-[180px] py-1 border-4 border-[#EF6E16] ${other ? "bg-[#EF6E16]" : "bg-none"}`}>Other
               </button>
 
             </div>
 
             <div className='flex flex-col gap-6'>
-              <label className='text-[24px] md:text-3xl text-center md:text-left'>Message</label>
+              <label className='text-[14px] md:text-3xl text-center md:text-left'>Message</label>
               <input type='text'
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder='Type your message here'
@@ -192,7 +192,7 @@ const ContactForm = () => {
             </div>
 
             <div className='flex justify-center mt-10'>
-              <button type='submit' className='w-[200px] py-2 text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
+              <button type='submit' className='w-[140px] md:w-[200px] py-2 text-[14px] md:text-2xl rounded-lg bg-[#EF6E16] '>Submit</button>
             </div>
 
           </div>
