@@ -103,9 +103,9 @@ const ContactForm = () => {
 
 
           <div className='flex md:flex-row flex-col  md:gap-20 gap-8 p-0 md:p-6  justify-between'>
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col md:gap-6 gap-2'>
               <label htmlFor='name' className=' md:text-2xl text-left hidden md:block'>Project Address </label>
-              <label htmlFor='name' className='text-[14px] md:text-2xl text-center md:hidden '>Project Address (optional)</label>
+              <label htmlFor='name' className='text-[14px] md:text-2xl text-center mb-2 md:hidden '>Project Address (optional)</label>
               <input onChange={(e) => setAddress(e.target.value)}
                 value={address}
                 type='text'
@@ -143,7 +143,7 @@ const ContactForm = () => {
           </div>
 
           <div className='flex flex-col text-white w-[100%]  py-10 md:p-6 gap-10'>
-            <h1 className='text-[24px] md:text-5xl text-center md:text-left'>Subject</h1>
+            <h1 className='text-[24px] md:text-[40px] text-center md:text-left'>SUBJECT</h1>
 
             <div className='flex md:flex-row flex-col items-center md:gap-20 xl:gap-0 gap-10 justify-between'>
               <button

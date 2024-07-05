@@ -5,7 +5,7 @@ const Builder = () => {
   return (
     <div id='builder' className='bg-[rgb(29,30,36)] relative  ' >
       <div className='absolute bg-black h-[1vh] w-[100%] blur-[100px] backdrop-blur-[50px] opacity-80 bottom-[-10px] shadow-service-shadow'></div>
-         <div className='overflow-hidden flex w-[100%] gap-6 justify-center ' >
+         <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
           <span className={`w-[3px] h-[100px] md:h-[180px] bg-[${colors.mainTextColor}]`}></span>
           <span className='w-[3px]  h-[100px] md:h-[180px] bg-black'> </span>
           <span className='w-[3px]  h-[100px] md:h-[180px] bg-white'></span>
@@ -25,10 +25,10 @@ const Builder = () => {
             <hr className={`h-fit border-t-4 border-[${colors.mainTextColor}] `} />
         </div>
 
-        <div className='overflow-hidden flex w-[100%] gap-6 justify-center ' >
-          <span className={`w-[3px] h-[120px] md:h-[180px] bg-[${colors.mainTextColor}]`}></span>
-          <span className='w-[3px]  h-[120px] md:h-[180px] bg-black'></span>
-          <span className='w-[3px]  h-[120px] md:h-[180px] bg-white'></span>
+        <div className='overflow-hidden flex w-[100%] gap-4 justify-center ' >
+          <span className={`w-[3px] h-[120px] md:h-[210px] bg-[${colors.mainTextColor}]`}></span>
+          <span className='w-[3px]  h-[120px] md:h-[210px] bg-black'></span>
+          <span className='w-[3px]  h-[120px] md:h-[210px] bg-white'></span>
         </div>
 
     </div>
