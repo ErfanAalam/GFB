@@ -16,7 +16,7 @@ const Commercial = () => {
             <h1 className={`text-3xl md:text-[24px] lg:text-[30px] 2xl:text-5xl md:static text-[${colors.mainTextColor}] absolute top-0 `}>Commercial</h1>
           </div>
 
-          <p className='text-[12px] md:text-[20px] 2xl:text-2xl text-white text-center md:text-left'>GFB excels in developing commercial spaces that are both practical and visually appealing.
+          <p className='text-[12px] md:text-[20px] 2xl:text-2xl text-white text-center md:text-left md:px-0 px-10'>GFB excels in developing commercial spaces that are both practical and visually appealing.
             <br /> <br />
             Our expertise extends to offices, warehouses, retail stores, restaurants, and more. Focusing on providing solutions that are efficient and cost-effective.
             <br /><br />
