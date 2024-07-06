@@ -38,7 +38,7 @@ const Navbar = () => {
                     <hr className='w-[95%]' />
                 </div>
                 <div className='flex justify-center mt-10'>
-                    <button className='w-[300px] p-2 text-[24px] bg-[#EF6E16] rounded-lg'>Free Consultation</button>
+                    <a href='/contact'><button className='w-[300px] p-2 text-[24px] bg-[#EF6E16] rounded-lg'>Free Consultation</button></a>
                 </div>
             </div>
         </div>
